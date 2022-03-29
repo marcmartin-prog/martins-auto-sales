@@ -1,0 +1,164 @@
+:root {
+  --primary: #20438a;
+  --secondary: #ffffff;
+  --tertiary: #22262f;
+  --quaternary: #f33d5e;
+  --quinary: #394241;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('/fonts/SourceSansPro-ExtraLight.otf') format('otf');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('/fonts/SourceSansPro-Semi-Bold.otf') format('otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('/fonts/SourceSansPro-Light.otf') format('otf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('/fonts/SourceSansPro-Regular.otf') format('otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('/fonts/SourceSansPro-Bold.otf') format('otf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('/fonts/SourceSansPro-Black.otf') format('otf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('/fonts/SourceSansPro-Regular.otf') format('otf');
+    font-weight: normal;
+}
+
+
+*{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: var(--secondary);
+}
+
+h1 {
+  font-family: 'SourceSansPro', serif;
+  font-weight: normal;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+}
+
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+section {
+  position: relative;
+}
+
+.hero{
+  background-color: var(--primary);
+  padding: 2rem 0.94rem;
+}
+.hero h1, .hero p{
+  color: var(--secondary);
+}
+
+.logo img{
+  height: 2.5rem;
+}
+
+.menu{
+  display: none;
+}
+
+.menu ul, .mobile-menu ul{
+  list-style-type: none;
+}
+
+.menu-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+}
+
+.menu-items{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.menu-items a{
+  text-align: center;
+  font-size: 1.69rem;
+  text-decoration: none;
+  font-family: 'plus-Jakarta-Sans', sans-serif;
+  font-weight: bold;
+  color: var(--tertiary);
+  margin: 1rem 0;
+}
+
+.mobile-menu{
+  width: 0;
+  height: 0;
+  background-color: white;
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  transition: 0.3s;
+}
+
+
+@media only screen and (min-width: 1024px){
+
+  .hamburger{
+    display: none;
+  }
+
+  .menu{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .menu ul{
+    display: flex;
+      flex-direction: row;
+  }
+
+  .menu a{
+    text-decoration: none;
+    color: white;
+    margin: 0 1.5rem;
+    font-family: 'plus-Jakarta-Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
