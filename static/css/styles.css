@@ -63,8 +63,9 @@ body {
 }
 
 h1 {
-  font-family: 'SourceSansPro', serif;
+  font-family: 'SourceSansPro', sans-serif;
   font-weight: normal;
+  font-size: 2.25rem;
 }
 
 header {
@@ -79,6 +80,11 @@ html{
   scroll-behavior: smooth;
 }
 
+p{
+  font-size: 1rem;
+  font-family: "SourceSansPro", sans-serif;
+}
+
 section {
   position: relative;
 }
@@ -86,6 +92,10 @@ section {
 .hero{
   background-color: var(--primary);
   padding: 2rem 0.94rem;
+}
+
+.hero--details p{
+  margin-top: 1rem;
 }
 .hero h1, .hero p{
   color: var(--secondary);
