@@ -6,48 +6,42 @@
   --quinary: #394241;
 }
 
+/* source-sans-pro-regular - latin */
 @font-face {
-    font-family: 'SourceSansPro';
-    src: url('/fonts/SourceSansPro-ExtraLight.otf') format('otf');
-    font-weight: 200;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('/fonts/source-sans-pro-v19-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/source-sans-pro-v19-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
+/* source-sans-pro-600 - latin */
 @font-face {
-    font-family: 'SourceSansPro';
-    src: url('/fonts/SourceSansPro-Semi-Bold.otf') format('otf');
-    font-weight: 500;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('/fonts/source-sans-pro-v19-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/source-sans-pro-v19-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
+/* source-sans-pro-700 - latin */
 @font-face {
-    font-family: 'SourceSansPro';
-    src: url('/fonts/SourceSansPro-Light.otf') format('otf');
-    font-weight: 300;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('/fonts/source-sans-pro-v19-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/source-sans-pro-v19-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
+/* source-sans-pro-900 - latin */
 @font-face {
-    font-family: 'SourceSansPro';
-    src: url('/fonts/SourceSansPro-Regular.otf') format('otf');
-    font-weight: 400;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 900;
+  src: local(''),
+       url('/fonts/source-sans-pro-v19-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/source-sans-pro-v19-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
-@font-face {
-    font-family: 'SourceSansPro';
-    src: url('/fonts/SourceSansPro-Bold.otf') format('otf');
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: 'SourceSansPro';
-    src: url('/fonts/SourceSansPro-Black.otf') format('otf');
-    font-weight: 800;
-}
-
-@font-face {
-    font-family: 'SourceSansPro';
-    src: url('/fonts/SourceSansPro-Regular.otf') format('otf');
-    font-weight: normal;
-}
-
 
 
 
@@ -59,7 +53,7 @@ body {
 }
 
 h1 {
-  font-family: 'SourceSansPro', serif;
+  font-family: 'Source Sans Pro', serif;
   font-weight: normal;
   font-size: 2.25rem;
 }
