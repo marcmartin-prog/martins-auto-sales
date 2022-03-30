@@ -3,7 +3,7 @@
   --secondary: #ffffff;
   --tertiary: #22262f;
   --quaternary: #f33d5e;
-  --quinary: #394241;
+  --quinary: #516171;
 }
 
 /* source-sans-pro-regular - latin */
@@ -94,6 +94,7 @@ p{
   font-size: 1rem;
   font-family: "Source Sans Pro", sans-serif;
   letter-spacing: -0.16px;
+  color: var(--quinary);
 }
 
 section {
@@ -208,12 +209,17 @@ section {
 
 .quality--icons{
   display: flex;
-  flex-wrap: wrap:
+  flex-wrap: wrap;
+  gap: 1.3rem;
 }
 .quality--icons div{
-  flex: 1;
+  flex: 1 1 10.3rem;
+  margin-top: 1.5rem;
   max-width: 10.3rem;
-  min-width: 10.3rem;
+}
+.quality--icons div>img{
+  margin: 0 auto;
+  display: block;
 }
 
 
