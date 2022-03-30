@@ -1,0 +1,29 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#s3lk1qpwha)">
+        <circle opacity=".64" cx="61" cy="66" r="29" fill="#EBEBEB"/>
+        <g filter="url(#o1bp5olbdb)">
+            <circle cx="48" cy="48" r="20" fill="#9BB7F0"/>
+        </g>
+        <path d="M22 77.5v-41h10.5v41m-10.5 0h10.5m-10.5 0v9h10.5v-9m0 0h28m0 0v9m0-9h10v9M79.5 47v39.5" stroke="#132853" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M30.757 17.063a.5.5 0 0 0 .486.874l-.486-.874zM81.188 39.89a.5.5 0 1 0 .624-.782l-.624.782zM31.243 17.937l10.378-5.765-.486-.875-10.378 5.766.486.874zm15.738-5.32 34.207 27.274.624-.782-34.208-27.273-.623.782zm-5.36-.445a4.833 4.833 0 0 1 5.36.446l.623-.782a5.833 5.833 0 0 0-6.469-.539l.486.875z" fill="#132853"/>
+        <path d="M51.924 15.506a.5.5 0 1 0 .152.988l-.152-.988zM81.08 39.772a.5.5 0 1 0 .84-.544l-.84.544zM66.876 16.899l-.42.272.42-.272zm-14.8-.405 9.587-1.475-.152-.988-9.587 1.475.152.988zm14.38.677 14.624 22.6.84-.543-14.624-22.6-.84.543zm-4.793-2.152a4.834 4.834 0 0 1 4.793 2.152l.84-.544a5.833 5.833 0 0 0-5.785-2.596l.152.988z" fill="#132853"/>
+        <path d="M60.5 77.5V47h10v30.5M32.5 47h28" stroke="#132853" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M22 43.5a1 1 0 1 0 0-2v2zm-11-1-.93-.366A1 1 0 0 0 11 43.5v-1zM86 41h1a1 1 0 0 0-.617-.924L86 41zm0 6v1a1 1 0 0 0 1-1h-1zm-15.5-1a1 1 0 1 0 0 2v-2zM22 41.5H11v2h11v-2zm-10.07 1.366 9.015-22.945-1.862-.731-9.014 22.944 1.862.732zm14.706-25.364 58.981 24.422.766-1.848L27.4 15.654l-.765 1.848zM85 41v6h2v-6h-2zm1 5H70.5v2H86v-2zM20.945 19.921a4.333 4.333 0 0 1 5.69-2.42l.766-1.847a6.333 6.333 0 0 0-8.318 3.536l1.862.731z" fill="#132853"/>
+        <path d="M37.5 69.667V55.333c0-.736.597-1.333 1.333-1.333h8.334c.736 0 1.333.597 1.333 1.333v14.334c0 .736-.597 1.333-1.333 1.333h-8.334a1.333 1.333 0 0 1-1.333-1.333zM37.5 58.5h11M27 42v30.5M75 59v27.5" stroke="#132853" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M13.5 86.5H86" stroke="#132853" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="84" cy="27" r="4" fill="#F33D5E"/>
+        <circle cx="16.5" cy="54.5" fill="#F33D5E" r="2.5"/>
+        <circle cx="56.5" cy="72.5" r="1.5" fill="#F33D5E"/>
+        <circle cx="28" cy="26" r="2" fill="#F33D5E"/>
+    </g>
+    <defs>
+        <clipPath id="s3lk1qpwha">
+            <path fill="#fff" d="M0 0h96v96H0z"/>
+        </clipPath>
+        <filter id="o1bp5olbdb" x="-4" y="-4" width="104" height="104" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feGaussianBlur stdDeviation="16" result="effect1_foregroundBlur_733_795"/>
+        </filter>
+    </defs>
+</svg>
