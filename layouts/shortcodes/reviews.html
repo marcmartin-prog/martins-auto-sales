@@ -1,0 +1,32 @@
+ <div class="reviews-parent">
+
+{{ $reviews := getJSON (printf "https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJ4YAh7izp8IcRlOfLaVtaqSE&fields=review&key=%s" site.Params.google.key )}}
+  <div class="reviews-slider disable-scrollbars">
+  {{ range $reviews.result.reviews}}
+
+    <div  id="_review8" itemprop="review" itemscope itemtype="http://schema.org/Review" class="review">
+
+      <img src="{{ .profile_photo_url }}" alt="review profile photo"class='rev-profile' loading="lazy">
+
+      <p class="rev-text light regular"> <span itemprop="reviewBody"> {{ .text }} </span> </p>
+      <div class="rating">
+         <img src="/images/star.svg" alt="star rating">
+         <img src="/images/star.svg" alt="star rating">
+         <img src="/images/star.svg" alt="star rating">
+         <img src="/images/star.svg" alt="star rating">
+         <img src="/images/star.svg" alt="star rating">
+      </div>
+
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><h5 class="rev-name"> {{ .author_name }} </h5></span></span>
+
+      <p class="rev-date"> {{ .relative_time_description }} </p>
+      <p hidden> {{ .rating }}</p>
+
+    </div>
+    {{end}}
+
+  </div>
+  <img src="/images/rev-arrow.svg" alt="" id="left-arrow">
+  <img src="/images/rev-arrow.svg" alt="" id="right-arrow">
+  <a href="https://g.page/r/CZTny2lbWqkhEBI/review" target="_blank" class="main-btn-white">Leave Feedback</a>
+</div>

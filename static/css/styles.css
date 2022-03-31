@@ -320,6 +320,102 @@ section {
   display: block;
 }
 
+.reviews{
+  background-size: cover;
+  padding: 5.1rem 0.94rem 2.5rem;
+}
+
+.reviews h2::before{
+  content: "Testimonials";
+  font-family: "Manrope", sans-serif;
+  font-size: 4rem;
+  opacity: 0.07;
+  position: absolute;
+  font-weight: bold;
+  top: 4.5rem;
+  letter-spacing: -1.6px;
+}
+
+.reviews h2, .reviews p, .reviews h5{
+  color: var(--secondary);
+}
+
+.rev-buttons{
+  padding: 3rem 0 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rev-btn{
+  padding: 1rem 1.5rem;
+  border-radius: 4px;
+  margin-right: 1.5rem;
+  color: var(--secondary);
+  border-radius: 4px;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.rev-write-btn{
+  border-bottom: #1d1a17 solid  2px;
+  padding-bottom: 6px;
+  color: #1d1a17;
+  margin: auto;
+}
+
+.rev-name{
+  margin-block-end: 0;
+  font-size: 1.125rem;
+  font-family: 'plus-Jakarta-Sans', sans-serif;
+  text-align: center;
+}
+
+.rev-profile{
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin: 1rem auto;
+}
+
+.rev-text{
+  text-align: center;
+}
+
+.rev-date{
+  margin-block-start: 0;
+  margin-top: 1rem;
+  font-size: 0.81rem;
+  text-transform: uppercase;
+  text-align: center
+}
+
+.review{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 40rem;
+  min-width: 80vw;
+  padding: 0 2rem;
+  scroll-snap-align: start;
+}
+
+.reviews-slider{
+  display: flex;
+  max-width: 40rem;
+  overflow-x: scroll;
+  margin: 0 auto 2rem;
+  scroll-snap-type:x mandatory;
+}
+
+#left-arrow{
+  display: none;
+}
+#right-arrow{
+  display: none;
+}
+
 
 @media only screen and (min-width: 1024px){
 
@@ -345,4 +441,37 @@ section {
     font-size: 1rem;
     font-weight: bold;
   }
+
+  #left-arrow{
+   transform: rotate(180deg);
+   position: absolute;
+   top:50%;
+   display: inline-block;
+ }
+ #right-arrow{
+   position: absolute;
+   top: 50%;
+   display: inline-block;
+   right: 12vw;
+ }
+
+
+
+ .rev-buttons{
+   flex-direction: row;
+   max-width: 50rem;
+   margin: auto;
+ }
+
+ .review{
+   max-width: 40rem;
+   margin: auto;
+   min-width: 40rem;
+ }
+
+
+
+ .reviews-slider{
+   max-width: 44rem;
+ }
 }
