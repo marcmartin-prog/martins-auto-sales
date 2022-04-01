@@ -98,6 +98,54 @@ html{
   scroll-behavior: smooth;
 }
 
+input, textarea{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  border: none;
+  border-bottom: 1px solid rgb(39, 48, 67, 0.2);
+  padding: 0 20px 10px 0;
+}
+input[type=file]{
+  border-bottom: none;
+  display: none;
+}
+
+input[type=email], input[type=text], input[type=phone], textarea{
+  background-color: var(--secondary);
+  color: var(--primary);
+  margin-bottom: 2rem;
+}
+
+input[type=email], input[type=button] {
+-webkit-appearance: none;
+-webkit-border-radius: 0;
+}
+input[type=submit]{
+  border-radius: 6px;
+  padding: 1.128rem 2rem;
+  width: 100%;
+  letter-spacing: 2.24px;
+  background-color: var(--primary);
+  position: relative;
+  color: var(--secondary);
+}
+
+
+input:focus, textarea:focus, select:focus{
+        outline: none;
+}
+input[type=text], input[type=button], select {
+-webkit-appearance: none;
+-webkit-border-radius: 0;
+}
+
+label{
+  color: var(--tertiary);
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
 
 p{
   font-size: 1rem;
@@ -119,6 +167,11 @@ section {
 
 .big-text{
   font-size: 1.35rem;
+}
+
+.center{
+  margin: 0 auto;
+  display: block;
 }
 
 .hero{
@@ -207,6 +260,24 @@ section {
   height: 2.5rem;
 }
 
+.main--btn{
+  border: 1px solid #132853;
+  text-decoration: none;
+  color: #132853;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding: 0.875rem;
+  position: relative;
+  background-color: var(--secondary);
+}
+
+.main--btn::after{
+  content: url(/images/pink-arrow.svg);
+  position: absolute;
+  top: 36%;
+}
+
 .menu{
   display: none;
 }
@@ -253,22 +324,7 @@ section {
   position: relative;
 }
 
-.products--btn{
-  border: 1px solid #132853;
-  text-decoration: none;
-  color: #132853;
-  text-align: center;
-  width: 100%;
-  display: block;
-  padding: 0.875rem;
-  position: relative;
-}
 
-.products--btn::after{
-  content: url(/images/pink-arrow.svg);
-  position: absolute;
-  top: 36%;
-}
 
 .products--details{
   padding-top: 1.6rem;
@@ -325,19 +381,8 @@ section {
   padding: 5.1rem 0.94rem 2.5rem;
 }
 
-.reviews h2::before{
-  content: "Testimonials";
-  font-family: "Manrope", sans-serif;
-  font-size: 4rem;
-  opacity: 0.07;
-  position: absolute;
-  font-weight: bold;
-  top: 4.5rem;
-  letter-spacing: -1.6px;
-}
-
 .reviews h2, .reviews p, .reviews h5{
-  color: var(--secondary);
+  color: var(--quinary);
 }
 
 .rev-buttons{
@@ -409,10 +454,64 @@ section {
   scroll-snap-type:x mandatory;
 }
 
+.signup>h2, .signup p{
+  margin: 1rem 0;
+}
+
 #left-arrow{
   display: none;
 }
 #right-arrow{
+  display: none;
+}
+
+.towns>*{
+  margin-top: 1.5rem;
+}
+.towns>a{
+  margin-bottom: 1rem;
+}
+
+.towns--list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.towns--list p{
+  min-width: min(50%, 9rem);
+  max-width: 50%;
+  flex: 1;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.towns--list p::before{
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  position: absolute;
+  top: 45%;
+  left: 0;
+}
+
+.white--btn{
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 0.875rem 1.5rem 0.875rem 1rem;
+  position: relative;
+  max-width: max-content;
+}
+
+.white--btn::after{
+  content: url(/images/white-arrow.svg);
+  position: absolute;
+  top: 36%;
+}
+
+.no-before::before{
   display: none;
 }
 
