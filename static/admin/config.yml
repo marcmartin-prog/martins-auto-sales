@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
-publish_mode: editorial_workflow
 media_folder: "/assets" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/assets" # The src attribute for uploaded media will begin with /images/uploads
 collections:
@@ -9,12 +8,13 @@ collections:
     label: "Storage Building" # Used in the UI
     folder: "/content/buildings" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "featuredImg", widget: "image"}
       - {label: "Category", name: "category", widget: "select", options: ["Chateau", "Classic", "Dutch Country"]}
       - {label: "Description", name: "description", widget: "markdown"}
-      - {label: "Standard Features", name: "standardFeatures", widget: "list"}
+      - {label: "Standard Features", name: "standardFeatures", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
       - {label: "Recommended Options", name: "recommendedOptions", widget: "list"}
