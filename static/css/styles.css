@@ -66,6 +66,21 @@ body {
   background-color: var(--secondary);
 }
 
+footer{
+  padding: 2rem var(--padding);
+}
+footer a{
+  font-size: 0.875rem;
+  display: block;
+  color: #132853;
+  position: relative;
+}
+footer h3{
+  font-size: 1rem;
+  color: #516171;
+  margin: 1rem 0;
+}
+
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
@@ -93,6 +108,13 @@ header {
   padding: 1rem 1rem;
 }
 
+hr{
+  border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ebebeb;
+}
+
 html{
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -116,7 +138,7 @@ input[type=email], input[type=text], input[type=phone], textarea{
   margin-bottom: 2rem;
 }
 
-input[type=email], input[type=button] {
+input[type=email], input[type=submit] {
 -webkit-appearance: none;
 -webkit-border-radius: 0;
 }
@@ -172,6 +194,45 @@ section {
 .center{
   margin: 0 auto;
   display: block;
+}
+
+.footer-contacts a{
+  position: relative;
+  left: 2rem;
+  margin: 1.5rem 0;
+}
+.address-foo::before{
+  content: url(/images/map.svg);
+}
+.mail::before{
+  content: url(/images/email.svg);
+}
+.phone::before{
+  content: url(/images/phone.svg);
+}
+.footer-contacts a::before{
+  position: absolute;
+  left: -2rem;
+  top: 0.02rem;
+}
+
+
+.footer-logo .logo{
+  margin: 2rem auto;
+  max-width: max-content;
+  display: block;
+}
+
+.footer-products a::after, .footer-company a::after, .footer-partners a::after{
+  content: url(/images/gray-arrow.svg);
+  position: absolute;
+
+}
+.footer-products a, .footer-company a, .footer-partners a{
+  margin: 1.5rem 0;
+}
+.footer-products, .footer-contacts, .footer-company, .footer-partners{
+  padding: 0.8rem 0 0.5rem;
 }
 
 .hero{
@@ -258,6 +319,9 @@ section {
 
 .logo img{
   height: 2.5rem;
+}
+.footer-logo img{
+  height: 3rem;
 }
 
 .main--btn{
@@ -456,6 +520,17 @@ section {
 
 .signup>h2, .signup p{
   margin: 1rem 0;
+}
+
+.signup input[type="email"]{
+  background-color: #ebebeb;
+    padding: 1rem;
+    font-family: 'Source Sans Pro';
+    font-weight: normal;
+    color: var(--tertiary);
+    border-bottom: none;
+    width: 100%;
+    margin-bottom: 1rem;
 }
 
 #left-arrow{
