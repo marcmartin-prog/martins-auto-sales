@@ -4,8 +4,8 @@
 {{- $height :=  ""}}
 
 {{- $msg1 := "The %q shortcode requires a parameter named %q. See %s" -}}
-{{- $msg2 := "The resource %q passed to the %q shortcode is not an image. See %s" -}}
-{{- $msg3 := "The resource %q passed to the %q shortcode could not be found. See %s" -}}
+{{- $msg2 := "The resource %q passed to the %q partial is not an image. See %s" -}}
+{{- $msg3 := "The resource %q passed to the %q partial could not be found. See %s" -}}
 
 {{ if not $path }}
   {{ errorf $msg1 .Name "path" .Position }}
@@ -47,6 +47,6 @@
     {{- errorf $msg2 $path $.Name $.Position -}}
   {{- end -}}
 {{- else -}}
-  {{- errorf $msg3 $path .Name .Position -}}
+  {{- errorf $msg3 $path .Name -}}
 {{- end -}}
 {{- /* chomp */ -}}
