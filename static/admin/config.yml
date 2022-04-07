@@ -14,6 +14,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "featuredImg", widget: "image"}
+      - {label: "Image Alt Text", name: "imgAlt", widget: "text"}
       - {label: "Category", name: "category", widget: "select", options: ["Chateau", "Classic", "Dutch Country"]}
       - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Standard Features", name: "standardFeatures", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
