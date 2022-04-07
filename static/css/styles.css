@@ -383,6 +383,40 @@ section {
   transition: 0.3s;
 }
 
+.prod-btn{
+  text-decoration: none;
+  color: var(--secondary);
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding: 0.875rem;
+  position: relative;
+  background-color: var(--quaternary);
+}
+
+.prod-btn::after{
+  content: url(/images/white-arrow.svg);
+  position: absolute;
+  top: 36%;
+}
+
+.product-hero{
+  padding-top: 0;
+}
+
+.product-hero p{
+  line-height: normal;
+  margin: 1.5rem 0 2rem;
+}
+
+.product-hero>picture>img{
+  width: 100vw;
+  left: var(--neg-padding);
+  height: unset;
+  aspect-ratio: auto;
+  position: relative;
+}
+
 .products>picture>img{
   left: var(--neg-padding);
   position: relative;

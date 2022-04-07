@@ -1,5 +1,14 @@
 {{ define "main" }}
-  <section>
+  <section class="product-hero">
+   {{ partial "picture.html" . }}
     <h1>{{.Title}}</h1>
+    <p>{{ .Params.description }}</p>
+    <a href="#" class="prod-btn">REQUEST A QUOTE</a>
+  </section>
+  <section>
+    <h2>Standard Features</h2>
+    {{range .Params.standardFeatures}}
+       <p>{{ . }}</p>
+    {{end}}
   </section>
 {{ end }}

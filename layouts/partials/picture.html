@@ -1,7 +1,7 @@
-{{- $path := .Get "path" -}}
-{{- $alt := .Get "alt" -}}
-{{- $width := .Get "width" -}}
-{{- $height := .Get "height " -}}
+{{- $path := .Params.featuredImg -}}
+{{- $alt := .Params.imgAlt -}}
+{{- $width :=  ""}}
+{{- $height :=  ""}}
 
 {{- $msg1 := "The %q shortcode requires a parameter named %q. See %s" -}}
 {{- $msg2 := "The resource %q passed to the %q shortcode is not an image. See %s" -}}
