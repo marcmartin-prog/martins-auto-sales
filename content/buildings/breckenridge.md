@@ -14,5 +14,13 @@ standardFeatures:
   - |
     6'10" Sidewalls
   - 8" Overhang on all sides
-
+  - Double Doors with Arched Transom Windows
+  - Door Keepers
+  - 4' Loft
+  - Ridge Ventilation
+  - 4" Dutch Lap Siding
+  - 24x27 Insulated Windows
+  - Shutters and Flower Boxes
+  - Your Choice of Colors
+  - Shingle or Metal Roof
 ---
