@@ -1,4 +1,8 @@
 
 {{ define "main" }}
-   {{ .Content}}
+   {{range .Site.RegularPages}}
+    <img src="{{.Params.featuredImg }}" alt="">
+
+    <a href="{{.Permalink}}">{{.Title}}</a>
+  {{end}}
 {{ end }}

@@ -2,7 +2,7 @@
 layout: product
 title: Chateau Garage
 date: 2022-04-07T12:11:50.746Z
-featuredImg: /uploads/garage.jpg
+featuredImg: garage.jpg
 category: Chateau
 description: The Garage is a perfect storage building for your car, ATV or
   garden tractor. The entry door makes for easy access. This shed is also a

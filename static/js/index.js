@@ -11,12 +11,14 @@ function menuOpen (){
   mobileMenu.style.height = "100vh";
   mobileMenu.style.width = "100vw";
   mobileMenu.style.opacity = "1";
+  mobileMenu.style.zIndex = "2";
 }
 
 function menuClose (){
   mobileMenu.style.height ="0";
   mobileMenu.style.width ="0";
   mobileMenu.style.opacity = "0";
+  mobileMenu.style.zIndex = "0";
 }
 
 hamburger.addEventListener('click', menuOpen);
