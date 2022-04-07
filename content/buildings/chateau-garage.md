@@ -2,7 +2,7 @@
 layout: product
 title: Chateau Garage
 date: 2022-04-07T14:20:17.946Z
-featuredImg: breckenridge.jpg
+featuredImg: chateau-garage.jpg
 imgAlt: chateau garage image
 category: Chateau
 description: The Garage is a perfect storage building for your car, ATV or
