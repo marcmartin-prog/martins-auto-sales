@@ -4,7 +4,7 @@ title: Cabin
 date: 2022-04-07T20:53:10.933Z
 featuredImg: cabin.jpg
 imgAlt: classic cabin building
-category: Classic
+categories: Classic
 description: The Cabin is an economical, portable building you can use as a
   weekend cottage or as a storage shed. It comes standard with a house door and
   insulated windows. This building comes prepped, and ready to add your own
