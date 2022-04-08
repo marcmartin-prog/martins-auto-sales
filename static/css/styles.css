@@ -262,6 +262,12 @@ section {
   color: var(--secondary);
 }
 
+.hero--img{
+  width: 100vw;
+  position: relative;
+  top: 3px;
+}
+
 .hero--link{
   position: relative;
 }
@@ -277,7 +283,7 @@ section {
   bottom: 0;
 }
 
-.hero--link img{
+.hero--link img, .hero--img{
   position: relative;
   left: var(--neg-padding);
   border-top: 2px solid var(--secondary);
@@ -299,6 +305,29 @@ section {
   background-color: var(--quaternary);
   left: 0;
   bottom: -0.6rem;
+}
+
+.hero--links{
+  border-top: 2px solid white;
+  padding-bottom: 1rem;
+}
+
+.hero--links a{
+  font-size: 1.125rem;
+  color: var(--secondary);
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0.7rem 0;
+  position: relative;
+}
+.hero--links a::after{
+  content: url(/images/arrow-scroll.svg);
+  position: absolute;
+  top: 11px;
+  margin-left: 5px;
 }
 
 .light{
@@ -437,8 +466,6 @@ section {
   position: relative;
 }
 
-
-
 .products--details{
   padding-top: 1.6rem;
 }
@@ -446,7 +473,7 @@ section {
 .products--details h2, .products--details>p{
   margin-bottom: 1rem;
 }
-.products--details h2::before{
+.products--details h2::before, .products--item h2::before{
   content: "";
   width: 0.8rem;
   height: 1px;
