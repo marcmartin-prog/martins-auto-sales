@@ -1,10 +1,24 @@
 {{ define "main" }}
+<section class="hero">
+  <div class="hero--details">
+    <h1>{{ .Title }} Series</h1>
+    <p class="light">Choose your perfect building from our dozens of styles and variations of portable storage sheds. Or if you want something custom, let us build a building just for you.</p>
+  </div>
+  <div class="hero--img">
+    <picture>
+      <source srcset="/images/storage-building.webp" media="(min-width: 600px)">
+        <img class="" src="/images/storage-building-m.webp" alt="storage buildings" height=“600” width=“600” loading=“lazy” decoding=“async” class="hero--img">
+    </picture>
+  </div>
+</section>
+
   <div class="container">
-    <h1>All posts for {{ .Type | singularize }} "{{ .Title }}"</h1>
+    <h1>{{ .Title }} Series</h1>
     <ul>
       {{ range .Data.Pages }}
         <li>
           <a href="{{ .Permalink }}">{{ .Title }}</a>
+          {{ partial "picture.html" . }}
         </li>
       {{ end }}
     </ul>
