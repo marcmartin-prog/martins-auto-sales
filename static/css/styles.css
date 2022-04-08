@@ -196,6 +196,20 @@ section {
   display: block;
 }
 
+.features p{
+  position: relative;
+  left: 1rem;
+}
+.features p::before{
+  height: 6px;
+  width: 6px;
+  content: "";
+  position: absolute;
+  left: -1rem;
+  background-color: var(--quaternary);
+  top: 12px;
+}
+
 .footer-contacts a{
   position: relative;
   left: 2rem;

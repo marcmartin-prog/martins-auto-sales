@@ -7,8 +7,20 @@
   </section>
   <section>
     <h2>Standard Features</h2>
-    {{range .Params.standardFeatures}}
-       <p>{{ . }}</p>
-    {{end}}
+    <div class="features">
+      {{range .Params.standardFeatures}}
+         <p>{{ . }}</p>
+      {{end}}
+    </div>
   </section>
+  <section>
+    {{ with .Params.recommendedOptions }}
+    <h2>Recommended Options</h2>
+    <div class="features">
+      {{range . }}
+         <p>{{ . }}</p>
+      {{end}}
+    </div>
+  </section>
+  {{ end}}
 {{ end }}
