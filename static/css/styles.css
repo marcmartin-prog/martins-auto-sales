@@ -594,6 +594,18 @@ section {
   scroll-snap-type:x mandatory;
 }
 
+.series--item{
+  margin: 2rem 0;
+}
+
+.series--item img{
+  width: unset;
+  height: unset;
+  aspect-ratio: unset;
+  max-width: 100%;
+  margin: 1rem 0 0.7rem;
+}
+
 .signup>h2, .signup p{
   margin: 1rem 0;
 }
