@@ -12,7 +12,7 @@
   CMS.registerPreviewStyle("/styles.css");
 </script>
 <script>
-  var PostPreview = createClass({
+  var BuildingPreview = createClass({
     render: function() {
       var entry = this.props.entry;
       var image = entry.getIn(['data', 'image']);
@@ -25,7 +25,7 @@
     }
   });
 
-  CMS.registerPreviewTemplate("posts", PostPreview);
+  CMS.registerPreviewTemplate("Storage Building", BuildingPreview);
 </script>
 </body>
 </html>
