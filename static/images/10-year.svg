@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <clipPath id="rfa5mtr5ga">
+      <path fill="#fff" d="M0 0h96v96H0z"/>
+    </clipPath>
+    <filter id="71dwi66udb" x="-4" y="-4" width="104" height="104" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="16" result="effect1_foregroundBlur_733_383"/>
+    </filter>
+  </defs>
+  <g clip-path="url(#rfa5mtr5ga)" transform="matrix(1, 0, 0, 1, 197.374998, 214.626185)">
+    <circle cx="65" cy="34" fill="#EBEBEB" r="29"/>
+    <g filter="url(#71dwi66udb)">
+      <circle cx="48" cy="48" r="20" fill="#9BB7F0"/>
+    </g>
+    <circle cx="19" cy="15" r="3" fill="#F33D5E"/>
+    <circle cx="78.75" cy="77.25" r="2.25" fill="#F33D5E"/>
+    <circle cx="12.375" cy="70.125" r="1.125" fill="#F33D5E"/>
+    <circle cx="48" cy="48" r="36.75" stroke="#132853" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="48" cy="48" r="27" stroke="#132853" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M80.25 48a32.25 32.25 0 0 0-55.054-22.804M22.753 28.199a32.249 32.249 0 0 0-6.426 15.793M15.75 48a32.25 32.25 0 0 0 55.054 22.804" stroke="#132853" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="m38.25 44.275 5.25-4.525L41.013 57" stroke="#132853" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="78" cy="60" r="12" fill="#fff" stroke="#132853" stroke-linejoin="round"/>
+    <path d="m72 60 4.5 4.5 7.125-8.25" stroke="#132853" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path style="stroke: rgb(19, 40, 83); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;" d="M 252.963 254.403 C 252.963 254.403 250.976 254.295 250.201 254.518 C 249.566 254.701 249.062 254.933 248.59 255.439 C 247.923 256.154 247.416 257.5 246.979 258.776 C 246.446 260.335 245.843 262.567 245.828 264.185 C 245.816 265.496 246.052 266.674 246.518 267.753 C 246.978 268.819 247.671 270.077 248.59 270.63 C 249.486 271.169 250.847 271.253 251.927 271.091 C 253.036 270.925 254.35 270.403 255.15 269.595 C 255.989 268.747 256.379 267.287 256.761 266.027 C 257.157 264.722 257.406 263.216 257.452 261.884 C 257.494 260.653 257.461 259.381 257.106 258.316 C 256.776 257.326 256.209 256.326 255.495 255.669 C 254.813 255.041 252.963 254.403 252.963 254.403 C 252.963 254.403 252.963 254.403 252.963 254.403 C 252.963 254.403 252.963 254.403 252.963 254.403" bx:d="M 252.963 254.403 R 250.201 254.518 R 248.59 255.439 R 246.979 258.776 R 245.828 264.185 R 246.518 267.753 R 248.59 270.63 R 251.927 271.091 R 255.15 269.595 R 256.761 266.027 R 257.452 261.884 R 257.106 258.316 R 255.495 255.669 R 252.963 254.403 R 252.963 254.403 Z 1@374124d3"/>
+</svg>
