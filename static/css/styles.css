@@ -202,7 +202,7 @@ section {
 .category-features--item{
   flex: 1;
   min-width: 6rem;
-
+  max-width: 50%;
 }
 .category-features--item p{
   line-height: normal;
@@ -210,6 +210,7 @@ section {
 .category-features--item img{
   margin: 0 auto;
   display: block;
+  max-width: 100px;
 }
 
 .center{
@@ -237,8 +238,19 @@ section {
   margin-top: 0.8rem;
 }
 
+.feat-opt--item{
+  margin: 3rem 0;
+}
+
 .feat-opt--item p{
   font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.feat-opt--item img{
+  max-width: 70%;
+  min-width: 70%;
+  margin-bottom: 0.5rem;
 }
 
 .footer-contacts a{
