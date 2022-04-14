@@ -5,8 +5,8 @@
     <p class="light">Choose your perfect building from our dozens of styles and variations of portable storage sheds. Or if you want something custom, let us build a building just for you.</p>
     <div class="hero--links">
       <a href="#styles">STYLES</a>
-      <a href="#">FEATURES & OPTIONS</a>
-      <a href="#">GALLERY</a>
+      <a href="#features">FEATURES & OPTIONS</a>
+      <a href="#gallery">GALLERY</a>
     </div>
   </div>
   <div class="hero--img">
@@ -17,7 +17,7 @@
   </div>
 </section>
 
-<section>
+<section id="styles">
   <div class="products--item">
     <picture>
       <source srcset="/images/chateau.webp" media="(min-width: 600px)">
@@ -47,7 +47,7 @@
   </div>
 </section>
 
-<section>
+<section id="features">
   <h2>Features and Options</h2>
   <div class="feat-opt">
     <div class="feat-opt--item">
@@ -125,7 +125,7 @@
   </div>
 </section>
 
-<section>
+<section class="benefits">
   <picture>
     <source srcset="/images/feat-main.webp" media="(min-width: 600px)">
       <img class="" src="/images/feat-main-m.webp" alt="features hero image" height=“600” width=“600” loading=“lazy” decoding=“async” class="">
@@ -133,18 +133,30 @@
   <div class="">
     <div class="">
       <h2>Delivery to Prepared Site</h2>
+      <hr>
       <p>A rock gravel pad is recommended (approximately 4 inches thick and slightly bigger than the buildings square footage). Ask us about getting custom piers set for a solid foundation for your building.</p>
     </div>
     <div class="">
       <h2>Features and Customization</h2>
+      <hr>
       <p>Build a building just how you like it with our dozens of flexible custom building options. Whichever option you choose, it will be the most durable and quality building available.</p>
       <p>Included on many is an operational locking loft door, double gussetted joints, and quality materials, features designed to improve and guarantee strength and durability. </p>
     </div>
     <div class="">
       <h2>And More...</h2>
+      <hr>
       <p>Features like a threshold protector are included at no extra charge. You can rely on our attention to details to get you a quality building that will last for years.</p>
     </div>
   </div>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <br>
+   <hr class="dark">
+   <br>
+   {{ partial "gallery" }}
+
 </section>
 
 {{ end }}

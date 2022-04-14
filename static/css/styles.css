@@ -187,6 +187,23 @@ section {
   color: white;
 }
 
+.benefits>div div{
+  margin-bottom: 3rem;
+}
+
+.benefits hr{
+  border-bottom: 2px solid black;
+  margin-bottom: 0.8rem;
+}
+.benefits h2{
+  margin: 0.8rem 0;
+}
+
+.benefits img{
+  position: relative;
+  left: var(--neg-padding)
+}
+
 .big-text{
   font-size: 1.35rem;
 }
@@ -216,6 +233,9 @@ section {
 .center{
   margin: 0 auto;
   display: block;
+}
+.dark{
+  border-bottom: 2px solid black;
 }
 
 .features p{
