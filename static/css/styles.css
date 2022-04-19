@@ -330,6 +330,9 @@ section {
   position: relative;
   top: 3px;
 }
+.hero--img img{
+  max-width: 100%;
+}
 
 .hero--link{
   position: relative;
