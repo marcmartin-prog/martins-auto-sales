@@ -1,0 +1,35 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="hero--details">
+    <h1>NeverBlind Hunting Blinds</h1>
+    <p class="light">Upgrade your hunting experience with our quality-built hunting blinds. Each one is crafted from durable LP SmartSide Siding, a treated, engineered wood panel that lasts much longer than traditional wood panels. With added options like large windows, padded shelves, noise-blocking accessories, you'll never hunt without it again. </p>
+    <div class="hero--links">
+      <a href="#styles">STYLES</a>
+    </div>
+  </div>
+  <div class="hero--img">
+    <picture>
+      <source srcset="/images/playset-img.webp" media="(min-width: 600px)">
+        <img class="" src="/images/playset-img-m.webp" alt="playsets" height=“600” width=“600” loading=“lazy” decoding=“async” class="hero--img">
+    </picture>
+  </div>
+</section>
+
+
+
+<section id="styles">
+
+      {{ range .Data.Pages }}
+        <div class="series--item">
+          <h3>{{.Title }}</h3>
+            {{ partial "picture.html" . }}
+          <a class="main--btn" href="{{ .Permalink }}">LEARN MORE</a>
+        </div>
+      {{ end }}
+</section>
+
+
+
+
+
+{{ end }}
