@@ -19,3 +19,33 @@ collections:
       - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Standard Features", name: "standardFeatures", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
       - {label: "Recommended Options", name: "recommendedOptions", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
+  - name: "hunting-blind" # Used in routes, e.g., /admin/collections/blog
+    label: "Hunting Blind" # Used in the UI
+    folder: "/content/hunting-blinds" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "featuredImg", widget: "image"}
+      - {label: "Image Alt Text", name: "imgAlt", widget: "text"}
+      - {label: "Category", name: "categories", widget: "select", options: ["Chateau", "Classic", "Dutch Country"]}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Standard Features", name: "standardFeatures", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
+      - {label: "Recommended Options", name: "recommendedOptions", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
+  - name: "playset" # Used in routes, e.g., /admin/collections/blog
+    label: "PlaySet" # Used in the UI
+    folder: "/content/playsets" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "featuredImg", widget: "image"}
+      - {label: "Image Alt Text", name: "imgAlt", widget: "text"}
+      - {label: "Category", name: "categories", widget: "select", options: ["Chateau", "Classic", "Dutch Country"]}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Standard Features", name: "standardFeatures", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
+      - {label: "Recommended Options", name: "recommendedOptions", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
