@@ -40,7 +40,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "playset"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "featuredImg", widget: "image"}
@@ -48,4 +48,4 @@ collections:
       - {label: "Category", name: "categories", widget: "hidden", default: "playset"}
       - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Standard Features", name: "standardFeatures", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
-      - {label: "Recommended Options", name: "recommendedOptions", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
+      - {label: "Specifications", name: "specifications", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
