@@ -668,8 +668,10 @@ section {
   width: unset;
   height: unset;
   aspect-ratio: unset;
-  max-width: 100%;
+  width: 100%;
   margin: 1rem 0 0.7rem;
+  max-height: 13rem;
+  object-fit: cover;
 }
 
 .signup>h2, .signup p{

@@ -1,5 +1,5 @@
 ---
-layout: product
+layout: playset
 title: Poly Classic Comfort
 date: 2022-04-19T11:49:29.776Z
 featuredImg: classic-comfort.jpg
