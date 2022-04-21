@@ -6,7 +6,7 @@
     <a href="#" class="prod-btn">REQUEST A QUOTE</a>
   </section>
   <section>
-    <h2>Standard Features</h2>
+    <h2 class="line-before">Standard Features</h2>
     <div class="features">
       {{range .Params.standardFeatures}}
          <p>{{ . }}</p>
@@ -15,7 +15,7 @@
   </section>
   <section>
     {{ with .Params.recommendedOptions }}
-    <h2>Recommended Options</h2>
+    <h2 class="line-before">Recommended Options</h2>
     <div class="features">
       {{range . }}
          <p>{{ . }}</p>
@@ -23,4 +23,19 @@
     </div>
   </section>
   {{ end}}
+
+
+  <section>
+    {{ $related := .Site.RegularPages.Related . | first 4 }}
+{{ with $related }}
+<h2 class="line-before">Related Products</h2>
+{{ range . }}
+  <div class="series--item">
+    <h3>{{.Title }}</h3>
+      {{ partial "picture.html" . }}
+    <a class="main--btn" href="{{ .Permalink }}">LEARN MORE</a>
+  </div>
+{{ end }}
+{{ end }}
+  </section>
 {{ end }}

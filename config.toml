@@ -4,3 +4,8 @@ title = "KK Portable Buildings | Premium Portable Buildings and Outdoor Living"
 [taxonomies]
   tag = "tags"
   category = "categories"
+[related]
+ includeNewer= true
+[[related.indices]]
+ name ="categories"
+ weight = 100

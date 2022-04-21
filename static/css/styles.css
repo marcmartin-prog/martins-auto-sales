@@ -182,6 +182,22 @@ section {
   padding: 2rem var(--padding);
 }
 
+.about-contacts a{
+  font-size: 1.37rem;
+  display: block;
+  color: var(--tertiary);
+}
+
+.about-text{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.about-text p::first-letter{
+  font-size: 1.5rem;
+}
+
 .address{
   font-size: 1.69rem;
   color: white;
@@ -206,6 +222,9 @@ section {
 
 .big-text{
   font-size: 1.35rem;
+}
+.bold{
+  font-weight: bold;
 }
 
 .category-features>div{
@@ -320,6 +339,7 @@ section {
 .hero--details p{
   margin-top: 1rem;
   margin-bottom: 3.1rem;
+  line-height: normal;
 }
 .hero h1, .hero p{
   color: var(--secondary);
@@ -539,7 +559,7 @@ section {
 .products--details h2, .products--details>p{
   margin-bottom: 1rem;
 }
-.products--details h2::before, .products--item h2::before{
+.products--details h2::before, .products--item h2::before, .line-before::before{
   content: "";
   width: 0.8rem;
   height: 1px;
