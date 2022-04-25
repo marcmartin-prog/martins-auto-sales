@@ -2,7 +2,7 @@
 layout: product
 title: Lofted Barn
 date: 2022-04-25T17:45:07.604Z
-featuredImg: images/lofted-barn-classic-2-11.jpg
+featuredImg: loftedbarnclassic.jpg
 imgAlt: classic lofted barn
 categories: Classic
 description: The Lofted Barn has two (2) lofts that are positioned where you
