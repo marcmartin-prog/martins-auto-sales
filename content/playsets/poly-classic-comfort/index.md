@@ -2,7 +2,7 @@
 layout: playset
 title: Poly Classic Comfort
 date: 2022-04-19T11:49:29.776Z
-featuredImg: classic-comfort.jpg
+featuredImg: images/classic-comfort.jpg
 imgAlt: poly classic comfort play set
 categories: playset
 description: With swings, slides, sandbox, and more, your children will love

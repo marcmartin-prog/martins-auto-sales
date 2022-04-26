@@ -2,7 +2,7 @@
 layout: playset
 title: Poly Family Favorite
 date: 2022-04-20T12:12:11.526Z
-featuredImg: family-favorite.jpg
+featuredImg: images/family-favorite.jpg
 imgAlt: family favorite playset
 categories: playset
 description: Get the whole family outside and playing together with this Family

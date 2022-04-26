@@ -2,7 +2,7 @@
 layout: playset
 title: Poly Dizzy Delight
 date: 2022-04-20T11:25:55.439Z
-featuredImg: dizzy-delight.jpg
+featuredImg: images/dizzy-delight.jpg
 imgAlt: dizzy delight playset
 categories: playset
 description: Let your children play in the healthy outdoors with this delightful

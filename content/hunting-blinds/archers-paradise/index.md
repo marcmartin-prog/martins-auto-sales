@@ -1,9 +1,9 @@
 ---
 layout: product
-title: Archery Lodge
-date: 2022-04-20T11:47:49.328Z
-featuredImg: archery-lodge.jpg
-imgAlt: archery lodge hunting blind
+title: Archer's Paradise
+date: 2022-04-19T11:43:30.648Z
+featuredImg: images/archers-paradise.jpg
+imgAlt: archer's paradise hunting blind
 categories: hunting-blind
 description: This Never Blind was made with archers in mind. With eight windows,
   you will never be blind to the nature surrounding you. It has four windows
@@ -16,15 +16,14 @@ standardFeatures:
   - 4 - 40"x12" Archery Window Upgrade
   - Padded Shelves
   - Carpet and Padding on Floor
-  - 8' Platform Height
-  - 8' Platform Width
+  - 8' or 12' Platform Height
   - 24"x36" Entry Door
   - Noise Dampening Ceiling
   - Drawstring Windows with Balance Weight
 recommendedOptions:
   - "Ladder: 8' or 12' Platform"
   - 8' Stairs
-  - Window Upgrade (adds 4 - 20"x16" windows)
+  - 'Window Upgrade (Adds 4 - 20"x16" Windows) '
   - Window Covers
   - Archery Window Rest
   - Handle

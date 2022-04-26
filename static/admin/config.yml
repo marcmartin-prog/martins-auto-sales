@@ -27,6 +27,9 @@ collections:
     folder: "/content/hunting-blinds" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    path: "{{slug}}/index"
+    media_folder: "images"
+    public_folder: "images"
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
       - {label: "Title", name: "title", widget: "string"}
@@ -42,6 +45,9 @@ collections:
     folder: "/content/playsets" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    path: "{{slug}}/index"
+    media_folder: "images"
+    public_folder: "images"
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "playset"}
       - {label: "Title", name: "title", widget: "string"}
