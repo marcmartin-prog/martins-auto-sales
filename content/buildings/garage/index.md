@@ -2,7 +2,7 @@
 layout: product
 title: Garage
 date: 2022-04-21T18:07:59.414Z
-featuredImg: garage-classic-31.jpg
+featuredImg: images/garage-classic-31.jpg
 imgAlt: garage classic
 categories: Classic
 description: The Garage is a perfect storage building for your car, ATV or

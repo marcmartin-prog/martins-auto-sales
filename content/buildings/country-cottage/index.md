@@ -2,7 +2,7 @@
 layout: product
 title: Country Cottage
 date: 2022-04-11T16:26:07.462Z
-featuredImg: country-cottage.jpg
+featuredImg: images/country-cottage.jpg
 imgAlt: Country cottage
 categories: Chateau
 description: The Country Cottage is the perfect choice for a weekend or guest

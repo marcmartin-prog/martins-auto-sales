@@ -2,7 +2,7 @@
 layout: product
 title: Cabin
 date: 2022-04-07T20:53:10.933Z
-featuredImg: cabin.jpg
+featuredImg: images/cabin.jpg
 imgAlt: classic cabin building
 categories: Classic
 description: The Cabin is an economical, portable building you can use as a

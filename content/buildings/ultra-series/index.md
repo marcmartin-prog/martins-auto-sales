@@ -2,7 +2,7 @@
 layout: product
 title: Ultra Series
 date: 2022-04-21T17:57:08.893Z
-featuredImg: ultra-series-chateau-21.jpg
+featuredImg: images/ultra-series-chateau-21.jpg
 imgAlt: Ultra series chateau
 categories: Chateau
 description: The Ultra Series is an attractive, portable storage shed that will

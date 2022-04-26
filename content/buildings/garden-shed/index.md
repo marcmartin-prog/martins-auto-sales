@@ -2,7 +2,7 @@
 layout: product
 title: Garden Shed
 date: 2022-04-08T11:02:46.075Z
-featuredImg: garden-shed.jpg
+featuredImg: images/garden-shed.jpg
 imgAlt: dutch country garden shed
 categories: Dutch Country
 description: An amazing solution whether you need extra space to store yard

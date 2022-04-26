@@ -2,7 +2,7 @@
 layout: product
 title: Quaker Shed
 date: 2022-04-21T17:46:31.346Z
-featuredImg: quaker-shed-chateau-11.jpg
+featuredImg: images/quaker-shed-chateau-11.jpg
 imgAlt: Quaker Shed
 categories: Chateau
 description: The Quaker Shed is is an attractive portable storage shed that is a

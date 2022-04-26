@@ -2,7 +2,7 @@
 layout: product
 title: Chateau Garage
 date: 2022-04-07T14:20:17.946Z
-featuredImg: chateau-garage.jpg
+featuredImg: images/chateau-garage.jpg
 imgAlt: chateau garage image
 categories: Chateau
 description: The Garage is a perfect storage building for your car, ATV or

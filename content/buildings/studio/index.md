@@ -2,7 +2,7 @@
 layout: product
 title: Studio
 date: 2022-04-21T17:52:06.306Z
-featuredImg: chateau_studio1.jpg
+featuredImg: images/chateau_studio1.jpg
 imgAlt: Chateau Studio
 categories: Chateau
 description: The Studio is a GREAT take on a modern shed. This Studio can turn

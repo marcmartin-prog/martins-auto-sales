@@ -2,7 +2,7 @@
 layout: product
 title: Garden Shed
 date: 2022-04-21T18:12:37.777Z
-featuredImg: classic_garden_shed_2-768x6371-1.jpg
+featuredImg: images/classic_garden_shed_2-768x6371-1.jpg
 imgAlt: garden shed classic
 categories: Classic
 description: The Garden Shed is an attractive, portable storage shed that will

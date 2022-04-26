@@ -27,6 +27,39 @@ menuCloseButton.addEventListener('click', menuClose);
 
 menuItems.addEventListener('click', menuClose);
 
+const dropdown = document.querySelector('#dropdown');
+const dropdownEl = document.querySelector('#dropdown-element');
+
+dropdown.addEventListener('click', function(){
+  if(dropdownEl.style.display == 'block'){
+    dropdownEl.style.display = 'none';
+  }else{
+    dropdownEl.style.display = 'block';
+  }
+});
+
+const dropdownDT = document.querySelector('#dropdown-dt');
+const dropdownElDT = document.querySelector('#dropdown-element-dt');
+
+dropdownDT.addEventListener('click', function(){
+  if(dropdownElDT.style.display == 'flex'){
+    dropdownElDT.style.display = 'none';
+  }else{
+    dropdownElDT.style.display = 'flex';
+  }
+});
+
+const dropdownAboutDT = document.querySelector('#dropdown-about-dt');
+const dropdownAboutElDT = document.querySelector('#dropdown-about-element-dt');
+
+dropdownAboutDT.addEventListener('click', function(){
+  if(dropdownAboutElDT.style.display == 'flex'){
+    dropdownAboutElDT.style.display = 'none';
+  }else{
+    dropdownAboutElDT.style.display = 'flex';
+  }
+});
+
 
 // Load this script after everything else (document is ready)
 document.addEventListener("DOMContentLoaded", function(event) {

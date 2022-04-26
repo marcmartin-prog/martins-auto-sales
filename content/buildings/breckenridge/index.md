@@ -2,7 +2,7 @@
 layout: product
 title: Breckenridge
 date: 2022-04-06T21:02:53.055Z
-featuredImg: breckenridge.jpg
+featuredImg: images/breckenridge.jpg
 imgAlt: breckenridge portable building
 categories: Chateau
 description: The Breckenridge is a beautiful portable storage shed that would

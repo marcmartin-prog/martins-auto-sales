@@ -2,7 +2,7 @@
 layout: product
 title: Country Barn
 date: 2022-04-21T18:01:37.352Z
-featuredImg: country-barn.jpg
+featuredImg: images/country-barn.jpg
 imgAlt: country barn classic
 categories: Classic
 description: The Country Barn is a great choice to put on a concrete slab or
