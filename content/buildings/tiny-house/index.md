@@ -15,4 +15,11 @@ recommendedOptions:
   - Ridge Ventilation and Vented Drip Edge
 galleryImages:
   - images/20200124_125135.jpg
+  - images/20210708_133428.jpg
+  - images/20210708_133448.jpg
+  - images/20210708_133452.jpg
+  - images/classic_tiny_house-1.jpg
+  - images/thumb-960-f1447d50-7ec4-47be-88ee-a993afe23160.jpg
+  - images/tiny-house-3.jpg
+  - images/tiny-house-4.jpg
 ---
