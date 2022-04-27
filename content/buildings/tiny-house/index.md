@@ -10,9 +10,17 @@ description: The Tiny House offers the opportunity to build your custom
   floor plans to fit the needs you have whether it is for Tiny House living or a
   nice cabin at the lake.
 standardFeatures:
-  - 6'4" Sidewalls
+  - 6" Overhang on All Sides
+  - 36" House Door With Window
+  - 6'4" Sidewalls and 9'1" Sidewalls
+  - Your Choice of Colors
+  - Shingle or Metal Roof
 recommendedOptions:
   - Ridge Ventilation and Vented Drip Edge
+  - Framed Out Rooms
+  - 30 x 12 Insulated Awning Windows
+  - 30 x 40 Vinyl Insulated Windows
+  - Insulated Floor
 galleryImages:
   - images/20200124_125135.jpg
   - images/20210708_133428.jpg
