@@ -105,7 +105,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1rem 1rem;
+  padding: 1rem var(--padding);
 }
 
 hr{
@@ -424,11 +424,30 @@ section {
   background-color: var(--primary);
   padding: 0 var(--padding) 2rem;
   margin-top: 1rem;
+  position: relative;
+}
+
+.location-img--parent{
+  position: relative;
+
+}
+.location-img--parent::after{
+  position: absolute;
+  content: "";
+  background: rgb(32,67,138);
+  background: linear-gradient(0deg, rgba(32,67,138,1) 0%, rgba(32,67,138,0.3) 100%);
+  height: 10rem;
+  width: 100vw;
+  left: var(--neg-padding);
+  bottom: 5px;
 }
 
 .location img{
   left: var(--neg-padding);
   position: relative;
+  width: 100vw;
+  max-height: 10rem;
+  object-fit: cover;
   border-bottom: 2px solid white;
 }
 
@@ -824,6 +843,13 @@ section {
     left: 0;
   }
 
+  .location img{
+    max-height: 15rem;
+  }
+.location-img--parent::after{
+  height: 15rem;
+}
+
   .logo img{
     height: 3.5rem;
   }
@@ -866,6 +892,11 @@ section {
 
 
 @media only screen and (min-width: 1024px){
+
+  :root{
+    --padding: 1.5rem;
+    --neg-padding: -1.5rem;
+  }
 
 
   #dropdown-dt::after, #dropdown-about-dt::after{
@@ -940,6 +971,29 @@ section {
     grid-column-start: 2;
   }
 
+  .location{
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 34rem;
+    padding-bottom: 0;
+  }
+
+  .location-img--parent{
+    width: 33%;
+    max-height: 34rem;
+  }
+  .location img{
+    max-height: 100%;
+    border-bottom: none;
+    border-left: 2px solid white;
+  }
+  .location-img--parent::after{
+    background: linear-gradient(90deg, rgba(32,67,138,1) 0%, rgba(32,67,138,0.3) 100%);
+    width: 120%;
+    bottom: 0;
+    height: 100%;
+  }
+
   .menu{
     display: flex;
     flex-direction: row;
@@ -993,7 +1047,11 @@ section {
     margin-bottom: -9rem;
  }
 
-
+.quality--icons div{
+  border-top: 2px solid var(--tertiary);
+  padding-top: 1rem;
+  max-width: unset;
+}
 
  .rev-buttons{
    flex-direction: row;
@@ -1016,4 +1074,35 @@ section {
  .search-mobile{
    display: none;
  }
+
+ .towns{
+   width: 67%;
+ }
+
+ .towns-list--parent{
+   position: absolute;
+   max-width: 20rem;
+   top: 25%;
+   left: 30%;
+ }
+}
+
+@media only screen and (min-width: 1280px){
+  :root{
+    --padding: 4.5rem;
+    --neg-padding: -4.5rem;
+  }
+
+  h1{
+    font-size: 3.5rem;
+  }
+  h2{
+    font-size: 2.5rem;
+  }
+  h3{
+    font-size: 2.25rem;
+  }
+  p{
+    font-size: 1.5rem;
+  }
 }

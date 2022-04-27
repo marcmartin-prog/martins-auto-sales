@@ -22,6 +22,7 @@ collections:
       - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Standard Features", name: "standardFeatures", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
       - {label: "Recommended Options", name: "recommendedOptions", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
+      - {label: "Gallery Images", name: "galleryImages", widget: "list", field: {label: "Image", name: "galleryImage", widget: "image"}}
   - name: "hunting-blind" # Used in routes, e.g., /admin/collections/blog
     label: "Hunting Blind" # Used in the UI
     folder: "/content/hunting-blinds" # The path to the folder where the documents are stored
@@ -40,6 +41,7 @@ collections:
       - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Standard Features", name: "standardFeatures", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
       - {label: "Recommended Options", name: "recommendedOptions", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
+      - {label: "Gallery Images", name: "galleryImages", widget: "list", field: {label: "Image", name: "galleryImage", widget: "image"}}
   - name: "playset" # Used in routes, e.g., /admin/collections/blog
     label: "PlaySet" # Used in the UI
     folder: "/content/playsets" # The path to the folder where the documents are stored
@@ -58,3 +60,4 @@ collections:
       - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Standard Features", name: "standardFeatures", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
       - {label: "Specifications", name: "specifications", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
+      - {label: "Gallery Images", name: "galleryImages", widget: "list", field: {label: "Image", name: "galleryImage", widget: "image"}}
