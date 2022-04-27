@@ -1,11 +1,11 @@
-{{ $url := "/images" }}
+
 
 <link rel="stylesheet" href="/css/lightbox.css">
 <div class="" style="position: relative">
   <div class="gallery-parent" id="gallery-parent">
     {{ range .Resources }}
-       <a href="{{$url}}/{{.Name | urlize}}"   data-lightbox="show-1"
->         <img src="{{$url}}/{{.Name | urlize }}" alt="{{.Name}}" loading="lazy" class="gallery-image">
+       <a href="{{.Name | urlize}}"   data-lightbox="show-1"
+>         <img src="{{.Name | urlize }}" alt="{{.Name}}" loading="lazy" class="gallery-image">
        </a>
     {{ end }}
 
