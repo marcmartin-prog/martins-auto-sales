@@ -24,6 +24,10 @@
   </section>
   {{ end}}
 
+ <section>
+   {{ partial "product-gallery.html" . }}
+ </section>
+
 
   <section>
     {{ $related := .Site.RegularPages.Related . | first 4 }}

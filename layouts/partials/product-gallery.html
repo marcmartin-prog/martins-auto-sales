@@ -1,0 +1,26 @@
+{{ $url := "/images" }}
+
+<link rel="stylesheet" href="/css/lightbox.css">
+<div class="" style="position: relative">
+  <div class="gallery-parent" id="gallery-parent">
+    {{ range .Resources }}
+       <a href="{{$url}}/{{.Name | urlize}}"   data-lightbox="show-1"
+>         <img src="{{$url}}/{{.Name | urlize }}" alt="{{.Name}}" loading="lazy" class="gallery-image">
+       </a>
+    {{ end }}
+
+  </div>
+  <img src="/images/rev-arrow.svg" id="prev-btn">
+  <img src="/images/rev-arrow.svg" id="next-btn">
+</div>
+<script type="text/javascript" src="/js/lightbox-plus-jquery.min.js">
+
+</script>
+<script type="text/javascript" src="/js/lightbox.min.js">
+
+</script>
+<script type="text/javascript">
+  lightbox.option({
+    'thumbnails': true
+  })
+</script>
