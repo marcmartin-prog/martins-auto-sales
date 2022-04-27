@@ -22,4 +22,6 @@ recommendedOptions:
   - 24"x27" Windows
   - Working Loft Door
   - Aluminum Ramp Set
+galleryImages:
+  - images/20210226_160459.jpg
 ---
