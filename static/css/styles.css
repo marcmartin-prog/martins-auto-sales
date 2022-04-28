@@ -869,6 +869,10 @@ section {
     object-fit: cover;
   }
 
+  .products--item div{
+    max-width: 50%;
+  }
+
   .products>picture>img{
     max-height: 20rem;
     width: 100vw;
@@ -946,15 +950,15 @@ section {
 
   .hero--link img{
     border: none;
+    object-fit: cover;
+    min-width: 100%;
   }
   .hero--links-large{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50%;
-    max-height: 65vh;
     grid-gap: 2px;
     background-color: white;
-    margin-bottom: 4px;
   }
 
   .buildings{
@@ -963,12 +967,14 @@ section {
     border-left: 2px solid white;
   }
   .buildings img{
-    height: 65vh;
-    object-fit: cover;
+    height: 66vh;
   }
 
   .furniture{
     grid-column-start: 2;
+  }
+  .furniture img, .playsets img{
+    height: 33vh;
   }
 
   .location{
@@ -1047,6 +1053,10 @@ section {
     margin-bottom: -9rem;
  }
 
+ .quality h2{
+   margin: 1.5rem 0;
+ }
+
 .quality--icons div{
   border-top: 2px solid var(--tertiary);
   padding-top: 1rem;
@@ -1081,7 +1091,7 @@ section {
 
  .towns-list--parent{
    position: absolute;
-   max-width: 20rem;
+   max-width: 24rem;
    top: 25%;
    left: 30%;
  }
@@ -1104,5 +1114,119 @@ section {
   }
   p{
     font-size: 1.5rem;
+  }
+
+  .location{
+    max-height: 36rem;
+  }
+
+  .location h2::before{
+    width: 2.5rem;
+    left: -3rem;
+  }
+
+  .location-img--parent{
+    min-height: 36rem;
+  }
+
+  .location-img--parent::after{
+    width: 150%;
+  }
+
+  .logo img{
+    height: 4rem
+  }
+
+  .products--details h2::before, .products--item h2::before, .line-before::before{
+    left: -3rem;
+    width: 2.5rem;
+  }
+
+  .products>picture>img{
+    max-height: 26rem;
+  }
+
+  .products--item{
+    gap: 3rem;
+  }
+  .products--item div{
+    max-width: 40%;
+  }
+
+  .products--text{
+    top: -12rem;
+    margin-bottom: -12rem;
+    max-width: 50rem;
+  }
+
+  .quality--icons div{
+    padding-top: 1.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .signup{
+    max-width: 65rem;
+  }
+}
+
+@media only screen and (min-width: 1366px){
+  :root{
+    --padding: 6.5rem;
+    --neg-padding: -6.5rem;
+  }
+
+  .location-img--parent::after{
+    width: 180%;
+  }
+}
+
+@media only screen and (min-width: 1440px){
+  :root{
+    --padding: 9.5rem;
+    --neg-padding: -9.5rem;
+  }
+
+  .location-img--parent::after{
+    width: 210%;
+  }
+
+  .products--details h2::before, .products--item h2::before, .location h2::before, .line-before::before{
+    left: -5.2rem;
+    width: 3.5rem;
+  }
+
+  .products--text{
+    padding: 1.5rem 3.5rem;
+  }
+
+  .products>picture>img{
+    max-height: 30rem;
+  }
+}
+
+@media only screen and (min-width: 1920px){
+  :root{
+    --padding: 12.5rem;
+    --neg-padding: -12.5rem;
+  }
+
+  .hero{
+    grid-template-columns: 30% 70%;
+  }
+
+  .hero--details{
+    padding: 4rem 2.5rem 2rem 0;
+  }
+
+  .hero--links-large{
+    grid-template-columns: 45% 55%;
+  }
+
+  .logo img{
+    height: 4.5rem;
+  }
+
+  .products>picture>img{
+    max-height: 36rem;
   }
 }
