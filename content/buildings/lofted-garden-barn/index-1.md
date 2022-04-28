@@ -11,6 +11,8 @@ description: The Lofted Garden Barn is an attractive, useful addition to your
   hobby. We can add a workbench and tool organizer for all your equipment.
 standardFeatures:
   - Double Barn Doors
+  - Your Choice of Colors
+  - Shingle or Metal Roof
 galleryImages:
   - images/20211026_130155.jpg
   - images/20210710_120258.jpg
