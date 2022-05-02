@@ -24,4 +24,20 @@ recommendedOptions:
   - 12" Overhang on the Front and Sides
   - Vented Drip-edge on Back
   - Vented Soffit Front and Sides
+galleryImages:
+  - images/88dfd6e3-c958-4370-a1a4-4344359debbf.jpg
+  - images/20210319_103132.jpg
+  - images/20210331_105212.jpg
+  - images/20210331_105221.jpg
+  - images/20210409_122810.jpg
+  - images/20210513_094744.jpg
+  - images/20210519_120021.jpg
+  - images/20210519_121635.jpg
+  - images/20210525_121328.jpg
+  - images/img_8085.jpg
+  - images/rhonda-volz-1-.jpg
+  - images/studio-chateau-1.jpg
+  - images/studio-chateau-2.jpg
+  - images/studio-chateau-3.jpg
+  - images/studio-chateau-4.jpg
 ---
