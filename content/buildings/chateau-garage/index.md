@@ -23,4 +23,11 @@ recommendedOptions:
   - Shutters
   - Ridge Ventilation
   - 4" Lap Siding
+galleryImages:
+  - images/20210716_092252.jpg
+  - images/20210910_103000.jpg
+  - images/20210922_120138.jpg
+  - images/garage-chateau-1.jpg
+  - images/garage-chateau-2.jpg
+  - images/garage-chateau-main-image.jpg
 ---
