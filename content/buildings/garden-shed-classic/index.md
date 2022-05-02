@@ -21,4 +21,27 @@ recommendedOptions:
   - Ridge Ventilation
   - 24"x27" Windows
   - Aluminum Ramp Set
+galleryImages:
+  - images/10x12.jpg
+  - images/20210331_150416.jpg
+  - images/20210420_115001.jpg
+  - images/20210412_114804.jpg
+  - images/20210513_094405.jpg
+  - images/20210519_115920.jpg
+  - images/20210519_115940.jpg
+  - images/20210519_121438.jpg
+  - images/20210522_120209.jpg
+  - images/20210522_120223.jpg
+  - images/20211001_154000.jpg
+  - images/20211023_112916.jpg
+  - images/1461410741.jpg
+  - images/1520915297.jpg
+  - images/1520915316.jpg
+  - images/1520919070.jpg
+  - images/1520919083.jpg
+  - images/1587123450.jpg
+  - images/img-20210512-wa0000.jpg
+  - images/img-20210512-wa0030.jpg
+  - images/img-20210512-wa0043.jpg
+  - images/img-20210512-wa0044.jpg
 ---
