@@ -22,4 +22,9 @@ recommendedOptions:
   - Door Keepers
   - Ridge Ventilation
   - Shutters and Flower Boxes
+galleryImages:
+  - images/img-20210512-wa0039.jpg
+  - images/img-20210512-wa0038.jpg
+  - images/quaker-shed-chateau-2.jpg
+  - images/quaker-shed-chateau-main-image.jpg
 ---
