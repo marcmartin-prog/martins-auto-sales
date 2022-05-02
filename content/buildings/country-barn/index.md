@@ -24,4 +24,25 @@ recommendedOptions:
   - House Door with Window
   - Lean-to
   - Pier Foundation
+galleryImages:
+  - images/424559_10151387517520172_1086363314_n.jpg
+  - images/cba..jpg
+  - images/cba1.jpg
+  - images/cba-with-lean-to.jpg
+  - images/country-barn-1.jpg
+  - images/country-barn-2.jpg
+  - images/country-barn-main-image.jpg
+  - images/country-barn-november.jpg
+  - images/coutnry-barn-4.jpg
+  - images/gibbons-cba-1620-1.jpg
+  - images/img-20210512-wa0004.jpg
+  - images/img-20210512-wa0005.jpg
+  - images/img-20210512-wa0006.jpg
+  - images/img-20210512-wa0009.jpg
+  - images/img-20210512-wa0010.jpg
+  - images/img-20210512-wa0012.jpg
+  - images/img-20210512-wa0014.jpg
+  - images/img-20210512-wa0016.jpg
+  - images/ray-wohler-cba-1632.jpg
+  - images/img-20210512-wa0033.jpg
 ---
