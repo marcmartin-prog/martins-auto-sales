@@ -25,4 +25,15 @@ recommendedOptions:
   - 24 x 27 Insulated Windows
   - Shutters
   - Ridge Ventilation
+galleryImages:
+  - images/1540438830.jpg
+  - images/1540438846.jpg
+  - images/1540438855.jpg
+  - images/1540444441.jpg
+  - images/chateau_garden_cottage_4.jpg
+  - images/chateau_garden_cottage_5.jpg
+  - images/garden-cottage-chateau-1.jpg
+  - images/garden-cottage-chateau-main-image.jpg
+  - images/img-20210512-wa0024.jpg
+  - images/img-20210512-wa0025.jpg
 ---
