@@ -23,4 +23,21 @@ recommendedOptions:
   - 30 x 40 Vinyl Insulated Windows
   - Insulated Floor
   - 4′ Porch with Railing
+galleryImages:
+  - images/14x38-cabin-1-.jpg
+  - images/20210403_125414-1-.jpg
+  - images/20210403_125432.jpg
+  - images/20210403_125453.jpg
+  - images/20210403_125514.jpg
+  - images/20210409_091501.jpg
+  - images/20210416_143650.jpg
+  - images/20210416_143703.jpg
+  - images/20210416_143716.jpg
+  - images/20210421_095227.jpg
+  - images/20210705_114127.jpg
+  - images/cabin-classic-3.jpg
+  - images/cabin-classic-4.jpg
+  - images/classic_cabin-1.jpg
+  - images/imagejpeg_1.jpg
+  - images/img_4842.jpg
 ---
