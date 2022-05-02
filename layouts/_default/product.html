@@ -1,45 +1,54 @@
 {{ define "main" }}
   <section class="product-hero">
    {{ partial "picture.html" . }}
-    <h1>{{.Title}}</h1>
-    <p>{{ .Params.description }}</p>
-    <a href="#" class="prod-btn">REQUEST A QUOTE</a>
-  </section>
-  <section>
-    <h2 class="line-before">Standard Features</h2>
-    <div class="features">
-      {{range .Params.standardFeatures}}
-         <p>{{ . }}</p>
-      {{end}}
+    <div class="">
+      <h1>{{.Title}}</h1>
+      <p>{{ .Params.description }}</p>
+      <a href="#" class="prod-btn">REQUEST A QUOTE</a>
     </div>
   </section>
-  <section>
-    {{ with .Params.recommendedOptions }}
-    <h2 class="line-before">Recommended Options</h2>
-    <div class="features">
-      {{range . }}
-         <p>{{ . }}</p>
-      {{end}}
+  <section class="options-features">
+    <div class="">
+      <h2 class="line-before">Standard Features</h2>
+      <div class="features">
+        {{range .Params.standardFeatures}}
+           <p>{{ . }}</p>
+        {{end}}
+      </div>
+    </div>
+    <div class="">
+      {{ with .Params.recommendedOptions }}
+      <h2 class="line-before">Recommended Options</h2>
+      <div class="features">
+        {{range . }}
+           <p>{{ . }}</p>
+        {{end}}
+      </div>
     </div>
   </section>
   {{ end}}
 
- <section>
+ <section class="gallery-section">
+   <h2>Our Examples</h2>
+
    {{ partial "product-gallery.html" . }}
  </section>
 
 
   <section>
     {{ $related := .Site.RegularPages.Related . | first 4 }}
-{{ with $related }}
-<h2 class="line-before">Related Products</h2>
-{{ range . }}
-  <div class="series--item">
-    <h3>{{.Title }}</h3>
-      {{ partial "picture.html" . }}
-    <a class="main--btn" href="{{ .Permalink }}">LEARN MORE</a>
-  </div>
-{{ end }}
-{{ end }}
+      {{ with $related }}
+         <h2 class="line-before">Related Products</h2>
+         <div class="related">
+           {{ range . }}
+             <div class="series--item">
+
+             {{ partial "picture.html" . }}
+             <h3>{{.Title }}</h3>
+             <a class="main--btn" href="{{ .Permalink }}">LEARN MORE</a>
+             </div>
+           {{ end }}
+         </div>
+    {{ end }}
   </section>
 {{ end }}

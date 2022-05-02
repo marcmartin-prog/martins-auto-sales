@@ -331,6 +331,12 @@ section {
   padding: 0.8rem 0 0.5rem;
 }
 
+.gallery-section h2{
+  border-bottom: 2px solid var(--tertiary);
+  padding-bottom: .8rem;
+  margin-bottom: 1.2rem;
+}
+
 .hero{
   background-color: var(--primary);
   padding: 2rem var(--padding) 0;
@@ -532,6 +538,12 @@ section {
   transition: 0.3s;
 }
 
+.options-features{
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
 .prod-btn{
   text-decoration: none;
   color: var(--secondary);
@@ -713,6 +725,10 @@ section {
   object-fit: cover;
 }
 
+.series--item h3{
+  margin-bottom: 1.2rem;
+}
+
 .signup>h2, .signup p{
   margin: 1rem 0;
 }
@@ -810,6 +826,15 @@ section {
     gap: 2rem;
   }
 
+  .feat-opt{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .feat-opt--item{
+    max-width: 48%;
+  }
+
   .footer-company{
     left: 33%;
     position: relative;
@@ -877,6 +902,20 @@ section {
     max-height: 20rem;
     width: 100vw;
   }
+  .buildings-item{
+    flex-direction: row-reverse;
+  }
+
+  .related{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .related div{
+    flex-basis: 1;
+    max-width: 48%;
+  }
 
   .signup{
     max-width: 40rem;
@@ -919,6 +958,8 @@ section {
     top: 3rem;
     left: -2rem;
     width: max-content;
+    -webkit-box-shadow: 0px 7px 11px 5px #EBEBEB;
+box-shadow: 0px 7px 11px 5px #EBEBEB;
   }
 
   .footer-partners, .footer-company{
@@ -1031,6 +1072,14 @@ section {
     font-size: 1rem;
   }
 
+  .options-features{
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .options-features>div:first-of-type{
+    width: 50vw;
+  }
+
   #left-arrow{
    transform: rotate(180deg);
    position: absolute;
@@ -1044,6 +1093,10 @@ section {
    right: 12vw;
  }
 
+ .prod-btn{
+   width: 12rem;
+ }
+
  .products--text{
    max-width: 40rem;
     top: -9rem;
@@ -1051,6 +1104,21 @@ section {
     background-color: white;
     padding: 1.5rem;
     margin-bottom: -9rem;
+ }
+
+ .product-hero{
+   display: flex;
+   gap: 2rem;
+   margin-top: 1rem;
+ }
+ .product-hero>picture>img{
+   width: unset;
+   max-width: 50vw;
+ }
+
+ .product-hero div{
+   margin-right: 2.5rem;
+   margin-top: 1.5rem;
  }
 
  .quality h2{
@@ -1084,6 +1152,12 @@ section {
  .search-mobile{
    display: none;
  }
+
+ .series--item img{
+   max-height: 20rem;
+ }
+
+
 
  .towns{
    width: 67%;
@@ -1137,6 +1211,14 @@ section {
     height: 4rem
   }
 
+  .options-features>div:first-of-type{
+    width: 46vw;
+  }
+
+  .product-hero{
+    gap: 0;
+  }
+
   .products--details h2::before, .products--item h2::before, .line-before::before{
     left: -3rem;
     width: 2.5rem;
@@ -1164,6 +1246,13 @@ section {
     margin-top: 2.5rem;
   }
 
+  .related div{
+    max-width: 23%;
+  }
+  .series--item img{
+    max-height: 12rem;
+  }
+
   .signup{
     max-width: 65rem;
   }
@@ -1178,6 +1267,13 @@ section {
   .location-img--parent::after{
     width: 180%;
   }
+
+  .product-hero div{
+    margin-right: 0;
+    margin-top: 2.5rem;
+    left: -1.5rem;
+    position: relative;
+  }
 }
 
 @media only screen and (min-width: 1440px){
@@ -1188,6 +1284,10 @@ section {
 
   .location-img--parent::after{
     width: 210%;
+  }
+
+  .menu li{
+    margin: 1.5rem 2.5rem;
   }
 
   .products--details h2::before, .products--item h2::before, .location h2::before, .line-before::before{
@@ -1226,7 +1326,15 @@ section {
     height: 4.5rem;
   }
 
+  .options-features>div:first-of-type{
+    width: 39vw;
+  }
+
   .products>picture>img{
     max-height: 36rem;
+  }
+
+  .product-hero>div{
+    margin-top: 6.5rem;
   }
 }
