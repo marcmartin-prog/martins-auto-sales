@@ -23,4 +23,20 @@ recommendedOptions:
   - Flower Box
   - Shutters
   - 12" Overhang on All Sides
+galleryImages:
+  - images/12x24-ultrta-with-porch-.jpg
+  - images/20210319_103147.jpg
+  - images/20210401_124900.jpg
+  - images/20210913_164235.jpg
+  - images/20210913_164244.jpg
+  - images/20210928_094323.jpg
+  - images/20210928_104209.jpg
+  - images/image20200804100224.jpg
+  - images/image20200804100247.jpg
+  - images/image20200804100251.jpg
+  - images/image20200804100255.jpg
+  - images/img950405.jpg
+  - images/nancyfoy49.jpg
+  - images/ultra-series-chateau-1.jpg
+  - images/ultra-series-shed.jpg
 ---
