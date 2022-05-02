@@ -23,4 +23,10 @@ standardFeatures:
   - Shutters and Flower Boxes
   - Your Choice of Colors
   - Shingle or Metal Roof
+galleryImages:
+  - images/12x16-bkr-c2.jpg
+  - images/12x24-bkr-1.jpg
+  - images/breckenridge-5.jpg
+  - images/breckenridge-chateau-main-image.jpg
+  - images/breckinridge-portable-building.jpg
 ---
