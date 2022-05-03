@@ -3,8 +3,8 @@
 {{ define "main" }}
 
 {{if eq .Data.Term "Chateau"}}
-<section class="hero">
-  <div class="hero--details">
+<section class="hero-secondary">
+  <div class="hero--details cat">
     <h1>{{ .Title }} Series</h1>
     <p class="light">Treat yourself to the premier line of storage sheds, available in several configurations to meet your needs.</p>
   </div>
@@ -37,21 +37,23 @@
 </section>
 
 <section>
-    <h2>{{ .Title }} Series Buildings</h2>
-      {{ range .Data.Pages }}
-        <div class="series--item">
-          <h3>{{.Title }}</h3>
+    <h2 class="line-before">{{ .Title }} Series Buildings</h2>
+      <div class="building-list">
+        {{ range .Data.Pages }}
+          <div class="series--item">
             {{ partial "picture.html" . }}
-          <a class="main--btn" href="{{ .Permalink }}">LEARN MORE</a>
-        </div>
-      {{ end }}
+            <h3>{{.Title }}</h3>
+            <a class="main--btn" href="{{ .Permalink }}">LEARN MORE</a>
+          </div>
+        {{ end }}
+      </div>
 </section>
 
 {{ end }}
 
 {{if eq .Data.Term "Classic"}}
-<section class="hero">
-  <div class="hero--details">
+<section class="hero-secondary">
+  <div class="hero--details cat">
     <h1>{{ .Title }} Series</h1>
     <p class="light">Meet our Classic Series, built with quality and style in mind, yet more affordable.</p>
   </div>
@@ -84,21 +86,23 @@
 </section>
 
 <section>
-    <h2>{{ .Title }} Series Buildings</h2>
-      {{ range .Data.Pages }}
-        <div class="series--item">
-          <h3>{{.Title }}</h3>
-          {{ partial "picture.html" . }}
-          <a class="main--btn" href="{{ .Permalink }}">LEARN MORE</a>
-        </div>
-      {{ end }}
+    <h2 class="line-before">{{ .Title }} Series Buildings</h2>
+      <div class="building-list">
+        {{ range .Data.Pages }}
+          <div class="series--item">
+            {{ partial "picture.html" . }}
+            <h3>{{.Title }}</h3>
+            <a class="main--btn" href="{{ .Permalink }}">LEARN MORE</a>
+          </div>
+        {{ end }}
+      </div>
 </section>
 
 {{ end }}
 
 {{if eq .Data.Term "Dutch Country"}}
-<section class="hero">
-  <div class="hero--details">
+<section class="hero-secondary">
+  <div class="hero--details cat">
     <h1>{{ .Title }} Series</h1>
     <p class="light">Meet our Dutch Country Series, built with quality at a price you can afford</p>
   </div>
@@ -129,14 +133,16 @@
 </section>
 
 <section>
-    <h2>{{ .Title }} Series Buildings</h2>
-      {{ range .Data.Pages }}
-        <div class="series--item">
-          <h3>{{.Title }}</h3>
-          {{ partial "picture.html" . }}
-          <a class="main--btn" href="{{ .Permalink }}">LEARN MORE</a>
-        </div>
-      {{ end }}
+    <h2 class="line-before">{{ .Title }} Series Buildings</h2>
+      <div class="building-list">
+        {{ range .Data.Pages }}
+          <div class="series--item">
+            {{ partial "picture.html" . }}
+            <h3>{{.Title }}</h3>
+            <a class="main--btn" href="{{ .Permalink }}">LEARN MORE</a>
+          </div>
+        {{ end }}
+      </div>
 </section>
 
 {{ end }}

@@ -217,7 +217,8 @@ section {
 
 .benefits img{
   position: relative;
-  left: var(--neg-padding)
+  left: var(--neg-padding);
+  width: 100vw;
 }
 
 .big-text{
@@ -337,7 +338,7 @@ section {
   margin-bottom: 1.2rem;
 }
 
-.hero{
+.hero, .hero-secondary{
   background-color: var(--primary);
   padding: 2rem var(--padding) 0;
 }
@@ -347,7 +348,7 @@ section {
   margin-bottom: 3.1rem;
   line-height: normal;
 }
-.hero h1, .hero p{
+.hero h1, .hero p, .hero-secondary p, .hero-secondary h1{
   color: var(--secondary);
 }
 
@@ -357,7 +358,7 @@ section {
   top: 3px;
 }
 .hero--img img{
-  max-width: 100%;
+  width: 100%;
 }
 
 .hero--link{
@@ -826,14 +827,26 @@ section {
     gap: 2rem;
   }
 
+  .building-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
   .feat-opt{
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
   }
   .feat-opt--item{
-    max-width: 48%;
+    max-width: 46%;
   }
+
+  .feat-opt--item img{
+    max-width: 100%;
+  }
+
 
   .footer-company{
     left: 33%;
@@ -917,6 +930,13 @@ section {
     max-width: 48%;
   }
 
+  .series--item{
+    flex: 1;
+    margin: 0;
+    min-width: 15rem;
+    max-width: 20rem;
+  }
+
   .signup{
     max-width: 40rem;
   }
@@ -941,6 +961,23 @@ section {
     --neg-padding: -1.5rem;
   }
 
+  .benefits img{
+    max-height: 25rem;
+    object-fit: cover;
+  }
+
+ .benefits>div{
+   display: flex;
+   gap: 1rem;
+   top: -6rem;
+   position: relative;
+   margin-bottom: -6rem;
+ }
+ .benefits>div>div{
+   background-color: white;
+   padding: 1rem;
+   flex: 1;
+ }
 
   #dropdown-dt::after, #dropdown-about-dt::after{
     content: url(/images/arrow-down.svg);
@@ -962,6 +999,10 @@ section {
 box-shadow: 0px 7px 11px 5px #EBEBEB;
   }
 
+  .feat-opt--item{
+    margin: 1rem 0;
+  }
+
   .footer-partners, .footer-company{
     left: 0;
   }
@@ -975,6 +1016,31 @@ box-shadow: 0px 7px 11px 5px #EBEBEB;
     grid-template-columns: 40% 60%;
     padding-top: 0;
     padding-right: 0;
+  }
+  .hero-secondary{
+    display: flex;
+    max-height: 70vh;
+    padding-top: 0;
+    padding-right: 0;
+  }
+
+  .hero-secondary .hero--details{
+    max-width: 38%;
+  }
+
+  .hero--img{
+    border-top: none;
+    top: 0;
+  }
+
+  .hero-secondary .hero--img img{
+    position: relative;
+    left: var(--padding);
+    border-top: none;
+    border-left: 2px solid white;
+    height: 100%;
+    object-fit: cover;
+
   }
 
   .hero--details{
@@ -1154,7 +1220,7 @@ box-shadow: 0px 7px 11px 5px #EBEBEB;
  }
 
  .series--item img{
-   max-height: 20rem;
+   max-height: 14rem;
  }
 
 
@@ -1188,6 +1254,10 @@ box-shadow: 0px 7px 11px 5px #EBEBEB;
   }
   p{
     font-size: 1.5rem;
+  }
+
+  .category-features--item p{
+    text-align: center;
   }
 
   .location{
@@ -1249,8 +1319,13 @@ box-shadow: 0px 7px 11px 5px #EBEBEB;
   .related div{
     max-width: 23%;
   }
+
+  .series--item{
+    min-width: 20rem;
+  }
+
   .series--item img{
-    max-height: 12rem;
+    max-height: 14rem;
   }
 
   .signup{
@@ -1264,6 +1339,22 @@ box-shadow: 0px 7px 11px 5px #EBEBEB;
     --neg-padding: -6.5rem;
   }
 
+  .cat h1{
+    margin-top: 2rem;
+  }
+
+  .feat-opt{
+    gap: 2rem;
+  }
+
+  .feat-opt--item{
+    display: flex;
+    gap: 1rem;
+  }
+  .feat-opt--item *{
+    flex: 1;
+  }
+
   .location-img--parent::after{
     width: 180%;
   }
@@ -1273,6 +1364,11 @@ box-shadow: 0px 7px 11px 5px #EBEBEB;
     margin-top: 2.5rem;
     left: -1.5rem;
     position: relative;
+  }
+
+  .series--item{
+    min-width: 21rem;
+    max-width: 21rem;
   }
 }
 
@@ -1310,6 +1406,19 @@ box-shadow: 0px 7px 11px 5px #EBEBEB;
     --neg-padding: -12.5rem;
   }
 
+  .benefits img{
+    max-height: 35rem;
+  }
+
+  .benefits>div{
+    top: -10rem;
+    margin-bottom: -10rem;
+  }
+
+  .cat h1{
+    margin-top: 4rem;
+  }
+
   .hero{
     grid-template-columns: 30% 70%;
   }
@@ -1320,6 +1429,21 @@ box-shadow: 0px 7px 11px 5px #EBEBEB;
 
   .hero--links-large{
     grid-template-columns: 45% 55%;
+  }
+
+  .hero--links{
+    display: flex;
+    gap: 1rem;
+    padding-top: 3rem;
+  }
+  .hero--links a{
+    width: max-content;
+    padding-right: 2rem;
+    letter-spacing: 1.44px;
+  }
+
+  .hero-secondary .hero--details{
+    max-width: 31%;
   }
 
   .logo img{
@@ -1336,5 +1460,12 @@ box-shadow: 0px 7px 11px 5px #EBEBEB;
 
   .product-hero>div{
     margin-top: 6.5rem;
+  }
+  .series--item{
+    min-width: 28rem;
+    max-width: 28rem;
+  }
+  .series--item img{
+    max-height: 20rem;
   }
 }
