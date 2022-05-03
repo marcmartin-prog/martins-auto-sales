@@ -11,11 +11,12 @@ description: Create precious memories in your own backyard with the Family Space
   making memories today!
 standardFeatures:
   - Watch Tower with steps
-  - Scoop wave slide
-  - Rock Climb
-  - Sling swings
+  - Scoop wave slide adds an extra swoosh of excitement
+  - Get there the more difficult way with a 5′ Rock Climb
+  - Comfortable Sling Swings with soft grip on chains will not pinch tender
+    hands.
   - Picnic Table
   - Super Scope
-  - Binoculars
-  - Steering Wheel
+  - Binoculars give your toddler a closer look.
+  - Let your Youngster guide the playset with the fun Steering Wheel.
 ---
