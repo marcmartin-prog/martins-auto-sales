@@ -18,4 +18,12 @@ standardFeatures:
   - Loft
 recommendedOptions:
   - Wood Ramp
+galleryImages:
+  - images/20210303_180424.jpg
+  - images/20210710_120308.jpg
+  - images/20210930_084541.jpg
+  - images/lofted-barn-dutch-1.jpg
+  - images/lofted-barn-dutch-2.jpg
+  - images/lofted-barn-dutch-3.jpg
+  - images/lofted-barn-dutch-4.jpg
 ---
