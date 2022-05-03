@@ -1050,6 +1050,10 @@ box-shadow: 0px 7px 11px 5px #EBEBEB;
     max-width: unset;
   }
 
+  .hero--link div, .hero--link a, .hero--link img{
+    height: 100%;
+  }
+
   .hero--link::after{
     width: 100%;
     left: 0;
@@ -1073,9 +1077,7 @@ box-shadow: 0px 7px 11px 5px #EBEBEB;
     grid-row-end: 3;
     border-left: 2px solid white;
   }
-  .buildings img{
-    height: 66vh;
-  }
+
 
   .furniture{
     grid-column-start: 2;
