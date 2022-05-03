@@ -17,4 +17,9 @@ standardFeatures:
 recommendedOptions:
   - Wood Ramp
   - Shelving
+galleryImages:
+  - images/garden-shed-dutch-1.jpg
+  - images/garden-shed-dutch-2.jpg
+  - images/garden-shed-dutch-3-1.jpg
+  - images/garden-shed-dutch-4.jpg
 ---
