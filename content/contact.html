@@ -18,4 +18,17 @@ draft: false
     		<a class="phone" href="tel:6189270533">618-927-0533</a>
       </div>
   </div>
+  <div class="">
+    <form class="contact-us-form" action="" name="Commercial-Contact" method="post" netlify>
+      <label for="Name" id="name">Name</label>
+      <input type="text" onblur="if(this.value==''){this.style.background='transparent';}" onfocus="this.style.background='#ebebeb'" name="Name" value="" required/>
+      <label for="Email">Email</label>
+      <input type="email" name="Email" value="" required/>
+      <label for="Phone">Phone</label>
+      <input type="phone" name="Phone" value="" required/>
+      <label for="Message">Options and Notes</label>
+      <textarea name="Message" rows="1" cols="80"></textarea>
+      <span class="prod-btn"><input type="submit" name="submit" value="REQUEST A QUOTE"/></span>
+    </form>
+  </div>
 </section>

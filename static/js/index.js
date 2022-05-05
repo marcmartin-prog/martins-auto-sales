@@ -60,6 +60,12 @@ dropdownAboutDT.addEventListener('click', function(){
   }
 });
 
+function labelPosition() {
+        document.getElementById("name").style.position="absolute";
+            // label is moved behind the textfield using the script,
+            // so it doesnt apply when javascript disabled
+    }
+
 
 // Load this script after everything else (document is ready)
 document.addEventListener("DOMContentLoaded", function(event) {
