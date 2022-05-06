@@ -29,4 +29,6 @@ recommendedOptions:
   - Archery Window Rest
   - Handle
   - Flip It Light
+galleryImages:
+  - images/unlimited-palace-768x1023.jpg
 ---
