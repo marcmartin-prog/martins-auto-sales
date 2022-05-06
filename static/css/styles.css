@@ -139,7 +139,7 @@ label:focus{
 }
 
 input[type=email], input[type=text], input[type=phone], textarea{
-
+  background-color: #ebebeb;
   color: var(--primary);
   margin-bottom: 1rem;
   display: block;
