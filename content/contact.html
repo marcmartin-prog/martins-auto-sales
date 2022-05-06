@@ -20,14 +20,22 @@ draft: false
   </div>
   <div class="">
     <form class="contact-us-form" action="" name="Commercial-Contact" method="post" netlify>
-      <label for="Name" id="name">Name</label>
-      <input type="text" onblur="if(this.value==''){this.style.background='transparent';}" onfocus="this.style.background='#ebebeb'" name="Name" value="" required/>
-      <label for="Email">Email</label>
-      <input type="email" name="Email" value="" required/>
-      <label for="Phone">Phone</label>
-      <input type="phone" name="Phone" value="" required/>
-      <label for="Message">Options and Notes</label>
-      <textarea name="Message" rows="1" cols="80"></textarea>
+      <div class="form-input">
+        <label for="Name" id="name">Name</label>
+        <input type="text" data-placeholder="Name" name="Name" value="" required/>
+      </div>
+      <div class="form-input">
+        <label for="Email">Email</label>
+        <input type="email" data-placeholder="Email" name="Email" value="" required/>
+      </div>
+      <div class="form-input">
+        <label for="Phone">Phone</label>
+        <input type="phone" data-placeholder="Phone"  name="Phone" value="" required/>
+      </div>
+      <div class="form-input">
+        <label for="Message">Options and Notes</label>
+        <textarea name="Message" data-placeholder="Options and Notes" rows="1" cols="80"></textarea>
+      </div>
       <span class="prod-btn"><input type="submit" name="submit" value="REQUEST A QUOTE"/></span>
     </form>
   </div>

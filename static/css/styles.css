@@ -81,6 +81,8 @@ footer h3{
   margin: 1rem 0;
 }
 
+
+
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
@@ -137,7 +139,7 @@ label:focus{
 }
 
 input[type=email], input[type=text], input[type=phone], textarea{
-  background-color: #ebebeb;
+
   color: var(--primary);
   margin-bottom: 1rem;
   display: block;
@@ -174,9 +176,13 @@ label{
   color: var(--tertiary);
   font-weight: normal;
   font-family: 'Source Sans Pro', sans-serif;
-  position: relative;
-  top: 2rem;
+  position: absolute;
+  top: 1rem;
   left: 0.8rem;
+  transform-origin: top left;
+  transform: translate(0, 16px) scale(1);
+  transition: all .1s ease-in-out;
+
 }
 
 
@@ -387,6 +393,22 @@ textarea{
   color: var(--tertiary);
   display: block;
   margin: 0.2rem 0;
+}
+
+.form-input{
+  position: relative;
+  background-color: #ebebeb;
+}
+
+.form-input label{
+  position: absolute;
+  transform-origin: top left;
+  transform: translate(0, 16px) scale(1);
+  transition: all 0.1s ease-in-out;
+}
+
+.form-input.active label{
+  transform: translate(0, 4px) scale(.75);
 }
 
 .gallery-section h2{
@@ -1088,6 +1110,7 @@ box-shadow: 0px 7px 11px 5px #EBEBEB;
     grid-template-columns: 40% 60%;
     padding-top: 0;
     padding-right: 0;
+    max-height: 28rem;
   }
   .hero-secondary{
     display: flex;
@@ -1139,9 +1162,10 @@ box-shadow: 0px 7px 11px 5px #EBEBEB;
   .hero--links-large{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50%;
+    grid-template-rows: 50% 50%;
     grid-gap: 2px;
     background-color: white;
+    max-height: 28rem;
   }
 
   .buildings{
@@ -1335,6 +1359,10 @@ box-shadow: 0px 7px 11px 5px #EBEBEB;
     text-align: center;
   }
 
+  .hero, .hero--links-large{
+    max-height: 33rem;
+  }
+
   .location{
     max-height: 36rem;
   }
@@ -1453,6 +1481,14 @@ box-shadow: 0px 7px 11px 5px #EBEBEB;
     --neg-padding: -9.5rem;
   }
 
+  .hero, .hero--links-large{
+    max-height: 35rem;
+  }
+
+  .hero--details{
+    padding-top: 4rem;
+  }
+
   .location-img--parent::after{
     width: 210%;
   }
@@ -1496,14 +1532,16 @@ box-shadow: 0px 7px 11px 5px #EBEBEB;
 
   .hero{
     grid-template-columns: 30% 70%;
+    max-height: 45rem;
   }
 
   .hero--details{
-    padding: 4rem 2.5rem 2rem 0;
+    padding: 6rem 2.5rem 2rem 0;
   }
 
   .hero--links-large{
     grid-template-columns: 45% 55%;
+    max-height: 45rem;
   }
 
   .hero--links{
