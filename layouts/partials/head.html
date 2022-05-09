@@ -28,4 +28,18 @@
   {{ if not (in (string .Site.BaseURL) "localhost") }}
     {{ template "_internal/google_analytics_async.html" . }}
   {{ end }}
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script>
+  algoliasearchNetlify({
+    appId: 'L6N20P27JD',
+    apiKey: '27b50f51349b4b54ed34ab65374c7303',
+    siteId: '2e038a31-a67e-4196-9fd0-801c539f00d2',
+    branch: 'main',
+    selector: 'div#search',
+  });
+</script>
 </head>
