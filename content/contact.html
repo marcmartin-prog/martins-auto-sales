@@ -18,23 +18,34 @@ draft: false
     		<a class="phone" href="tel:6189270533">618-927-0533</a>
       </div>
   </div>
-  <div class="">
+  <div class="form-parent">
+    <h2>Get In Touch</h2>
     <form class="contact-us-form" action="" name="contact-form" method="post" netlify>
       <div class="form-input">
         <label for="Name" id="name">Name</label>
-        <input type="text" data-placeholder="Name" name="Name" value="" required/>
+        <input type="text" class="input" data-placeholder="Name" name="Name" value="" required/>
       </div>
       <div class="form-input">
         <label for="Email">Email</label>
-        <input type="email" data-placeholder="Email" name="Email" value="" required/>
+        <input type="email" class="input" data-placeholder="Email" name="Email" value="" required/>
       </div>
       <div class="form-input">
         <label for="Phone">Phone</label>
-        <input type="phone" data-placeholder="Phone"  name="Phone" value="" required/>
+        <input type="phone" class="input" data-placeholder="Phone"  name="Phone" value="" required/>
       </div>
-      <div class="form-input">
+      <div class="select">
+        <label for="type-of-product" hidden>Type Of Product</label>
+        <select class="" name="type-0f-product">
+          <option value="type-of-product" default hidden>Type of Product</option>
+          <option value="Portable Building">Portable Building</option>
+          <option value="Playset">PlaySet</option>
+          <option value="Hunting Blind">Hunting Blind</option>
+          <option value="Lawn Furniture">Lawn Furniture</option>
+        </select>
+      </div>
+      <div class="form-input message">
         <label for="Message">Options and Notes</label>
-        <textarea name="Message" data-placeholder="Options and Notes" rows="1" cols="80"></textarea>
+        <textarea name="Message" class="input" data-placeholder="Options and Notes" rows="1" cols="80"></textarea>
       </div>
       <span class="prod-btn"><input type="submit" name="submit" value="REQUEST A QUOTE"/></span>
     </form>
