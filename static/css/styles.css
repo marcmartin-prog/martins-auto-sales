@@ -1426,6 +1426,10 @@ box-shadow: 0px 7px 5px 5px #EBEBEB;
    display: none;
  }
 
+ .search{
+   margin: -0.4rem 0;
+ }
+
  .series--item img{
    max-height: 14rem;
  }

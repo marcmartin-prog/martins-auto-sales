@@ -102,6 +102,30 @@ searchClose.addEventListener('click', function(){
   searchModal.style.display = 'none';
 });
 
+//mobile and desktop search field change;
+
+// Create a condition that targets viewports at least 1024px wide
+const searchField = document.querySelector('#search');
+const dtSearchField = document.querySelector('#search-dt');
+const mobileSearchParent = document.querySelector('.mobile-search')
+let mediaQuery = window.matchMedia('(min-width: 1024px)')
+function handleTabletChange(e) {
+
+  if (e.matches) {
+    dtSearchField.appendChild(searchField);
+
+  } else{
+    mobileSearchParent.appendChild(searchField);
+  }
+}
+
+// Register event listener
+mediaQuery.addListener(handleTabletChange)
+
+// Initial check
+handleTabletChange(mediaQuery)
+
+
 
 
 //code for the floating label on forms
