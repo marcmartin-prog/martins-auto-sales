@@ -301,6 +301,13 @@ select{
   margin: 0.8rem 0;
 }
 
+.dropdown{
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
 .features p{
   position: relative;
   left: 1rem;
@@ -609,14 +616,38 @@ select{
   margin-top: 2rem;
 }
 
-.menu-items a{
+.menu-item{
   text-align: center;
-  font-size: 1.69rem;
+  font-size: 1.37rem;
   text-decoration: none;
   font-family: 'SourceSansPro', sans-serif;
-  font-weight: bold;
-  color: var(--tertiary);
-  margin: 1rem 0;
+  font-weight: normal;
+  color: #20438a;
+  margin: 1rem auto;
+  position: relative;
+  max-width: max-content;
+  line-height: 1;
+}
+
+.menu-item::after{
+  content: url(/images/arrow-right.svg);
+  position: absolute;
+  right: -1.2rem;
+  top: 0.1rem;
+}
+
+.dd-link::after{
+  transform: rotate(90deg);
+}
+.active-dropdown::after{
+  transform: rotate(270deg);
+}
+.active-dropdown-dt::after{
+  transform: rotate(180deg);
+}
+
+.dropdown .menu-item{
+  font-size: 1rem;
 }
 
 .message{
@@ -637,6 +668,19 @@ select{
   top: 0;
   z-index: 0;
   transition: 0.3s;
+}
+
+.mobile-search{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 20;
+  transition: 0.4s;
+  display: none;
 }
 
 .options-features{
@@ -813,6 +857,20 @@ select{
   scroll-snap-type:x mandatory;
 }
 
+.search{
+  margin: 5rem auto 0;
+  max-width: 90%;
+  z-index: 25;
+
+}
+
+.search-close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1.2rem;
+}
+
 .select{
   margin-bottom: 1rem;
 }
@@ -864,7 +922,7 @@ select{
   display: none;
 }
 
-#search{
+.search-dt{
   margin-top: -0.4rem;
   margin-left: 0;
 }
@@ -1116,9 +1174,9 @@ select{
     background-color: white;
     top: 3rem;
     left: -2rem;
-    width: max-content;
-    -webkit-box-shadow: 0px 7px 11px 5px #EBEBEB;
-box-shadow: 0px 7px 11px 5px #EBEBEB;
+    width: 15rem;
+    -webkit-box-shadow: 0px 7px 5px 5px #EBEBEB;
+box-shadow: 0px 7px 5px 5px #EBEBEB;
   }
 
   .feat-opt--item{
@@ -1269,7 +1327,7 @@ box-shadow: 0px 7px 11px 5px #EBEBEB;
   }
 
   .menu li{
-    color: var(--tertiary);
+    color: #132853;
     margin: 1rem 1.5rem;
     font-family: "SourceSansPro", sans-serif;
     font-size: 1rem;
@@ -1279,7 +1337,7 @@ box-shadow: 0px 7px 11px 5px #EBEBEB;
 
   .menu a{
     text-decoration: none;
-    color: var(--tertiary);
+    color: #132853;
     font-family: 'SourceSansPro', sans-serif;
     font-size: 1rem;
   }

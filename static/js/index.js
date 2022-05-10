@@ -11,7 +11,7 @@ function menuOpen (){
   mobileMenu.style.height = "100vh";
   mobileMenu.style.width = "100vw";
   mobileMenu.style.opacity = "1";
-  mobileMenu.style.zIndex = "2";
+  mobileMenu.style.zIndex = "10";
 }
 
 function menuClose (){
@@ -27,16 +27,34 @@ menuCloseButton.addEventListener('click', menuClose);
 
 menuItems.addEventListener('click', menuClose);
 
+//mobile menu dropdowns
+
 const dropdown = document.querySelector('#dropdown');
 const dropdownEl = document.querySelector('#dropdown-element');
+const dropdownAbout = document.querySelector('#dropdown-m-about');
+const dropdownAboutEl = document.querySelector('#dropdown-el-m-about');
 
-dropdown.addEventListener('click', function(){
-  if(dropdownEl.style.display == 'block'){
-    dropdownEl.style.display = 'none';
+dropdownAbout.addEventListener('click', function(){
+  if(dropdownAboutEl.style.display == 'flex'){
+    dropdownAboutEl.style.display = 'none';
+    dropdownAbout.classList.remove('active-dropdown');
   }else{
-    dropdownEl.style.display = 'block';
+    dropdownAboutEl.style.display = 'flex';
+    dropdownAbout.classList.add('active-dropdown');
   }
 });
+
+dropdown.addEventListener('click', function(){
+  if(dropdownEl.style.display == 'flex'){
+    dropdownEl.style.display = 'none';
+    dropdown.classList.remove('active-dropdown');
+  }else{
+    dropdownEl.style.display = 'flex';
+    dropdown.classList.add('active-dropdown');
+  }
+});
+
+//desktop menu dropdowns
 
 const dropdownDT = document.querySelector('#dropdown-dt');
 const dropdownElDT = document.querySelector('#dropdown-element-dt');
@@ -44,8 +62,10 @@ const dropdownElDT = document.querySelector('#dropdown-element-dt');
 dropdownDT.addEventListener('click', function(){
   if(dropdownElDT.style.display == 'flex'){
     dropdownElDT.style.display = 'none';
+    dropdownDT.classList.remove('active-dropdown-dt');
   }else{
     dropdownElDT.style.display = 'flex';
+    dropdownDT.classList.add('active-dropdown-dt');
   }
 });
 
@@ -55,10 +75,34 @@ const dropdownAboutElDT = document.querySelector('#dropdown-about-element-dt');
 dropdownAboutDT.addEventListener('click', function(){
   if(dropdownAboutElDT.style.display == 'flex'){
     dropdownAboutElDT.style.display = 'none';
+    dropdownAboutDT.classList.remove('active-dropdown-dt');
   }else{
     dropdownAboutElDT.style.display = 'flex';
+    dropdownAboutDT.classList.add('active-dropdown-dt');
   }
 });
+
+//search modal code
+
+const searchButton = document.querySelectorAll('.search-mobile');
+const searchModal = document.querySelector('.mobile-search');
+const searchClose = document.querySelector('#search-close');
+
+searchButton.forEach(button => {
+  button.addEventListener('click', function(){
+    if(searchModal.style.display == 'block'){
+      searchModal.style.display ="none";
+    }else{
+      searchModal.style.display = 'block';
+    }
+  });
+});
+
+searchClose.addEventListener('click', function(){
+  searchModal.style.display = 'none';
+});
+
+
 
 //code for the floating label on forms
 
