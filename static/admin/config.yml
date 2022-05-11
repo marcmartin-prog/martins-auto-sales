@@ -80,14 +80,14 @@ collections:
       - {label: "Standard Features", name: "standardFeatures", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
       - {label: "Specifications", name: "specifications", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
       - {label: "Gallery Images", name: "galleryImages", widget: "list", field: {label: "Image", name: "galleryImage", widget: "image"}}
-  -name: "update"
-   label: "Update"
-   folder: /content
-   create: false;
-   slug: "{{slug}}"
-   fields:
-     - {label: "Display", name: "display", widget: "select", options: ["visible", "hidden"]}
-     - {label: "Title", name: "title", widget: "string"}
-     - {label: "Publish Date", name: "date", widget: "datetime"}
-     - {label: "Featured Image", name: "featuredImg", widget: "image"}
-     - {label: "Description", name: "description", widget: "markdown"}
+  - name: "update"
+    label: "Update"
+    folder: /content
+    create: false;
+    slug: "{{slug}}"
+    fields:
+      - {label: "Display", name: "display", widget: "select", options: ["visible", "hidden"]}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "featuredImg", widget: "image"}
+      - {label: "Description", name: "description", widget: "markdown"}
