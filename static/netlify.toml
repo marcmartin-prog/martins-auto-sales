@@ -1,0 +1,17 @@
+[[redirects]]
+  from = "/categories"
+  to = "/#products"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/reviews"
+  to = "/#reviews"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/tags"
+  to = "/#products"
+  status = 301
+  force = false
