@@ -788,7 +788,7 @@ select{
 
 .reviews{
   background-size: cover;
-  padding: 5.1rem 0.94rem 2.5rem;
+  padding: 5.1rem var(--padding) 2.5rem;
 }
 
 .reviews h2, .reviews p, .reviews h5{
@@ -863,6 +863,11 @@ select{
   overflow-x: scroll;
   margin: 0 auto 2rem;
   scroll-snap-type:x mandatory;
+}
+
+.reviews-parent{
+  border-top: 2px solid #22262F;
+  margin-top: 1rem;
 }
 
 .search{
