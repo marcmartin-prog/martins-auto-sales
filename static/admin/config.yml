@@ -83,7 +83,7 @@ collections:
   - name: "update"
     label: "Update"
     folder: /content
-    create: false;
+    create: false
     slug: "{{slug}}"
     fields:
       - {label: "Display", name: "display", widget: "select", options: ["visible", "hidden"]}
