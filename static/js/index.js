@@ -118,13 +118,29 @@ searchClose.addEventListener('click', function(){
   enableScrolling();
 });
 
+
+//reviews slider code
+const leftArrow = document.getElementById('left-arrow');
+const rightArrow = document.getElementById('right-arrow');
+const slider = document.querySelector('.reviews-slider');
+const review = document.querySelector('.review');
+const scrollByWidth = review.clientWidth;
+
+leftArrow.addEventListener('click', function(){
+  slider.scrollBy({left: -scrollByWidth, top: 0, behavior: 'smooth'});
+});
+
+rightArrow.addEventListener('click', function(){
+  slider.scrollBy({left: scrollByWidth, top: 0, behavior: 'smooth'});
+});
+
 //mobile and desktop search field change;
 
 // Create a condition that targets viewports at least 1024px wide
 const searchField = document.querySelector('#search');
 const dtSearchField = document.querySelector('#search-dt');
-const mobileSearchParent = document.querySelector('.mobile-search')
-let mediaQuery = window.matchMedia('(min-width: 1024px)')
+const mobileSearchParent = document.querySelector('.mobile-search');
+let mediaQuery = window.matchMedia('(min-width: 1024px)');
 function handleTabletChange(e) {
 
   if (e.matches) {
@@ -136,10 +152,10 @@ function handleTabletChange(e) {
 }
 
 // Register event listener
-mediaQuery.addListener(handleTabletChange)
+mediaQuery.addListener(handleTabletChange);
 
 // Initial check
-handleTabletChange(mediaQuery)
+handleTabletChange(mediaQuery);
 
 
 
