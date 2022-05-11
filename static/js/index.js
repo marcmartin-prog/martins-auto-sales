@@ -1,17 +1,29 @@
 //jshint esversion: 6
 
+function disableScrolling(){
+    var x=window.scrollX;
+    var y=window.scrollY;
+    window.onscroll=function(){window.scrollTo(x, y);};
+}
+
+function enableScrolling(){
+    window.onscroll=function(){};
+}
+
 //mobile menu code
 
 const mobileMenu = document.querySelector('.mobile-menu');
 const hamburger = document.querySelector('.hamburger');
 const menuCloseButton = document.querySelector('.menu-close');
 const menuItems = document.querySelector('.menu-item');
+const body = document.querySelector('body');
 
 function menuOpen (){
   mobileMenu.style.height = "100vh";
   mobileMenu.style.width = "100vw";
   mobileMenu.style.opacity = "1";
   mobileMenu.style.zIndex = "10";
+  disableScrolling();
 }
 
 function menuClose (){
@@ -19,6 +31,7 @@ function menuClose (){
   mobileMenu.style.width ="0";
   mobileMenu.style.opacity = "0";
   mobileMenu.style.zIndex = "0";
+  enableScrolling();
 }
 
 hamburger.addEventListener('click', menuOpen);
@@ -92,14 +105,17 @@ searchButton.forEach(button => {
   button.addEventListener('click', function(){
     if(searchModal.style.display == 'block'){
       searchModal.style.display ="none";
+      enableScrolling();
     }else{
       searchModal.style.display = 'block';
+      disableScrolling();
     }
   });
 });
 
 searchClose.addEventListener('click', function(){
   searchModal.style.display = 'none';
+  enableScrolling();
 });
 
 //mobile and desktop search field change;
