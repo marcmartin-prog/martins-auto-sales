@@ -39,3 +39,9 @@
   to = "/#products"
   status = 301
   force = false
+
+[[redirects]]
+  from = "/categories/playset"
+  to = "/playsets"
+  status = 301
+  force = false
