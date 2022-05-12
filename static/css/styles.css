@@ -891,6 +891,10 @@ select{
   margin-top: 1rem;
 }
 
+.scroll-btn{
+  display: none;
+}
+
 .search{
   margin: 5rem auto 0;
   max-width: 90%;
@@ -1465,6 +1469,10 @@ box-shadow: 0px 7px 5px 5px #EBEBEB;
 
  .reviews-slider{
    max-width: 44rem;
+ }
+
+ .scroll-btn{
+   display: block;
  }
 
  .search-mobile{

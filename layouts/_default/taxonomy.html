@@ -1,21 +1,59 @@
 {{ define "main" }}
-  <div class="container">
-    <h1>All {{ .Type }}</h1>
-    <ul>
-      {{ range .Data.Pages }}
-        <li>
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </li>
-      {{ end }}
-    </ul>
+<section class="products" id='products'>
+  <picture>
+    <source srcset="/images/product.webp" media="(min-width: 600px)">
+      <img class="" src="/images/product-m.webp" alt="products" height=“600” width=“600” loading=“lazy” decoding=“async” class="hero--img">
+  </picture>
+  <div class="products--details">
+     <div class="products--text">
+       <h2>Products</h2>
+       <p>Choose your dream building, playset, hunting blind or lawn furniture from our great selection! Customize them to do the job you need them to do and make your backyard paradise perfect!</p>
+       <p>If you're not seeing what you're looking for, contact us! We can talk about your needs and create a custom building, designed to fit your specs for your specific needs.</p>
+     </div>
+     <div class="products--item">
+       <picture>
+         <source srcset="/images/building.webp" media="(min-width: 600px)">
+           <img class="" src="/images/building-m.webp" alt="Portable storage building" height=“600” width=“600” loading=“lazy” decoding=“async” class="hero--img">
+       </picture>
+       <div class="">
+         <h3>Portable Storage Buildings</h3>
+         <p>With our 3 lines of storage sheds, you're sure to find one that fits your style and budget. Or if not, ask us about a fully custom building.</p>
+         <a href="/buildings" class="main--btn">LEARN MORE</a>
+       </div>
+     </div>
+     <div class="products--item">
+       <picture>
+         <source srcset="/images/playset.webp" media="(min-width: 600px)">
+           <img class="" src="/images/playset-m.webp" alt="PlayMor Playset" height=“600” width=“600” loading=“lazy” decoding=“async” class="hero--img">
+       </picture>
+       <div class="">
+         <h3>PlayMor Playsets</h3>
+         <p>Keep the children happy with wooden or poly playsets perfect for your backyard! Choose from several different styles.</p>
+         <a href="/playsets" class="main--btn">LEARN MORE</a>
+       </div>
+     </div>
+     <div class="products--item">
+       <picture>
+         <source srcset="/images/blind.webp" media="(min-width: 600px)">
+           <img class="" src="/images/blind-m.webp" alt="Never Blind hunting blinds" height=“600” width=“600” loading=“lazy” decoding=“async” class="hero--img">
+       </picture>
+       <div>
+         <h3>Never Blind Hunting Blinds</h3>
+         <p>Bring home a trophy by hunting in these comfortable hunting blinds.</p>
+         <a href="/hunting-blinds" class="main--btn">LEARN MORE</a>
+       </div>
+     </div>
+     <div class="products--item">
+       <picture>
+         <source srcset="/images/furniture.webp" media="(min-width: 600px)">
+           <img class="" src="/images/furniture-m.webp" alt="lawn furniture" height=“600” width=“600” loading=“lazy” decoding=“async” class="hero--img">
+       </picture>
+       <div class="">
+         <h3>Poly Outdoor Furniture</h3>
+         <p>Lots of comfortable poly outdoor furniture in stock, ready to place in your yard or on your deck.</p>
+         <a href="#" class="main--btn">LEARN MORE</a>
+       </div>
+     </div>
   </div>
-
-  <div class="building-list">
-    {{ range .Data.Pages }}
-      <div class="series--item">
-        <h3>{{.Title }}</h3>
-          <a class="main--btn" href="{{ .Permalink }}">LEARN MORE</a>
-      </div>
-    {{ end }}
-  </div>
+</section>
 {{ end }}

@@ -1,10 +1,4 @@
 [[redirects]]
-  from = "/categories"
-  to = "/#products"
-  status = 301
-  force = false
-
-[[redirects]]
   from = "/reviews"
   to = "/#reviews"
   status = 301
@@ -24,24 +18,36 @@
 
 [[redirects]]
   from = "/products"
-  to = "/#products"
+  to = "/categories"
   status = 301
   force = false
 
 [[redirects]]
   from = "/products/styles"
-  to = "/#products"
+  to = "/categories"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/categories"
-  to = "/#products"
+  from = "/product-category/chateau-series"
+  to = "/categories/chateau"
   status = 301
-  force = false
+  force = true
 
 [[redirects]]
   from = "/categories/playset"
   to = "/playsets"
   status = 301
-  force = false
+  force = true
+
+[[redirects]]
+  from = "/product-category/playmor-playset/"
+  to = "/playsets"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "product-category/never-blind/"
+  to = "/hunting-blinds"
+  status = 301
+  force = true
