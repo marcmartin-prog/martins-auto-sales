@@ -10,6 +10,7 @@
 
       <p class="rev-text light regular"> <span itemprop="reviewBody"> {{ .text }} </span> </p>
       <div class="rating">
+        <p hidden class='rating-number'> {{ .rating }}</p>
          <img src="/images/star.svg" alt="star rating">
          <img src="/images/star.svg" alt="star rating">
          <img src="/images/star.svg" alt="star rating">
@@ -20,7 +21,7 @@
       <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><h5 class="rev-name"> {{ .author_name }} </h5></span></span>
 
       <p class="rev-date"> {{ .relative_time_description }} </p>
-      <p hidden> {{ .rating }}</p>
+
 
     </div>
     {{end}}

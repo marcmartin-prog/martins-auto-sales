@@ -15,3 +15,27 @@
   to = "/#products"
   status = 301
   force = false
+
+[[redirects]]
+  from = "/purchase-options"
+  to = "/financing"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/products"
+  to = "/#products"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/products/styles"
+  to = "/#products"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/categories"
+  to = "/#products"
+  status = 301
+  force = false

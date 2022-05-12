@@ -15,14 +15,16 @@ function enableScrolling(){
 const mobileMenu = document.querySelector('.mobile-menu');
 const hamburger = document.querySelector('.hamburger');
 const menuCloseButton = document.querySelector('.menu-close');
-const menuItems = document.querySelector('.menu-item');
+const menuItems = document.querySelectorAll('.menu-item');
 const body = document.querySelector('body');
+
+console.log(menuItems);
 
 function menuOpen (){
   mobileMenu.style.height = "100vh";
   mobileMenu.style.width = "100vw";
   mobileMenu.style.opacity = "1";
-  mobileMenu.style.zIndex = "10";
+  mobileMenu.style.zIndex = "30";
   disableScrolling();
 }
 
@@ -38,7 +40,11 @@ hamburger.addEventListener('click', menuOpen);
 
 menuCloseButton.addEventListener('click', menuClose);
 
-menuItems.addEventListener('click', menuClose);
+menuItems.forEach(element => {
+  element.addEventListener('click', function(){
+    menuClose();
+  });
+});
 
 //mobile menu dropdowns
 
@@ -209,6 +215,21 @@ const FloatLabel = (() => {
 FloatLabel.init();
 
 
+//star elements on Reviews
+
+const rating = document.querySelectorAll('.rating');
+
+
+rating.forEach((element) => {
+  const ratingEl = document.querySelector('.rating').innerText;
+  let ratingNumber = parseInt(ratingEl);
+
+  for(let i = 0; i < ratingNumber; i++){
+    const star = document.createElement('img');
+    star.src = '/images/star.svg';
+    star.alt = 'review star';
+  }
+});
 
 
 // Load this script after everything else (document is ready)

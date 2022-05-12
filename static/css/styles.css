@@ -207,6 +207,19 @@ select{
   width: 100%;
 }
 
+::-webkit-scrollbar {
+
+  width:5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track{
+  background: #fff;
+
+}
+::-webkit-scrollbar-thumb{
+  background: #ebebeb;
+}
+
 .about-contacts a{
   font-size: 1.37rem;
   display: block;
@@ -299,6 +312,11 @@ select{
 .dark-line{
   border-bottom: 2px solid var(--tertiary);
   margin: 0.8rem 0;
+}
+
+.disable-scrollbars{
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
 }
 
 .dropdown{
@@ -569,6 +587,10 @@ select{
   position: absolute;
   top: 25%;
   left: var(--neg-padding);
+}
+
+.logo{
+  z-index: 25;
 }
 
 .logo img{
@@ -854,7 +876,6 @@ select{
   min-width: 90vw;
   padding: 0 2rem;
   scroll-snap-align: center;
-  max-height: 30rem;
 }
 
 .reviews-slider{
@@ -1613,6 +1634,15 @@ box-shadow: 0px 7px 5px 5px #EBEBEB;
     position: relative;
   }
 
+  .review{
+    max-width: 55rem;
+    min-width: 55rem;
+  }
+
+.reviews-slider{
+  max-width: 55rem;
+}
+
   .series--item{
     min-width: 21rem;
     max-width: 21rem;
@@ -1726,6 +1756,16 @@ box-shadow: 0px 7px 5px 5px #EBEBEB;
   .product-hero>div{
     margin-top: 6.5rem;
   }
+
+  .review{
+    max-width: 70rem;
+    min-width: 70rem;
+  }
+
+.reviews-slider{
+  max-width: 70rem;
+}
+
   .series--item{
     min-width: 28rem;
     max-width: 28rem;

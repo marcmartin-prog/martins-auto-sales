@@ -228,18 +228,7 @@ body.lb-disable-scrolling {
   object-fit: cover;
 }
 
-::-webkit-scrollbar {
 
-  width:5px;
-  height: 5px;
-}
-::-webkit-scrollbar-track{
-  background: #fff;
-
-}
-::-webkit-scrollbar-thumb{
-  background: #ebebeb;
-}
 
 
 .gallery-parent {
