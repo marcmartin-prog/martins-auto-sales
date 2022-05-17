@@ -618,6 +618,56 @@ select{
   top: 36%;
 }
 
+.menu a {
+  box-shadow: inset 0 0 0 4px #fff;
+  color: #fff;
+  transition: color 0.25s 0.0833333333s;
+  position: relative;
+  box-shadow: inset 0 0 0 4px #fff;
+  color: #fff;
+  transition: color 0.25s 0.0833333333s;
+  position: relative;
+  padding: 0.5rem
+}
+.menu a::before, .menu a::after {
+  border: 0 solid transparent;
+  box-sizing: border-box;
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 0;
+  right: 0;
+}
+.menu a:before {
+  border-bottom-width: 4px;
+  border-left-width: 4px;
+}
+.menu a::after {
+  border-top-width: 4px;
+  border-right-width: 4px;
+}
+.menu a:hover {
+  color: var(--primary);
+}
+.menu a:hover::before, .menu a:hover::after {
+  border-color: var(--primary);
+  transition: border-color 0s, width 0.25s, height 0.25s;
+  width: 100%;
+  height: 100%;
+}
+.menu a:hover::before {
+  transition-delay: 0s, 0s, 0.25s;
+}
+.menu a:hover::after {
+  transition-delay: 0s, 0.25s, 0s;
+}
+
+.menu a:focus{
+  outline: 2px dotted BLACK;
+}
+
 .menu{
   display: none;
 }
