@@ -418,7 +418,6 @@ select{
 
 .finance-item a{
   font-size: 1.38rem;
-  color: var(--tertiary);
   display: block;
   margin: 0.2rem 0;
 }
@@ -639,6 +638,7 @@ select{
   height: 0;
   bottom: 0;
   right: 0;
+  top: 0;
 }
 .menu a:before {
   border-bottom-width: 4px;
@@ -665,7 +665,7 @@ select{
 }
 
 .menu a:focus{
-  outline: 2px dotted BLACK;
+  outline: 2px dotted var(--primary);
 }
 
 .menu{
@@ -782,6 +782,9 @@ select{
   content: url(/images/white-arrow.svg);
   position: absolute;
   top: 36%;
+}
+.finance-item a::after{
+  top: 26%;
 }
 
 .product-hero{
