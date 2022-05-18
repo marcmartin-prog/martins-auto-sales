@@ -57,6 +57,10 @@ a{
   font-family: 'Source Sans Pro', sans-serif;
   text-decoration: none;
   font-size: 1rem;
+  transition: 0.3s;
+}
+a:not(.main--btn, .prod-btn, .menu-link, .menu-item, .menu a):hover{
+  opacity: 0.5;
 }
 
 
@@ -608,13 +612,37 @@ select{
   display: block;
   padding: 0.875rem;
   position: relative;
-  background-color: var(--secondary);
+  background: var(--secondary);
+  transform: translate3d(0,0,0) scale(1.0);
+  transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 .main--btn::after{
   content: url(/images/pink-arrow.svg);
   position: absolute;
   top: 36%;
+}
+
+.main--btn:before {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  mix-blend-mode: lighten;
+  background: rgba(32, 67, 138, 0.8);
+  transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+  content: "";
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+}
+.main--btn:hover {
+  background: transparent;
+  color: var(--secondary);
+}
+.main--btn:hover:before {
+  width: 100%;
+  height: 100%;
 }
 
 .menu a {
@@ -641,18 +669,18 @@ select{
   top: 0;
 }
 .menu a:before {
-  border-bottom-width: 4px;
-  border-left-width: 4px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
 }
 .menu a::after {
-  border-top-width: 4px;
-  border-right-width: 4px;
+  border-top-width: 2px;
+  border-right-width: 2px;
 }
 .menu a:hover {
   color: var(--primary);
 }
 .menu a:hover::before, .menu a:hover::after {
-  border-color: var(--primary);
+  border-color: rgba(32, 67, 138, 0.8);
   transition: border-color 0s, width 0.25s, height 0.25s;
   width: 100%;
   height: 100%;
@@ -774,14 +802,38 @@ select{
   display: block;
   padding: 0.875rem;
   position: relative;
-  background-color: var(--quaternary);
+  background: var(--quaternary);
   letter-spacing: 1.28px;
+  transform: translate3d(0,0,0) scale(1.0);
+  transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 .prod-btn::after{
   content: url(/images/white-arrow.svg);
   position: absolute;
   top: 36%;
+}
+
+.prod-btn:before {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  mix-blend-mode: lighten;
+  background: rgba(243, 61, 94, 0.8);
+  transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+  content: "";
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+}
+.prod-btn:hover {
+  background: transparent;
+  color: var(--secondary);
+}
+.prod-btn:hover:before {
+  width: 100%;
+  height: 100%;
 }
 .finance-item a::after{
   top: 26%;
@@ -1761,6 +1813,11 @@ box-shadow: 0px 7px 5px 5px #EBEBEB;
   .benefits>div{
     top: -10rem;
     margin-bottom: -10rem;
+  }
+
+  body{
+    max-width: 2100px;
+    margin: 0 auto;
   }
 
   .cat h1{
