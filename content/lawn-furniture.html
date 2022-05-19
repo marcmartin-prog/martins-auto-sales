@@ -7,15 +7,15 @@ draft: false
 <section class="hero-secondary">
   <div class="hero--details">
     <h1>Poly Lawn Furniture</h1>
-    <p>Stay comfy on your patio or in your backyard with this quality comfortable lawn furniture.</p>
+    <p>Stay comfy on your patio or in your backyard with this beautiful poly lawn furniture that is built to last.</p>
     <div class="hero--links">
       <a href="#styles">STYLES</a>
     </div>
   </div>
   <div class="hero--img">
     <picture>
-      <source srcset="/images/playset-img.webp" media="(min-width: 600px)">
-        <img class="" src="/images/playset-img-m.webp" alt="playsets" height=“600” width=“600” loading=“lazy” decoding=“async” class="hero--img">
+      <source srcset="/images/lawn-furniture.webp" media="(min-width: 600px)">
+        <img class="" src="/images/lawn-furniture-m.webp" alt="poly lawn furniture" height=“600” width=“600” loading=“lazy” decoding=“async” class="hero--img">
     </picture>
   </div>
 </section>
@@ -24,12 +24,11 @@ draft: false
 
 <section id="styles">
    <div class="building-list">
-     {{ range .Data.Pages }}
+
        <div class="series--item">
            {{ partial "picture.html" . }}
-           <h3>{{.Title }}</h3>
-         <a class="main--btn" href="{{ .Permalink }}">LEARN MORE</a>
+           <h3>Rocking Chairs</h3>
+           <p>Relax and watch a sunset or drink coffee with these comfortable poly rocking chairs! Perfect for a deck or even in the yard!</p>
        </div>
-     {{ end }}
    </div>
 </section>
