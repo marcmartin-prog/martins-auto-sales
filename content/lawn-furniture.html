@@ -1,0 +1,35 @@
+---
+title: "Lawn Furniture"
+description: "Choose the best poly lawn furniture available, picnic tables, gliders and more!"
+date: 2022-05-19T07:01:59-05:00
+draft: false
+---
+<section class="hero-secondary">
+  <div class="hero--details">
+    <h1>Poly Lawn Furniture</h1>
+    <p>Stay comfy on your patio or in your backyard with this quality comfortable lawn furniture.</p>
+    <div class="hero--links">
+      <a href="#styles">STYLES</a>
+    </div>
+  </div>
+  <div class="hero--img">
+    <picture>
+      <source srcset="/images/playset-img.webp" media="(min-width: 600px)">
+        <img class="" src="/images/playset-img-m.webp" alt="playsets" height=“600” width=“600” loading=“lazy” decoding=“async” class="hero--img">
+    </picture>
+  </div>
+</section>
+
+
+
+<section id="styles">
+   <div class="building-list">
+     {{ range .Data.Pages }}
+       <div class="series--item">
+           {{ partial "picture.html" . }}
+           <h3>{{.Title }}</h3>
+         <a class="main--btn" href="{{ .Permalink }}">LEARN MORE</a>
+       </div>
+     {{ end }}
+   </div>
+</section>
