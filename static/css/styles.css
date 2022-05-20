@@ -1070,6 +1070,10 @@ select{
   margin-left: 0;
 }
 
+.thanks-text p{
+  max-width: 35rem;
+}
+
 .towns>*{
   margin-top: 1.5rem;
 }
@@ -1532,6 +1536,12 @@ box-shadow: 0px 7px 5px 5px #EBEBEB;
     padding: 1.5rem;
     margin-bottom: -9rem;
  }
+
+ .product-contact .form-parent{
+   margin-top: 3rem;
+   max-width: 35rem;
+ }
+
 
  .product-hero{
    display: flex;

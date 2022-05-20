@@ -4,7 +4,7 @@
     <div class="">
       <h1>{{.Title}}</h1>
       <p>{{ .Params.description }}</p>
-      <a href="#" class="prod-btn">REQUEST A QUOTE</a>
+      <a href="#quote" class="prod-btn">REQUEST A QUOTE</a>
     </div>
   </section>
   <section class="options-features">
@@ -37,7 +37,7 @@
 
 
   <section>
-    {{ $related := .Site.RegularPages.Related . | first 4 }}
+    {{ $related := .Site.RegularPages.Related . | first 3 }}
       {{ with $related }}
          <h2 class="line-before">Related Products</h2>
          <div class="related">
@@ -51,5 +51,40 @@
            {{ end }}
          </div>
     {{ end }}
+  </section>
+
+  <section class="product-contact" id="quote">
+    <div class="form-parent">
+      <h2>Request a Quote on This Product</h2>
+      <form class="contact-us-form" action="/thanks" name="{{ .Title }}" method="post" netlify>
+        <div class="form-input">
+          <label for="Name" id="name">Name</label>
+          <input type="text" class="input" data-placeholder="Name" name="Name" value="" required/>
+        </div>
+        <div class="form-input">
+          <label for="Email">Email</label>
+          <input type="email" class="input" data-placeholder="Email" name="Email" value="" required/>
+        </div>
+        <div class="form-input">
+          <label for="Phone">Phone</label>
+          <input type="phone" class="input" data-placeholder="Phone"  name="Phone" value="" required/>
+        </div>
+        <div class="select">
+          <label for="size" hidden>Sizet</label>
+          <select class="" name="size">
+            <option value="select-size" default hidden>Select Size</option>
+            <option value="Portable Building">Portable Building</option>
+            <option value="Playset">PlaySet</option>
+            <option value="Hunting Blind">Hunting Blind</option>
+            <option value="Lawn Furniture">Lawn Furniture</option>
+          </select>
+        </div>
+        <div class="form-input message">
+          <label for="Message">Options and Notes</label>
+          <textarea name="Message" class="input" data-placeholder="Options and Notes" rows="1" cols="80"></textarea>
+        </div>
+        <span class="prod-btn"><input type="submit" name="submit" value="REQUEST A QUOTE"/></span>
+      </form>
+    </div>
   </section>
 {{ end }}
