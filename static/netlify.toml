@@ -35,6 +35,24 @@
   force = true
 
 [[redirects]]
+  from = "/product-category/classic-series"
+  to = "/categories/classic"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product-category/dutchcountry"
+  to = "/categories/dutch-country"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product-category/poly-outdoor-furniture"
+  to = "/lawn-furniture"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/categories/playset"
   to = "/playsets"
   status = 301
@@ -47,7 +65,25 @@
   force = true
 
 [[redirects]]
-  from = "product-category/never-blind/"
+  from = "/product-category/never-blind/"
   to = "/hunting-blinds"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about/buildings/"
+  to = "/buildings/#features"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/products/photo-gallery/"
+  to = "/buildings/#gallery"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/location/benton-portable-buildings/"
+  to = "/inventory"
   status = 301
   force = true
