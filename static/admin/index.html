@@ -12,6 +12,9 @@
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script>
+  CMS.registerPreviewStyle("/css/styles.css");
+</script>
 
 <script>
   var BuildingPreview = createClass({
@@ -28,6 +31,23 @@
   });
 
   CMS.registerPreviewTemplate("storage-building", BuildingPreview);
+</script>
+
+<script>
+  var playsetPreview = createClass({
+    render: function() {
+      var entry = this.props.entry;
+      var image = entry.getIn(['data', 'image']);
+      var bg = this.props.getAsset(image);
+      return h('div', {"className": "product-hero"},
+        h('h1', {}, entry.getIn(['data', 'title'])),
+        h('img', {src: bg.toString()}),
+        h('div', {"className": "text"}, this.props.widgetFor('description'))
+      );
+    }
+  });
+
+  CMS.registerPreviewTemplate("playset", playsetPreview);
 </script>
 </body>
 </html>
