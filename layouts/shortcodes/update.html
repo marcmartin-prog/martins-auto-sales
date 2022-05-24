@@ -1,7 +1,7 @@
 {{ range (where .Site.RegularPages "Section" "updates") }}
-  <div class="update" id="update" {{.Params.display}} ">
+  <div class="update" id="update" {{.Params.display}}>
     <div class="update--inner">
-      <img src="/images/update-close.svg" alt="close popup" id="close-update" class="update--close" onclick="hideUpdate()">
+      <img src="/images/update-close.svg" alt="close popup" class="update--close" onclick="hideUpdate()">
       {{ partial "page-picture.html" . }}
       <div class="">
         <h1>{{.Params.heading}}</h1>
