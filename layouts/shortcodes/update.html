@@ -1,0 +1,12 @@
+{{ range (where .Site.RegularPages "Section" "updates") }}
+  <div class="update" {{.Params.display}}>
+    <div class="update--inner">
+      {{ partial "page-picture.html" . }}
+      <div class="">
+        <h1>{{.Params.heading}}</h1>
+        <p>{{.Params.description}}</p>
+        <a href="/contact" class="prod-btn">CONTACT US</a>
+      </div>
+    </div>
+  </div>
+{{ end }}
