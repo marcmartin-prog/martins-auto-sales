@@ -150,7 +150,14 @@ mediaQuery.addListener(handleTabletChange);
 // Initial check
 handleTabletChange(mediaQuery);
 
+// update Code
 
+
+function hideUpdate(){
+  const update = document.querySelector("#update");
+  update.style.display = 'none';
+  enableScrolling();
+}
 
 
 //code for the floating label on forms
