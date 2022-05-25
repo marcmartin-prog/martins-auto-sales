@@ -501,6 +501,9 @@ select{
   left: var(--neg-padding);
   border-top: 2px solid var(--secondary);
   width: 100vw;
+}
+
+.hero--link img{
   z-index: -1;
 }
 
@@ -894,6 +897,7 @@ select{
 .products--item img{
   width: 100%;
   margin-bottom: 0.8rem;
+  height: 100%;
 }
 
 .products--item p{
@@ -1117,10 +1121,10 @@ select{
   right: 0;
   bottom: 0;
   background: rgba(34, 38, 47, 0.9);
-  padding: 4rem var(--padding);
+  padding: 20vh var(--padding);
   z-index: 40;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .update--inner img:not(.update--close){
@@ -1148,9 +1152,9 @@ select{
 }
 
 .update--close{
-  height: 32px;
-  width: 32px;
-  top: -32px;
+  height: 40px;
+  width: 40px;
+  top: -40px;
   right: 0;
   position: absolute;
 }
@@ -1198,7 +1202,7 @@ select{
     display: flex;
     flex: 1;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 4%;
   }
 
   .building-list{
@@ -1223,7 +1227,7 @@ select{
 
 
   .footer-company{
-    left: 33%;
+
     position: relative;
   }
   .footer-partners{
@@ -1281,7 +1285,7 @@ select{
     gap: 1rem;
   }
  .products--item picture{
-    max-width: 49%;
+    width: 49%;
     max-height: 100%;
     object-fit: cover;
   }
@@ -1667,18 +1671,35 @@ box-shadow: 0px 7px 5px 5px #EBEBEB;
    left: 30%;
  }
 
+ .update--close{
+   top: 10px;
+   right: 10px;
+   width: 48px;
+   height: 48px;
+ }
+
  .update--inner{
    display: flex;
+   margin-bottom: -4px;
+ }
+
+ .update--inner div{
+   padding: 4%;
+ }
+
+ .update--inner h1{
+   border-bottom: 4px solid rgba(34, 38, 47, 0.9);
  }
 
  .update--inner picture{
-   width: 100%;
+   width: 75%;
    height: 100%;
  }
  .update--inner img:not(.update--close){
    height: 100%;
    border-bottom: none;
-   border-right: 2px solid rgba(34, 38, 47, 0.9);
+   border-right: 4px solid rgba(34, 38, 47, 0.9);
+   margin-bottom: -4px;
  }
 }
 
@@ -1733,13 +1754,16 @@ box-shadow: 0px 7px 5px 5px #EBEBEB;
 
   .products>picture>img{
     max-height: 26rem;
+    object-fit: cover;
   }
 
   .products--item{
     gap: 3rem;
+    height: 448px;
   }
   .products--item div{
     max-width: 40%;
+    margin-top: 48px;
   }
 
   .products--text{
@@ -1946,7 +1970,7 @@ box-shadow: 0px 7px 5px 5px #EBEBEB;
   }
 
   .products--item picture{
-    max-width: 46%;
+    width: 46%;
   }
 
   .product-hero>div{
@@ -1967,6 +1991,7 @@ box-shadow: 0px 7px 5px 5px #EBEBEB;
     max-width: 28rem;
   }
   .series--item img{
-    max-height: 20rem;
+    height: 20rem;
+    max-height: unset;
   }
 }

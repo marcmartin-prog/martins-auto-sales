@@ -1,13 +1,14 @@
 //jshint esversion: 6
 
 function disableScrolling(){
-    var x=window.scrollX;
-    var y=window.scrollY;
-    window.onscroll=function(){window.scrollTo(x, y);};
+  var body = document.querySelector('body');
+  body.style.height = '100vh';
+  body.style.overflow = 'hidden';
 }
 
 function enableScrolling(){
-    window.onscroll=function(){};
+    body.style.height = 'unset';
+    body.style.overflow = 'scroll';
 }
 
 //mobile menu code
