@@ -8,7 +8,7 @@ function disableScrolling(){
 
 function enableScrolling(){
     body.style.height = 'unset';
-    body.style.overflow = 'scroll';
+    body.style.overflowY = 'scroll';
 }
 
 //mobile menu code

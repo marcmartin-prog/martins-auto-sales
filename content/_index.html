@@ -226,10 +226,16 @@ description: "KK Portable Buildings is Southern Illinois Premier Source for Outd
 <script type="text/javascript">
   function disableScrollOnUpdate(){
     const update = document.querySelector('#update');
-    if (update.hasAttribute('visible')){
+
+    if (update.hasAttribute('visible') && sessionStorage.getItem("updateSeen") == undefined ){
       var body = document.querySelector('body');
       body.style.height = '100vh';
       body.style.overflow = 'hidden';
+      function displayUpdate(){
+        update.style.display = 'block';
+      };
+      setTimeout(displayUpdate, 800);
+      sessionStorage.setItem('updateSeen', true);
     }
   }
   disableScrollOnUpdate();
