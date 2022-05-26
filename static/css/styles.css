@@ -493,7 +493,7 @@ select{
   height: 6rem;
   width: 100vw;
   bottom: 0;
-  z-index: 3;
+  z-index: 6;
   left: var(--neg-padding);
 }
 
@@ -505,11 +505,11 @@ select{
 }
 
 .hero--link img{
-  z-index: -1;
+  z-index: 2;
 }
 
 .hero--link a{
-  z-index: 5;
+  z-index: 9;
   position: relative;
 }
 
@@ -517,7 +517,7 @@ select{
   color: white;
   position: absolute;
   bottom: 1.75rem;
-  z-index: 4;
+  z-index: 7;
 }
 
 .hero--link h2::after, .products--details h3::after{
