@@ -494,6 +494,7 @@ select{
   width: 100vw;
   bottom: 0;
   z-index: 3;
+  left: var(--neg-padding);
 }
 
 .hero--link img, .hero--img{
@@ -1266,6 +1267,10 @@ select{
     left: 0;
   }
 
+  .hero--link a::after{
+    left: 0;
+  }
+
   .location img{
     max-height: 15rem;
   }
@@ -1469,6 +1474,8 @@ box-shadow: 0px 7px 5px 5px #EBEBEB;
   .hero--link{
     max-width: unset;
   }
+
+
 
   .hero--link div, .hero--link a, .hero--link img{
     height: 100%;
