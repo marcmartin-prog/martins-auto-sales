@@ -24,7 +24,7 @@
       var bg = this.props.getAsset(image);
       return h('div', {"className": "product-hero"},
         h('h1', {}, entry.getIn(['data', 'title'])),
-        h('img', {src: bg.toString()}),
+        h('img', {src: image}),
         h('div', {"className": "text"}, this.props.widgetFor('description'))
       );
     }
