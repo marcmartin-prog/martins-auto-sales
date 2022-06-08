@@ -310,6 +310,15 @@ select{
 .contact-heading h1{
   color: var(--secondary);
 }
+
+.css-yilgkd-WidgetPreviewContainer{
+  width: 100%;
+  margin: 32px;
+}
+.css-yilgkd-WidgetPreviewContainer img{
+  max-width: 100%;
+  object-fit: cover;
+}
 .dark{
   border-bottom: 2px solid black;
 }
@@ -553,6 +562,11 @@ select{
   position: absolute;
   top: 11px;
   margin-left: 5px;
+}
+
+.inline-link{
+  font-size: inherit;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .light{
