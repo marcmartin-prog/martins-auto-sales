@@ -18,7 +18,7 @@ standardFeatures:
   - 40 Yr Metal Roof w/Ridge Vent
   - 3/4" Tongue and Groove Flooring
   - |-
-    Industry Leading Construction
+    Industry Leading Construction;
     Floor Joist, Studs, and Trusses on 16" Centers
   - 24x27 Aluminum Window
 galleryImages:
