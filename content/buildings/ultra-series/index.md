@@ -18,7 +18,6 @@ standardFeatures:
 recommendedOptions:
   - Chateau Single Barn Door
   - Door Keepers
-  - '4" Dutch Lap Siding '
   - 30"x40" Vinyl Insulated Windows
   - Flower Box
   - Shutters
