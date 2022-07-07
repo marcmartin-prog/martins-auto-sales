@@ -1,6 +1,7 @@
 baseURL = "https://kkportablebuildings.netlify.app/"
 languageCode = "en-us"
 title = "KK Portable Buildings | Premium Portable Buildings and Outdoor Living"
+enableRobotsTXT = true
 [taxonomies]
   category = "categories"
 [related]
