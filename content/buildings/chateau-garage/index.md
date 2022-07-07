@@ -2,7 +2,7 @@
 layout: product
 title: Chateau Garage
 date: 2022-04-07T14:20:17.946Z
-featuredImg: images/chateau-garage.jpg
+featuredImg: images/garage-chateau-main-image.jpg
 imgAlt: chateau garage image
 categories: Chateau
 description: The Garage is a perfect storage building for your car, ATV or
@@ -22,7 +22,6 @@ recommendedOptions:
   - Heavy Duty Flooring 12″ On Center
   - Shutters
   - Ridge Ventilation
-  - 4" Lap Siding
 galleryImages:
   - images/20210716_092252.jpg
   - images/20210910_103000.jpg
