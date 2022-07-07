@@ -12,7 +12,7 @@ description: The Mini Barn is an excellent choice as storage for your outdoor
   store a wheelbarrow, mower, cart or wagon.
 standardFeatures:
   - Double Barn Doors (or 42" Single Barn Door on 8' Wides
-  - Your Choice of Colors
+  - Limited Choice of Colors
   - Shingle or Metal Roof
   - 7' Inside Clearance
 recommendedOptions:
