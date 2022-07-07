@@ -2,7 +2,7 @@
 layout: product
 title: Garden Shed
 date: 2022-04-21T18:12:37.777Z
-featuredImg: images/classic_garden_shed_2-768x6371-1.jpg
+featuredImg: images/20210412_114804.jpg
 imgAlt: garden shed classic
 categories: Classic
 description: The Garden Shed is an attractive, portable storage shed that will
@@ -13,7 +13,7 @@ description: The Garden Shed is an attractive, portable storage shed that will
 standardFeatures:
   - 7'4" Sidewalls
   - 4" Overhang on Sidewalls
-  - "Advantech Flooring "
+  - '3/4 Tongue and Groove "Lifetime" Flooring '
   - Double Barn Doors
   - Your Choice of Colors
   - Metal or Shingle Roof
