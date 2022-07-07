@@ -13,7 +13,7 @@ description: The Lofted Barn has two (2) lofts and can store your yard
 standardFeatures:
   - 6'4" Sidewalls
   - Double Doors (or 42" Single Barn Door on 8' Wides)
-  - Your choice of colors
+  - Limited Choice of colors
   - Shingle or metal roof
   - Loft
 recommendedOptions:
