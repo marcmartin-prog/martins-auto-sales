@@ -18,7 +18,6 @@ standardFeatures:
   - Door Keepers
   - 4' Loft
   - Ridge Ventilation
-  - 4" Dutch Lap Siding
   - 24x27 Insulated Windows
   - Shutters and Flower Boxes
   - Your Choice of Colors
