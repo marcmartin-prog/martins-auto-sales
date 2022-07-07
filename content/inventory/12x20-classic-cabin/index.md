@@ -12,6 +12,11 @@ description: The Cabin is an economical, portable building you can use as a
 standardFeatures:
   - 10 Yr Top to Bottom Warranty
   - Free Delivery within 50 miles of Benton IL
+  - 4 ft Porch w/Premium Black Aluminum Posts and Railings
+  - 30x36 Vinyl Insulated Windows
+  - House Door w/Half Glass
+  - Ridge Ventilation
+  - 40 Yr Metal Roof
 galleryImages:
   - images/20220706_161711.jpg
   - images/20220706_161728.jpg
