@@ -2,7 +2,7 @@
 layout: product
 title: Garden Cottage
 date: 2022-04-11T20:12:25.340Z
-featuredImg: images/garden-cottage.jpg
+featuredImg: images/chateau_garden_cottage_4.jpg
 imgAlt: garden cottage
 categories: Chateau
 description: The Garden Cottage is our newest design, and comes with all the
