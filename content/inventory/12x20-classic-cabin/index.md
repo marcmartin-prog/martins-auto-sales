@@ -17,6 +17,7 @@ standardFeatures:
   - House Door w/Half Glass
   - Ridge Ventilation
   - 40 Yr Metal Roof
+  - In Stock, Delivery Available within 7-10 Days
 galleryImages:
   - images/20220706_161711.jpg
   - images/20220706_161728.jpg
