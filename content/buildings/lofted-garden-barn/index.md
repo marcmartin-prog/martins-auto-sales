@@ -2,7 +2,7 @@
 layout: product
 title: Lofted Garden Barn
 date: 2022-04-27T13:57:55.991Z
-featuredImg: images/lofted-garden-barn-classic-41.jpg
+featuredImg: images/20210409_170719.jpg
 imgAlt: lofted garden barn classic
 categories: Classic
 description: The Lofted Garden Barn is an attractive, useful addition to your
@@ -12,7 +12,7 @@ description: The Lofted Garden Barn is an attractive, useful addition to your
   all your equipment.
 standardFeatures:
   - 6'4" Sidewalls
-  - Advantech Flooring
+  - '3/4 Tongue and Groove "Lifetime" Flooring '
   - Double Barn Doors
   - Your Choice of Colors
   - Shingle or Metal Roof
