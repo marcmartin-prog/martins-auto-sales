@@ -14,7 +14,7 @@ description: The Utility Shed is the most practical, economical choice for a
 standardFeatures:
   - 6'4" Sidewalls
   - Double Barn Doors (or 42" Single Barn Door on 8' Wides
-  - Your Choice of Colors
+  - Limited Choice of Colors
   - Shingle or Metal Roof
 recommendedOptions:
   - Wood Ramp
