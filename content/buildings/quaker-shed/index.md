@@ -2,7 +2,7 @@
 layout: product
 title: Quaker Shed
 date: 2022-04-21T17:46:31.346Z
-featuredImg: images/quaker-shed-chateau-11.jpg
+featuredImg: images/20220621_132145.jpg
 imgAlt: Quaker Shed
 categories: Chateau
 description: The Quaker Shed is is an attractive portable storage shed that is a
@@ -18,7 +18,6 @@ standardFeatures:
   - Shingle or Metal Roof
 recommendedOptions:
   - 24"x27" Insulated Windows
-  - 4" Dutch Lap Siding
   - Door Keepers
   - Ridge Ventilation
   - Shutters and Flower Boxes
