@@ -13,7 +13,7 @@ description: The Lofted Barn has two (2) lofts that are positioned where you
   two to make the most of your storage area.
 standardFeatures:
   - 6'4" Sidewalls
-  - Advantech Flooring
+  - '3/4 Tongue and Groove "Lifetime" Flooring '
   - Double Barn Doors
   - Your Choice of Colors
   - Shingle or Metal Roof
