@@ -12,7 +12,7 @@ standardFeatures:
   - 6'4" Sidewalls
   - Double Barn Doors
   - Window
-  - Choice of Colors
+  - Limited Choice of Colors
   - Shingle or Metal Roof
 recommendedOptions:
   - Wood Ramp
