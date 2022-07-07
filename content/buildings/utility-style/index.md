@@ -2,7 +2,7 @@
 layout: product
 title: Utility Style
 date: 2022-04-28T17:40:55.067Z
-featuredImg: images/utility-shed-classic-4.jpg
+featuredImg: images/20210423_114022.jpg
 imgAlt: utility style classic building
 categories: Classic
 description: The Utility Shed is the most practical, economical choice for a
@@ -14,7 +14,7 @@ description: The Utility Shed is the most practical, economical choice for a
 standardFeatures:
   - 7'4" Sidewalls
   - 4" Overhang on Sidewalls
-  - Advantech Flooring
+  - '3/4 Tongue and Groove "Lifetime" Flooring '
   - Your Choice of Colors
   - Shingle or Metal Roof
   - Double Barn Doors
