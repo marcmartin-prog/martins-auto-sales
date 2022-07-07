@@ -2,7 +2,7 @@
 layout: product
 title: Garage
 date: 2022-04-21T18:07:59.414Z
-featuredImg: images/garage-classic-31.jpg
+featuredImg: images/20220330_115546.jpg
 imgAlt: garage classic
 categories: Classic
 description: The Garage is a perfect storage building for your car, ATV or
@@ -12,14 +12,14 @@ description: The Garage is a perfect storage building for your car, ATV or
   becomes a perfect workshop.
 standardFeatures:
   - 7'4" Sidewalls
-  - Advantech Flooring
+  - '3/4 Tongue and Groove "Lifetime" Flooring '
+  - Extra Heavy Duty Floor 12'' OC
   - 4" Overhang on Sidewalls
   - 9'x6'9" Garage Door
   - Your Choice of Colors
   - Shingle or Metal Roof
 recommendedOptions:
   - Ridge Ventilation
-  - Extra Heavy Duty Floor 12" OC
   - 36" House Door with Window
   - 24"x27" Windows
   - Heavy Duty Ramp Set
