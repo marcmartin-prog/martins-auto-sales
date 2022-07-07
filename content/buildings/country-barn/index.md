@@ -10,8 +10,8 @@ description: The Country Barn is a great choice to put on a concrete slab or
   animals. Add a lean-to and make it more versatile and attractive and to allow
   for storage for your tractor or vehicle.
 standardFeatures:
-  - 7'4" Sidewalls
-  - "Advantech Flooring "
+  - 8' Sidewalls
+  - 3/4 Tongue and Groove "Lifetime" Flooring or Concrete Floor
   - 7'x7' Double Door
   - Full Loft with Staircase
   - Your Choice of Colors
