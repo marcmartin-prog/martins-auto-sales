@@ -16,11 +16,11 @@ standardFeatures:
   - Double Barn Doors
   - Your Choice of Colors
   - Shingle or Metal Roof
+  - Working Loft Door
+  - U-Shaped Loft
 recommendedOptions:
   - Ridge Ventilation
-  - U-shaped Loft
   - 24"x27" Windows
-  - Working Loft Door
   - Aluminum Ramp Set
 galleryImages:
   - images/20210226_160459.jpg
