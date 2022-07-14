@@ -22,7 +22,6 @@ recommendedOptions:
   - 30 x 40 Vinyl Insulated Windows
   - Insulated Floor
 galleryImages:
-  - images/20200124_125135.jpg
   - images/20210708_133428.jpg
   - images/20210708_133448.jpg
   - images/20210708_133452.jpg
