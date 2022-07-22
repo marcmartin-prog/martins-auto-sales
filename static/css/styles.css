@@ -914,6 +914,7 @@ select{
   width: 100%;
   margin-bottom: 0.8rem;
   height: 100%;
+  object-fit: cover;
 }
 
 .products--item p{
