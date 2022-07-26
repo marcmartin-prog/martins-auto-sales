@@ -87,3 +87,183 @@
   to = "/inventory"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/product/12x16-utility-style-gray-with-black-trim-black-metal-roof/"
+  to = "/buildings/cabin/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/country-barn/"
+  to = "/buildings/country-barn/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/14x24-utility-garage/"
+  to = "/buildings/garage/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/10x16-utility-style-shed-dos/"
+  to = "/buildings/garden-shed-classic/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/10x16-lofted-barn-beige-w-tan-trim-and-black-shingled-roof/"
+  to = "/buildings/lofted-barn-classic/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/lofted-garden-barn-2/"
+  to = "/buildings/lofted-garden-barn/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/14x20-utility-style/"
+  to = "/buildings/tiny-house/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/12x16-utility-style-grey-with-black-metal-roof/"
+  to = "/buildings/utility-style/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/14x24-utility-garage-beige-with-dark-brown-trim-brown-metal-roof/"
+  to = "/buildings/breckenridge/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/10x16-utility-dos/"
+  to = "/buildings/chateau-garage/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/12x16-lofted-barn-with-roll-up-door-cape-cod-red-white-trim-white-metal-roof/"
+  to = "/buildings/country-cottage/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/10x12-lofted-barn/"
+  to = "/buildings/garden-cottage/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/10x12-lofted-garden-barn-green-w-white-trim-green-metal-roof/"
+  to = "/buildings/quaker-shed/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/10x12-utility-style-dos-zook-gray-w-white-trim-brownwood-shingles/"
+  to = "/buildings/studio/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/12x16-utility-dog-barn-beige-w-dark-brown-and-brown-metal-roof/"
+  to = "/buildings/ultra-series/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/12x16-lofted-barn-2/"
+  to = "/buildings/garden-shed/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/10x16-short-wall-barn-light-tan-with-chestnut-trim-and-driftwood-shingled-roof/"
+  to = "/buildings/lofted-barn/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/10x16-lofted-barn-dos-chestnut-urethane-w-white-trim-brownwood-dimensional-shingle-roof/"
+  to = "/buildings/mini-barn/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/10x16-short-wall-barn-clay-exterior-black-trim-driftwood-shingled-roof/"
+  to = "/buildings/utility-shed/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = ""
+  to = ""
+  status = 301
+  force = true
+
+[[redirects]]
+  from = ""
+  to = ""
+  status = 301
+  force = true
+
+[[redirects]]
+  from = ""
+  to = ""
+  status = 301
+  force = true
+
+[[redirects]]
+  from = ""
+  to = ""
+  status = 301
+  force = true
+
+[[redirects]]
+  from = ""
+  to = ""
+  status = 301
+  force = true
+
+[[redirects]]
+  from = ""
+  to = ""
+  status = 301
+  force = true
+
+[[redirects]]
+  from = ""
+  to = ""
+  status = 301
+  force = true
+
+[[redirects]]
+  from = ""
+  to = ""
+  status = 301
+  force = true
+
+[[redirects]]
+  from = ""
+  to = ""
+  status = 301
+  force = true
+
+[[redirects]]
+  from = ""
+  to = ""
+  status = 301
+  force = true
+
+[[redirects]]
+  from = ""
+  to = ""
+  status = 301
+  force = true

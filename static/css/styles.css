@@ -1409,8 +1409,8 @@ select{
     top: 3rem;
     left: -2rem;
     width: 15rem;
-    -webkit-box-shadow: 0px 7px 5px 5px #EBEBEB;
-box-shadow: 0px 7px 5px 5px #EBEBEB;
+    -webkit-box-shadow: 0px 2px 4px 6px #EBEBEB;
+box-shadow: 0px 2px 4px 6px #EBEBEB;
   }
 
   .feat-opt--item{
