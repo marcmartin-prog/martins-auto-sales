@@ -2,7 +2,7 @@
 layout: product
 title: Lofted Barn
 date: 2022-04-20T12:19:12.686Z
-featuredImg: images/lofted-barn.jpg
+featuredImg: images/20210930_084541.jpg
 imgAlt: lofted barn dutch country
 categories: Dutch Country
 description: The Lofted Barn has two (2) lofts and can store your yard
