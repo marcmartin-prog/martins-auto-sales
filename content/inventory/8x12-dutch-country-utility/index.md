@@ -16,4 +16,7 @@ standardFeatures:
   - 42" Single Door
   - Value Shed
   - $3324 + Tax
+galleryImages:
+  - images/20220706_162442.jpg
+  - images/20220706_162433.jpg
 ---
