@@ -14,4 +14,5 @@ standardFeatures:
   - 5 Yr Top to Bottom Warranty
   - 42" Single Door
   - Value Shed
+  - $3152 + Tax
 ---
