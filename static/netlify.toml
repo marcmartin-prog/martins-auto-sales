@@ -203,67 +203,121 @@
   force = true
 
 [[redirects]]
-  from = ""
-  to = ""
+  from = "/product/archers-paridise/"
+  to = "/hunting-blinds/archers-paradise/"
   status = 301
   force = true
 
 [[redirects]]
-  from = ""
-  to = ""
+  from = "/product/archery-lodge/"
+  to = "/hunting-blinds/archery-lodge/"
   status = 301
   force = true
 
 [[redirects]]
-  from = ""
-  to = ""
+  from = "/product/hunters-delight/"
+  to = "/hunting-blinds/hunters-delight/"
   status = 301
   force = true
 
 [[redirects]]
-  from = ""
-  to = ""
+  from = "/product/hunters-hut/"
+  to = "/hunting-blinds/hunters-hut/"
   status = 301
   force = true
 
 [[redirects]]
-  from = ""
-  to = ""
+  from = "/product/outback-pursuit/"
+  to = "/hunting-blinds/outback-pursuit/"
   status = 301
   force = true
 
 [[redirects]]
-  from = ""
-  to = ""
+  from = "/product/palace/"
+  to = "/hunting-blinds/palace/"
   status = 301
   force = true
 
 [[redirects]]
-  from = ""
-  to = ""
+  from = "/product/sportsmans-nook/"
+  to = "/hunting-blinds/sportsmans-nook/"
   status = 301
   force = true
 
 [[redirects]]
-  from = ""
-  to = ""
+  from = "/product/poly-classic-comfort/"
+  to = "/playsets/poly-classic-comfort/"
   status = 301
   force = true
 
 [[redirects]]
-  from = ""
-  to = ""
+  from = "/product/poly-sheer-cheer-swing-set/"
+  to = "/playsets/poly-dizzy-delight/"
   status = 301
   force = true
 
 [[redirects]]
-  from = ""
-  to = ""
+  from = "/product/poly-family-favorite/"
+  to = "/playsets/poly-family-favorite/"
   status = 301
   force = true
 
 [[redirects]]
-  from = ""
-  to = ""
+  from = "/product/poly-family-joy/"
+  to = "/playsets/poly-family-joy/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/poly-family-spacesaver/"
+  to = "/playsets/poly-family-spacesaver/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/poly-golden-retreat/"
+  to = "/playsets/poly-golden-retreat/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/poly-jolly-retreat/"
+  to = "/playsets/poly-jolly-retreat/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/poly-lovely-retreat/"
+  to = "/playsets/poly-lovely-retreat/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/poly-merry-haven/"
+  to = "/playsets/poly-merry-haven/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/poly-outdoor-delight/"
+  to = "/playsets/poly-outdoor-delight/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/summers-cove-swingset/"
+  to = "/playsets/summers-cove-swingset/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product/summers-eve-swingset/"
+  to = "/playsets/summers-eve-swingset/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product-category/pre-owned/"
+  to = "/inventory/"
   status = 301
   force = true
