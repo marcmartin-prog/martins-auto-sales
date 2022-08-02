@@ -18,6 +18,7 @@ standardFeatures:
   - Picnic Table
   - 10' Scoop Wave Slide
   - Gang Plank
+  - $7223 + Tax
 galleryImages:
   - images/20220706_163100.jpg
 ---
