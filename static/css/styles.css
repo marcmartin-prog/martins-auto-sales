@@ -742,6 +742,18 @@ select{
   margin-top: 2rem;
 }
 
+.menu-items .phone{
+  text-align: center;
+  font-size: 1.37rem;
+  color: var(--quaternary);
+  margin-bottom: 1rem;
+}
+
+.menu-items .phone::before{
+  display: none;
+}
+
+
 .menu-item, .menu-item-dd{
   text-align: center;
   font-size: 1.37rem;
@@ -1551,8 +1563,19 @@ box-shadow: 0px 2px 4px 6px #EBEBEB;
   }
 
   .menu{
-    display: flex;
+    display: block;
     flex-direction: row;
+  }
+
+  .menu .phone{
+    color: var(--quaternary);
+    font-weight: bold;
+    position: relative;
+    left: 73%;
+  }
+
+  .menu .phone:hover{
+    color: var(--quaternary);
   }
 
   .menu ul{
@@ -1567,11 +1590,16 @@ box-shadow: 0px 2px 4px 6px #EBEBEB;
 
   .menu li{
     color: #132853;
-    margin: 1rem 1rem;
+    margin: 1rem 0.7rem;
     font-family: "SourceSansPro", sans-serif;
     font-size: 1rem;
     cursor: pointer;
     position: relative;
+    top: -0.7rem;
+  }
+
+  .menu #search-dt{
+    top: 0;
   }
 
   .menu a{
@@ -1762,6 +1790,10 @@ box-shadow: 0px 2px 4px 6px #EBEBEB;
 
   .logo img{
     height: 4rem
+  }
+
+  .menu li{
+    margin: 1rem 1rem;
   }
 
   .options-features>div:first-of-type{
@@ -1988,6 +2020,10 @@ box-shadow: 0px 2px 4px 6px #EBEBEB;
 
   .menu li{
     margin: 1.5rem 2.5rem;
+  }
+
+  .menu .phone{
+    left: 78%;
   }
 
 
