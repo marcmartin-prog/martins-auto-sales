@@ -264,6 +264,10 @@ select{
   width: 100vw;
 }
 
+.bg-center{
+  background: none!important;
+}
+
 .big-text{
   font-size: 1.35rem;
 }
