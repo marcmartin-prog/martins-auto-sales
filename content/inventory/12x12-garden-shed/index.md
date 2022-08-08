@@ -14,5 +14,5 @@ description: The Garden Shed is the most practical, economical choice for a
 standardFeatures:
   - In stock and ready to deliver
   - Aluminum ramp set
-  - Simple electrical package
+  - Small Electrical Package(One light, One Switch, One Outlet)
 ---
