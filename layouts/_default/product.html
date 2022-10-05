@@ -44,7 +44,7 @@
            {{ range . }}
              <div class="series--item">
 
-             {{ partial "picture.html" . }}
+             {{ partial "picture.html" . (dict "height" "420" "width" "480")  }}
              <h3>{{.Title }}</h3>
              <a class="main--btn" href="{{ .Permalink }}">LEARN MORE</a>
              </div>
