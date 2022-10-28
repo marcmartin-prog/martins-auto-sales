@@ -19,7 +19,7 @@ collections:
       - {label: "Featured Image", name: "featuredImg", widget: "image"}
       - {label: "Image Alt Text", name: "imgAlt", widget: "text"}
       - {label: "Category", name: "Categories", widget: "hidden", default: "inventory"}
-      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Description", name: "description", widget: "string"}
       - {label: "Standard Features", name: "standardFeatures", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
       - {label: "Recommended Options", name: "recommendedOptions", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
       - {label: "Gallery Images", name: "galleryImages", widget: "list", field: {label: "Image", name: "galleryImage", widget: "image"}}
