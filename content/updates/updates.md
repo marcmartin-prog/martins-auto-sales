@@ -1,10 +1,10 @@
 ---
-display: hidden
+display: visible
 title: Updates
-heading: Building Expo
+heading: 5% Off ALL INVENTORY in NOVEMBER
 date: 2022-05-23T17:38:55.242Z
-featuredImg: garden-cottage.jpg
-description: K&K Portable buildings wilt be at the Midwest building expo on
-  March 22-23. Stop by our booth there for some incredible deals and free gifts!
-  Feel free to contact us for more info.
+featuredImg: 20210705_114127.jpg
+description: 5﻿% OFF!!! Everything in stock is on sale for the month of
+  November. Don't wait till its too cold, come by today to get an amazing deal.
+  310 N Main St Benton IL 62812
 ---
