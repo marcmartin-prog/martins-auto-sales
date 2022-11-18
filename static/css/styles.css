@@ -898,11 +898,12 @@ select{
   position: relative;
 }
 
-.products>picture>img{
+.products>div>picture>img{
   left: var(--neg-padding);
   position: relative;
   width: 100vw;
   object-fit: cover;
+  max-height: 375px;
 }
 
 .products--details{
@@ -955,6 +956,7 @@ select{
 .quality--icons div>img{
   margin: 0 auto;
   display: block;
+  max-height: 96px;
 }
 
 .reviews{
