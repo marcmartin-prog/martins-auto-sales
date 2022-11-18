@@ -515,6 +515,8 @@ select{
   left: var(--neg-padding);
   border-top: 2px solid var(--secondary);
   width: 100vw;
+  max-height: 294px;
+  object-fit: cover;
 }
 
 .hero--link img{
