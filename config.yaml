@@ -1,6 +1,6 @@
 baseURL: https://martinsautosalesar.com/
 languageCode: en-us
-title: Martin's Auto Sales | Quality Used Vehicles
+title: Main Street Auto | Quality Used Vehicles and Services
 module:
   imports:
   - path: github.com/future-wd/hugo-responsive-images

@@ -1,5 +1,5 @@
 :root {
-  --primary: #20438a;
+  --primary: #5a5f5d;
   --secondary: #ffffff;
   --tertiary: #22262f;
   --quaternary: #f33d5e;
@@ -1334,7 +1334,7 @@ select{
   }
 
   .products--item div{
-    max-width: 50%;
+    width: 50%;
   }
 
   .products>picture>img{
