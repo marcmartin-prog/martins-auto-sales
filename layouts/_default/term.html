@@ -2,17 +2,17 @@
 
 {{ define "main" }}
 
-{{if eq .Data.Term "Chateau"}}
+{{if eq .Data.Term "trucks"}}
 <section class="hero-secondary">
   <div class="hero--details cat">
-    <h1>{{ .Title }} Series</h1>
-    <p class="light">Treat yourself to the premier line of storage sheds, available in several configurations to meet your needs.</p>
+    <h1>{{ .Title }} For Sale</h1>
+    <p class="light">Browse our inventory of clean and rebuilt title trucks. </p>
     <a href="#b-list" class="scroll-btn"><img src="/images/scroll.svg"  alt="scroll down"></a>
   </div>
   <div class="hero--img">
     <picture>
-      <source srcset="/images/chateau-ultra.webp" media="(min-width: 600px)">
-        <img class="" src="/images/chateau-ultra-m.webp" alt="storage buildings" height=“600” width=“600” loading=“lazy” decoding=“async” class="hero--img">
+      <source srcset="/images/trucks.webp" media="(min-width: 600px)">
+        <img class="" src="/images/trucks-m.webp" alt="storage buildings" height=“600” width=“600” loading=“lazy” decoding=“async” class="hero--img">
     </picture>
   </div>
 </section>
@@ -52,7 +52,7 @@
 
 {{ end }}
 
-{{if eq .Data.Term "Classic"}}
+{{if eq .Data.Term "suvs"}}
 <section class="hero-secondary">
   <div class="hero--details cat">
     <h1>{{ .Title }} Series</h1>
@@ -102,7 +102,7 @@
 
 {{ end }}
 
-{{if eq .Data.Term "Dutch Country"}}
+{{if eq .Data.Term "cars"}}
 <section class="hero-secondary">
   <div class="hero--details cat">
     <h1>{{ .Title }} Series</h1>

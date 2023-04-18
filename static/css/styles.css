@@ -93,6 +93,7 @@ h1 {
   font-weight: normal;
   font-size: 2.25rem;
   letter-spacing: -0.72px;
+  text-transform: capitalize;
 }
 h2{
   font-size: 2rem;
@@ -100,6 +101,7 @@ h2{
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
   position: relative;
+  text-transform: capitalize;
 }
 h3{
   position: relative;
@@ -1655,6 +1657,11 @@ box-shadow: 0px 2px 4px 6px #EBEBEB;
     background-color: white;
     padding: 1.5rem;
     margin-bottom: -9rem;
+ }
+
+
+ .products--item{
+  height: 365px;
  }
 
  .product-contact .form-parent{
