@@ -23,8 +23,8 @@ collections:
       - {label: "Standard Features", name: "standardFeatures", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
       - {label: "Recommended Options", name: "recommendedOptions", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
       - {label: "Gallery Images", name: "galleryImages", widget: "list", field: {label: "Image", name: "galleryImage", widget: "image"}}
-  - name: "trucks" # Used in routes, e.g., /admin/collections/blog
-    label: "Truck" # Used in the UI
+  - name: "vehicles" # Used in routes, e.g., /admin/collections/blog
+    label: "Vehicle" # Used in the UI
     folder: "/content/vehicles-for-sale" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md

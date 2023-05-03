@@ -473,7 +473,7 @@ select{
   margin-bottom: 1.2rem;
 }
 
-.hero, .hero-secondary{
+.hero, .hero-secondary, .hero-tertiary{
   background-color: var(--primary);
   padding: 2rem var(--padding) 0;
 }
@@ -483,7 +483,7 @@ select{
   margin-bottom: 3.1rem;
   line-height: normal;
 }
-.hero h1, .hero p, .hero-secondary p, .hero-secondary h1{
+.hero h1, .hero p, .hero-secondary p, .hero-secondary h1, .hero-tertiary h1, .hero-tertiary p{
   color: var(--secondary);
 }
 
@@ -1490,6 +1490,16 @@ box-shadow: 0px 2px 4px 6px #EBEBEB;
   .hero-secondary .hero--details{
     max-width: 38%;
   }
+  .hero-tertiary{
+    display: flex;
+    height: 50vh;
+    padding-top: 0;
+    padding-right: 0;
+  }
+
+  .hero-tertiary .hero--details{
+    max-width: 38%;
+  }
 
   .hero--img{
     border-top: none;
@@ -1500,7 +1510,7 @@ box-shadow: 0px 2px 4px 6px #EBEBEB;
     max-height: 85vh;
   }
 
-  .hero-secondary .hero--img img{
+  .hero-secondary .hero--img img, .hero-tertiary .hero--img img{
     position: relative;
     left: var(--padding);
     border-top: none;

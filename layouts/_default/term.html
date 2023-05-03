@@ -3,7 +3,7 @@
 {{ define "main" }}
 
 {{if eq .Data.Term "trucks"}}
-<section class="hero-secondary">
+<section class="hero-tertiary ">
   <div class="hero--details cat">
     <h1>{{ .Title }} For Sale</h1>
     <p class="light">Browse our inventory of clean and rebuilt title trucks. </p>
@@ -17,28 +17,10 @@
   </div>
 </section>
 
-<section class="category-features">
-  <h2>Features</h2>
-  <div class="">
-    <div class="category-features--item">
-      <img src="/images/trim.svg" alt="trim design">
-      <p>Trim design to complement your home.</p>
-    </div><div class="category-features--item">
-      <img src="/images/ridge-vent.svg" alt="ridge ventilation">
-      <p>Ridge Ventilation Standard.</p>
-    </div>
-    <div class="category-features--item">
-      <img src="/images/15-year.svg" alt="15 year warranty">
-      <p>15 Year Warranty</p>
-    </div><div class="category-features--item">
-      <img src="/images/siding.svg" alt="lap siding">
-      <p>Lap Siding Options</p>
-    </div>
-  </div>
-</section>
+
 
 <section id='b-list'>
-    <h2 class="line-before">{{ .Title }} Series Buildings</h2>
+    <h2 class="line-before">{{ .Title }} For Sale</h2>
       <div class="building-list">
         {{ range .Data.Pages }}
           <div class="series--item">
@@ -52,43 +34,23 @@
 
 {{ end }}
 
-{{if eq .Data.Term "suvs"}}
-<section class="hero-secondary">
+{{if eq .Data.Term "SUVs"}}
+<section class="hero-tertiary">
   <div class="hero--details cat">
-    <h1>{{ .Title }} Series</h1>
-    <p class="light">Meet our Classic Series, built with quality and style in mind, yet more affordable.</p>
+    <h1>{{ .Title }} For Sale</h1>
+    <p class="light">Take the whole family along on any adventure with our affordable Sport Utility Vehicles.</p>
     <a href="#b-list" class="scroll-btn"><img src="/images/scroll.svg"  alt="scroll down"></a>
   </div>
   <div class="hero--img">
     <picture>
-      <source srcset="/images/storage-building.webp" media="(min-width: 600px)">
-        <img class="" src="/images/storage-building-m.webp" alt="storage buildings" height=“600” width=“600” loading=“lazy” decoding=“async” class="hero--img">
+      <source srcset="/images/suv.webp" media="(min-width: 600px)">
+        <img class="" src="/images/storage-suv-m.webp" alt="storage buildings" height=“600” width=“600” loading=“lazy” decoding=“async” class="hero--img">
     </picture>
   </div>
 </section>
 
-<section class="category-features">
-  <h2>Features</h2>
-  <div class="">
-    <div class="category-features--item">
-      <img src="/images/trim.svg" alt="trim design">
-      <p>Choose your door style, color, and roofing</p>
-    </div><div class="category-features--item">
-      <img src="/images/ridge-vent.svg" alt="ridge ventilation">
-      <p>Ridge Ventilation Standard.</p>
-    </div>
-    <div class="category-features--item">
-      <img src="/images/10.svg" alt="10 year warranty">
-      <p>10 Year Warranty</p>
-    </div><div class="category-features--item">
-      <img src="/images/siding.svg" alt="options">
-      <p>Multiple add-on options</p>
-    </div>
-  </div>
-</section>
-
 <section id='b-list'>
-    <h2 class="line-before">{{ .Title }} Series Buildings</h2>
+    <h2 class="line-before">{{ .Title }} For Sale</h2>
       <div class="building-list">
         {{ range .Data.Pages }}
           <div class="series--item">
@@ -103,40 +65,23 @@
 {{ end }}
 
 {{if eq .Data.Term "cars"}}
-<section class="hero-secondary">
+<section class="hero-tertiary">
   <div class="hero--details cat">
-    <h1>{{ .Title }} Series</h1>
-    <p class="light">Meet our Dutch Country Series, built with quality at a price you can afford</p>
+    <h1>{{ .Title }} For Sale</h1>
+    <p class="light">Get an affordable ride with one of our cars. Great on fuel and economical on maintenance.</p>
     <a href="#b-list" class="scroll-btn"><img src="/images/scroll.svg"  alt="scroll down"></a>
   </div>
   <div class="hero--img">
     <picture>
-      <source srcset="/images/dutch-country-hero.webp" media="(min-width: 600px)">
-        <img class="" src="/images/dutch-country-hero-m.webp" alt="storage buildings" height=“600” width=“600” loading=“lazy” decoding=“async” class="hero--img">
+      <source srcset="/images/car.webp" media="(min-width: 600px)">
+        <img class="" src="/images/car-m.webp" alt="storage buildings" height=“600” width=“600” loading=“lazy” decoding=“async” class="hero--img">
     </picture>
   </div>
 </section>
 
-<section class="category-features">
-  <h2>Features</h2>
-  <div class="">
-    <div class="category-features--item">
-      <img src="/images/trim.svg" alt="color options">
-      <p>Choose your colors and other options</p>
-    </div>
-    <div class="category-features--item">
-      <img src="/images/siding.svg" alt="options">
-      <p>Multiple add-on options</p>
-    </div>
-    <div class="category-features--item">
-      <img src="/images/$.svg" alt="economical quality">
-      <p>Economical Quality</p>
-    </div>
-  </div>
-</section>
 
 <section id='b-list'>
-    <h2 class="line-before">{{ .Title }} Series Buildings</h2>
+    <h2 class="line-before">{{ .Title }} For Sale</h2>
       <div class="building-list">
         {{ range .Data.Pages }}
           <div class="series--item">
