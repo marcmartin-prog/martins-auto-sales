@@ -1124,6 +1124,10 @@ select{
   max-width: 35rem;
 }
 
+.title>div{
+  margin-top: 20px;
+}
+
 .towns>*{
   margin-top: 1.5rem;
 }
@@ -1737,7 +1741,12 @@ box-shadow: 0px 2px 4px 6px #EBEBEB;
   height: 14rem;
  }
 
-
+  .title{
+    flex-direction: row;
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+  }
 
  .towns{
    width: 67%;

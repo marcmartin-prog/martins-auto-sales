@@ -23,9 +23,9 @@ collections:
       - {label: "Standard Features", name: "standardFeatures", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
       - {label: "Recommended Options", name: "recommendedOptions", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
       - {label: "Gallery Images", name: "galleryImages", widget: "list", field: {label: "Image", name: "galleryImage", widget: "image"}}
-  - name: "storage-building" # Used in routes, e.g., /admin/collections/blog
-    label: "Storage Building" # Used in the UI
-    folder: "/content/buildings" # The path to the folder where the documents are stored
+  - name: "trucks" # Used in routes, e.g., /admin/collections/blog
+    label: "Truck" # Used in the UI
+    folder: "/content/vehicles-for-sale" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     path: "{{slug}}/index"
@@ -34,13 +34,15 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Trim Level", name: "trim-level", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "featuredImg", widget: "image"}
       - {label: "Image Alt Text", name: "imgAlt", widget: "text"}
-      - {label: "Category", name: "categories", widget: "select", options: ["Chateau", "Classic", "Dutch Country"]}
+      - {label: "Category", name: "categories", widget: "select", options: ["trucks", "suvs", "cars"]}
       - {label: "Description", name: "description", widget: "markdown"}
-      - {label: "Standard Features", name: "standardFeatures", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
-      - {label: "Recommended Options", name: "recommendedOptions", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
+      - {label: "Price", name: "price", widget: "number"}
+      - {label: "Features", name: "features", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
+      - {label: "Key Points", name: "key-points", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
       - {label: "Gallery Images", name: "galleryImages", widget: "list", field: {label: "Image", name: "galleryImage", widget: "image"}}
   - name: "hunting-blind" # Used in routes, e.g., /admin/collections/blog
     label: "Hunting Blind" # Used in the UI
