@@ -4,21 +4,22 @@
     <div class="">
       <h1>{{.Title}}</h1>
       <p>{{ .Params.description }}</p>
-      <a href="#quote" class="prod-btn">REQUEST A QUOTE</a>
+      <p class="price">${{ .Params.price}}</p>
+      <a href="#quote" class="prod-btn">REQUEST MORE INFO</a>
     </div>
   </section>
   <section class="options-features">
     <div class="">
-      <h2 class="line-before">Standard Features</h2>
+      <h2 class="line-before">Vehicle Features</h2>
       <div class="features">
-        {{range .Params.standardFeatures}}
+        {{range .Params.features}}
            <p>{{ . }}</p>
         {{end}}
       </div>
     </div>
     <div class="">
-      {{ with .Params.recommendedOptions }}
-      <h2 class="line-before">Recommended Options</h2>
+      {{ with .Params.keyPoints }}
+      <h2 class="line-before">Vehicle Information</h2>
       <div class="features">
         {{range . }}
            <p>{{ . }}</p>
@@ -30,7 +31,7 @@
 
 
  <section class="gallery-section">
-   <h2>Our Examples</h2>
+   <h2>More Images</h2>
 
    {{ partial "product-gallery.html" . }}
  </section>
@@ -55,8 +56,8 @@
 
   <section class="product-contact" id="quote">
     <div class="form-parent">
-      <div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/ccLyZpZUctMfHg1mCLognJ7stcdRAqGXi6jX74I0UG8ZuAfB6gIeQS62iD5lWv0Wxt"><script src="https://webforms.pipedrive.com/f/loader"></script></div>
-      <!--<h2>Request a Quote on This Product</h2>
+  
+    <h2>Request More Info on This Vehicle</h2>
       <form class="contact-us-form" action="/thanks" name="{{ .Title }}" method="post" netlify>
         <div class="form-input">
           <label for="Name" id="name">Name</label>
@@ -70,48 +71,12 @@
           <label for="Phone">Phone</label>
           <input type="phone" class="input" data-placeholder="Phone"  name="Phone" value="" required/>
         </div>
-        <div class="select">
-          <label for="size" hidden>Sizet</label>
-          <select class="" name="size">
-            <option value="select-size" default hidden>Select Size</option>
-            <option value="8x8">8x8</option>
-            <option value="8x10">8x10</option>
-            <option value="8x12">8x12</option>
-            <option value="10x10">10x10</option>
-            <option value="10x12">10x12</option>
-            <option value="10x14">10x14</option>
-            <option value="10x16">10x16</option>
-            <option value="12x12">12x12</option>
-            <option value="12x14">12x14</option>
-            <option value="12x16">12x16</option>
-            <option value="12x18">12x18</option>
-            <option value="12x20">12x20</option>
-            <option value="14x14">14x14</option>
-            <option value="14x16">14x16</option>
-            <option value="14x18">14x18</option>
-            <option value="14x20">14x20</option>
-            <option value="14x22">14x22</option>
-            <option value="14x24">14x24</option>
-            <option value="14x26">14x26</option>
-            <option value="14x28">14x28</option>
-            <option value="14x30">14x30</option>
-            <option value="16x18">16x18</option>
-            <option value="16x20">16x20</option>
-            <option value="16x22">16x22</option>
-            <option value="16x24">16x24</option>
-            <option value="16x30">16x30</option>
-            <option value="16x32">16x32</option>
-            <option value="16x36">16x36</option>
-            <option value="16x40">16x40</option>
-            <option value="custom">Custom Size</option>
-          </select>
-        </div>
         <div class="form-input message">
           <label for="Message">Options and Notes</label>
           <textarea name="Message" class="input" data-placeholder="Options and Notes" rows="1" cols="80"></textarea>
         </div>
         <span class="prod-btn"><input type="submit" name="submit" value="REQUEST A QUOTE"/></span>
-      </form>-->
+      </form>
     </div>
   </section>
 {{ end }}

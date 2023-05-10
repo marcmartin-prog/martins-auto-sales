@@ -42,7 +42,7 @@ collections:
       - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Price", name: "price", widget: "number"}
       - {label: "Features", name: "features", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
-      - {label: "Key Points", name: "key-points", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
+      - {label: "Key Points", name: "keyPoints", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
       - {label: "Gallery Images", name: "galleryImages", widget: "list", field: {label: "Image", name: "galleryImage", widget: "image"}}
   - name: "hunting-blind" # Used in routes, e.g., /admin/collections/blog
     label: "Hunting Blind" # Used in the UI

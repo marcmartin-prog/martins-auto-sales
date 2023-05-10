@@ -14,7 +14,8 @@ features:
   - Automatic Climate Control
   - Tinted Windows
   - Sport Color Package
-key-points:
+keyPoints:
   - Rebuilt Title
   - "VIN: 1ftxxxxxxxxxxxx"
+  - 16000 Miles
 ---
