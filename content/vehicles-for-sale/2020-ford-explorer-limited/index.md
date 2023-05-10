@@ -5,7 +5,7 @@ trim-level: Limited
 date: 2023-05-10T12:17:48.375Z
 featuredImg: images/explorer.jpg
 imgAlt: 2020 Ford Explorer limited
-categories: suvs
+categories: SUVs
 description: R﻿ide in style and comfort with this beautiful 2020 Ford Explorer
   Limited. Fully loaded with heated and cooled leather memory seats. Get in the
   mood with a full panoramic sunroof with power shade. Relax while driving with
