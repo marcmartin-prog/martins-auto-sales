@@ -1,21 +1,29 @@
 ---
 layout: product
-title: 2019 Ford Ranger
-trim-level: XLTq
+title: 2019 Ford Ranger 4WD
+trim-level: XLT
 date: 2023-05-03T12:21:43.777Z
-featuredImg: images/huper-by-joshua-earle-9nucpfu476m-unsplash.jpg
+featuredImg: images/ranger.jpg
 imgAlt: ranger
 categories: trucks
-description: b﻿eautiful 2019 Ford Ranger
-price: 30898
+description: Check out this beautiful 2019 Ford Ranger. Blacked out sport model
+  with black wheels and accents and tint on the windows. Loaded up with driver's
+  assistance package, navigation, Android Auto, and more. With the 2.3L turbo
+  engine, you have plenty of power to take off quickly and tow small loads.
+  Comes with an installed receiver hitch. This is in mint condition inside and
+  out. With only 16000 miles, this truck will last a very long time.
+price: 34900
 features:
   - Driving Assistance Package
   - 4WD
   - Automatic Climate Control
   - Tinted Windows
   - Sport Color Package
+  - Factory Installed Bedliner
+  - Receiver Hitch
+  - Fog Lights
 keyPoints:
   - Rebuilt Title
-  - "VIN: 1ftxxxxxxxxxxxx"
-  - 16000 Miles
+  - "VIN: 1FTER4FH0KLB01041"
+  - 160XX Miles
 ---
