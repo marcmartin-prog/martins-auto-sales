@@ -901,7 +901,6 @@ select{
 
 .product-hero>div>picture>img{
   width: 100vw;
-  left: var(--neg-padding);
   height: unset;
   aspect-ratio: auto;
   position: relative;
