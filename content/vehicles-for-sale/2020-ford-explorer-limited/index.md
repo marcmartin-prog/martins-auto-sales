@@ -1,6 +1,6 @@
 ---
 layout: product
-title: 2020 Ford Explorer Limited
+title: 2020 Ford Explorer
 trim-level: Limited
 date: 2023-05-10T12:17:48.375Z
 featuredImg: images/explorer.jpg

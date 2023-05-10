@@ -51,18 +51,8 @@ menuItems.forEach(element => {
 
 const dropdown = document.querySelector('#dropdown');
 const dropdownEl = document.querySelector('#dropdown-element');
-const dropdownAbout = document.querySelector('#dropdown-m-about');
-const dropdownAboutEl = document.querySelector('#dropdown-el-m-about');
 
-dropdownAbout.addEventListener('click', function(){
-  if(dropdownAboutEl.style.display == 'flex'){
-    dropdownAboutEl.style.display = 'none';
-    dropdownAbout.classList.remove('active-dropdown');
-  }else{
-    dropdownAboutEl.style.display = 'flex';
-    dropdownAbout.classList.add('active-dropdown');
-  }
-});
+
 
 dropdown.addEventListener('click', function(){
   if(dropdownEl.style.display == 'flex'){
@@ -89,18 +79,6 @@ dropdownDT.addEventListener('click', function(){
   }
 });
 
-const dropdownAboutDT = document.querySelector('#dropdown-about-dt');
-const dropdownAboutElDT = document.querySelector('#dropdown-about-element-dt');
-
-dropdownAboutDT.addEventListener('click', function(){
-  if(dropdownAboutElDT.style.display == 'flex'){
-    dropdownAboutElDT.style.display = 'none';
-    dropdownAboutDT.classList.remove('active-dropdown-dt');
-  }else{
-    dropdownAboutElDT.style.display = 'flex';
-    dropdownAboutDT.classList.add('active-dropdown-dt');
-  }
-});
 
 //search modal code
 
