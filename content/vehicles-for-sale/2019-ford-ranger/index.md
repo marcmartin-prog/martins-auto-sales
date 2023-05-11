@@ -22,8 +22,23 @@ features:
   - Factory Installed Bedliner
   - Receiver Hitch
   - Fog Lights
+  - 110V Power Outlet
+  - Blind Spot Monitoring
 keyPoints:
   - Rebuilt Title
   - "VIN: 1FTER4FH0KLB01041"
   - 160XX Miles
+galleryImages:
+  - images/rangerrf.jpg
+  - images/rangerlr.jpg
+  - images/rangerfr.jpg
+  - images/rangerrr.jpg
+  - images/rangerrear.jpg
+  - images/rangerlfi.jpg
+  - images/rangerlri.jpg
+  - images/rangerrfi.jpg
+  - images/rangerrri.jpg
+  - images/rangerdadh.jpg
+  - images/rangermedia.jpg
+  - images/rangerbed.jpg
 ---
