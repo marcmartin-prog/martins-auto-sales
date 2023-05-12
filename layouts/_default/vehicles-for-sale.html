@@ -71,9 +71,34 @@
 </section >
 
 
-<section id="vehicle-finder">
-  <h2>Vehicle Finder</h2>
+<section id="vehicle-finder product-contact">
+
+    <div class="form-parent" style="top: 0;">
   
+    <h2>Get us to do your vehicle shopping for you.</h2>
+      <form class="contact-us-form" action="/thanks" name="{{ .Title }}" method="post" netlify>
+        <input type="hidden" name="subject" 
+         value="Sales inquiry from Main Street Auto" />
+        <div class="form-input">
+          <label for="Name" id="name">Name</label>
+          <input type="text" class="input" data-placeholder="Name" name="Name" value="" required/>
+        </div>
+        <div class="form-input">
+          <label for="Email">Email</label>
+          <input type="email" class="input" data-placeholder="Email" name="Email" value="" required/>
+        </div>
+        <div class="form-input">
+          <label for="Phone">Phone</label>
+          <input type="phone" class="input" data-placeholder="Phone"  name="Phone" value="" required/>
+        </div>
+        <p>Please enter all the details about the vehicle you are looking for. Include years, makes, models, colors, trim levels, and anything else that's relevent.</p>
+        <div class="form-input message">
+          <label for="Message">Vehicle Details</label>
+          <textarea name="Message" class="input" data-placeholder="Vehicle Details" rows="1" cols="80"></textarea>
+        </div>
+        <span class="prod-btn"><input type="submit" name="submit" value="FIND YOUR VEHICLE"/></span>
+      </form>
+    </div>
 
 </section>
 

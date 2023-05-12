@@ -1,6 +1,6 @@
  <div class="reviews-parent">
 
-{{ $reviews := getJSON (printf "https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJDVOmd77XdogRLMtSYa9Qrc4&fields=review&key=%s" site.Params.google.key )}}
+{{ $reviews := getJSON (printf "https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJYfqP-WVX0YcRLUQ5ZPRXSGc&fields=review&key=%s" site.Params.google.key )}}
   <div class="reviews-slider disable-scrollbars">
   {{ range $reviews.result.reviews}}
 
