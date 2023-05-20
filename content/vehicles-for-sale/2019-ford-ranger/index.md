@@ -10,9 +10,11 @@ description: Check out this beautiful 2019 Ford Ranger. Blacked out sport model
   with black wheels and accents and tint on the windows. Loaded up with driver's
   assistance package, navigation, Android Auto, and more. With the 2.3L turbo
   engine, you have plenty of power to take off quickly and tow small loads.
-  Comes with an installed receiver hitch. This is in mint condition inside and
-  out. With only 16000 miles, this truck will last a very long time.
-price: 34900
+  Comes with an installed receiver hitch. With only 16000 miles, this truck will
+  last a you a very long time. Stop by and take it for a test drive today and
+  fall in love with it! You'll be hard pressed to find a scratch on it. Ride in
+  a like-new truck for a fraction of the price!
+price: 31900
 features:
   - Driving Assistance Package
   - 4WD
