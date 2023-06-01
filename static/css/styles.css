@@ -639,9 +639,9 @@ select{
 }
 
 .main--btn{
-  border: 1px solid #132853;
+  border: 1px solid #5a5f5d;
   text-decoration: none;
-  color: #132853;
+  color: #5a5f5d;
   text-align: center;
   width: 100%;
   display: block;
@@ -664,7 +664,7 @@ select{
   width: 0;
   height: 100%;
   mix-blend-mode: lighten;
-  background: rgba(32, 67, 138, 0.8);
+  background: rgba(90, 95, 93, 0.8);
   transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1);
   content: "";
   position: absolute;
@@ -715,7 +715,7 @@ select{
   color: var(--primary);
 }
 .menu a:hover::before, .menu a:hover::after {
-  border-color: rgba(32, 67, 138, 0.8);
+  border-color: rgba(90, 95, 93, 0.8);
   transition: border-color 0s, width 0.25s, height 0.25s;
   width: 100%;
   height: 100%;
@@ -769,7 +769,7 @@ select{
   text-decoration: none;
   font-family: 'SourceSansPro', sans-serif;
   font-weight: normal;
-  color: #20438a;
+  color: #5a5f5d;
   margin: 1rem auto;
   position: relative;
   max-width: max-content;
