@@ -386,7 +386,10 @@ select{
   max-width: 40rem;
 }
 
-
+.flex{
+  display: flex;
+  gap: 20px;
+}
 
 .finance-item img{
   margin: auto;

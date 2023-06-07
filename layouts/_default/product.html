@@ -4,7 +4,11 @@
     <div class="">
       <h1>{{.Title}}</h1>
       <p>{{ .Params.description }}</p>
-      <p class="price">${{ .Params.price}}</p>
+      <div class="flex">
+        <p class="price" >$ <span id="price">{{ .Params.price}}</span></p>
+        <p>MSRP: <span class="price">$</span> <span class="price" id="msrp">{{.Params.msrp}}</span></p>
+        <p>You Save: <span class="price">$</span> <span class="price" id="save"></span></p>
+      </div>
       <a href="#quote" class="prod-btn">REQUEST MORE INFO</a>
     </div>
   </section>
@@ -28,6 +32,12 @@
       {{ end}}
     </div>
   </section>
+  <script>
+    let price = Number(document.getElementById('price').innerHTML);
+    let msrp = Number(document.getElementById('msrp').innerHTML);
+    let save = document.getElementById("save");
+    save.innerHTML = msrp - price;
+  </script>
 
 
  <section class="gallery-section">

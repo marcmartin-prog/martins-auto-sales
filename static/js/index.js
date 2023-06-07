@@ -19,7 +19,6 @@ const menuCloseButton = document.querySelector('.menu-close');
 const menuItems = document.querySelectorAll('.menu-item');
 const body = document.querySelector('body');
 
-console.log(menuItems);
 
 function menuOpen (){
   mobileMenu.style.height = "100vh";

@@ -20,8 +20,10 @@ collections:
       - {label: "Featured Image", name: "featuredImg", widget: "image"}
       - {label: "Image Alt Text", name: "imgAlt", widget: "text"}
       - {label: "Category", name: "categories", widget: "select", options: ["trucks", "SUVs", "cars"]}
+      - {label: "Status", name: "status", widget: "select", options: ["Coming Soon", "Available", "Sold"]}
       - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Price", name: "price", widget: "number"}
+      - {label: "MSRP", name: "msrp", widget: "number"}
       - {label: "Features", name: "features", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
       - {label: "Key Points", name: "keyPoints", widget: "list", field: {label: "feature", name: "Feature", widget: "text"}}
       - {label: "Gallery Images", name: "galleryImages", widget: "list", field: {label: "Image", name: "galleryImage", widget: "image"}}

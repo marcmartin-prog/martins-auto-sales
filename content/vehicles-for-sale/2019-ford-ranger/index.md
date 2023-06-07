@@ -5,7 +5,9 @@ trim-level: XLT
 date: 2023-05-03T12:21:43.777Z
 featuredImg: images/ranger.jpg
 imgAlt: ranger
+status: Available
 categories: trucks
+msrp: 36800
 description: Check out this beautiful 2019 Ford Ranger. Blacked out sport model
   with black wheels and accents and tint on the windows. Loaded up with driver's
   assistance package, navigation, Android Auto, and more. With the 2.3L turbo

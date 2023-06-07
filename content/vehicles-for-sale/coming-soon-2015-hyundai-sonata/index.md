@@ -6,6 +6,8 @@ date: 2023-05-20T13:07:11.165Z
 featuredImg: images/son-lf.jpg
 imgAlt: hyundai Sonata
 categories: cars
+msrp: 13300
+status: Available
 description: >-
   Introducing the remarkable 2015 Hyundai Sonata SE — a great ride that
   effortlessly combines style and functionality. This car is in great condition
