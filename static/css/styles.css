@@ -908,6 +908,7 @@ select{
   height: unset;
   aspect-ratio: auto;
   position: relative;
+  left: var(--neg-padding);
 }
 
 .products>div>picture>img{
@@ -1126,6 +1127,15 @@ select{
 .search-dt{
   margin-top: -0.4rem;
   margin-left: 0;
+}
+
+.status{
+  position: absolute;
+  font-size: 4rem;
+  color: var(--quaternary);
+  z-index: 20;
+  top: 55px;
+  left: 15%;
 }
 
 .thanks-text p{
@@ -1707,6 +1717,10 @@ box-shadow: 0px 2px 4px 6px #EBEBEB;
    max-height: 55vh;
    object-fit: cover;
  }
+ .product-hero > div > picture > img {
+  left: unset;
+}
+
 
  .product-hero div{
    margin-right: 2.5rem;

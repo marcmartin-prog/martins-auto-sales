@@ -17,7 +17,9 @@ description: Check out this fantastic 2016 Ram 2500! This remarkable truck is
   farm or work truck and its 5th wheel towing ready.  Don't miss out on this
   opportunity; take it for a test drive today! Feel free to make an offer as I
   am open to negotiations.
+msrp: 27500
 price: 17899
+status: Sold
 features:
   - Backup Camera
   - Aftermarket Wheels

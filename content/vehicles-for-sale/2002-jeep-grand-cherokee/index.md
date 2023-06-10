@@ -12,6 +12,7 @@ description: 2﻿002 Jeep Grand Cherokee for sale. Body is in good shape for the
   bit of work to the A/C and front end. Looks great in the black Laredo package.
   Come take it for a test drive today! Open to offers on the price.
 price: 4995
+status: Available
 features:
   - 4.0 Engine
   - Automatic Transmission

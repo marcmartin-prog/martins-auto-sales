@@ -1,13 +1,15 @@
 {{ define "main" }}
   <section class="product-hero">
+    
+   <p class="status" id="status">{{.Params.status}}</p>
    {{ partial "picture.html" . }}
     <div class="">
       <h1>{{.Title}}</h1>
       <p>{{ .Params.description }}</p>
       <div class="flex">
-        <p class="price" >$ <span id="price">{{ .Params.price}}</span></p>
-        <p>MSRP: <span class="price">$</span> <span class="price" id="msrp">{{.Params.msrp}}</span></p>
-        <p>You Save: <span class="price">$</span> <span class="price" id="save"></span></p>
+        <p>Price: <br> <span class="price">$ <span id="price">{{ .Params.price}}</span></span></p>
+        <p>MSRP: <br> <span class="price">$</span> <span class="price" id="msrp">{{.Params.msrp}}</span></p>
+        <p>You Save: <br> <span class="price">$</span> <span class="price" id="save"></span></p>
       </div>
       <a href="#quote" class="prod-btn">REQUEST MORE INFO</a>
     </div>
@@ -37,6 +39,13 @@
     let msrp = Number(document.getElementById('msrp').innerHTML);
     let save = document.getElementById("save");
     save.innerHTML = msrp - price;
+    
+    let status = document.getElementById("status")
+    if(status.innerHTML == "Available"){
+      status.style.display = "none";
+    }
+
+
   </script>
 
 
