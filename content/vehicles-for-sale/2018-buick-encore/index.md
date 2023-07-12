@@ -12,7 +12,7 @@ description: Super clean 2018 Buick Encore for sale. Local Trade. Super well
   entry, two-tone leather, Onstar, Android Auto, Carplay, Auto Headlights, and
   much more! With only 40000 miles, this rig should last someone a very long
   time. Come take it for a drive today!
-price: 20599
+price: 19994
 msrp: 21200
 features:
   - Keyless Entry
