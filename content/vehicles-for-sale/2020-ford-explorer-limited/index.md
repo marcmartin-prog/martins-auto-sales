@@ -6,8 +6,7 @@ date: 2023-05-10T12:17:48.375Z
 featuredImg: images/explorer.jpg
 imgAlt: 2020 Ford Explorer limited
 categories: SUVs
-msrp: 36800
-status: Available
+status: Sold
 description: R﻿ide in style and comfort with this beautiful 2020 Ford Explorer
   Limited. Fully loaded with heated and cooled leather memory seats. Get in the
   mood with a full panoramic sunroof with power shade. Relax while driving with
@@ -16,6 +15,7 @@ description: R﻿ide in style and comfort with this beautiful 2020 Ford Explorer
   run for a long time. Still has factory powertrain warranty on it till 60000
   miles. Come take it for a test drive today and fall in love with it!
 price: 31700
+msrp: 36800
 features:
   - Panoramic Sunroof
   - Driving assistance and adaptive cruise
