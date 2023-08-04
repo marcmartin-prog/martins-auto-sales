@@ -12,7 +12,7 @@ description: 2﻿002 Jeep Grand Cherokee for sale. Body is in good shape for the
   good. I am selling this vehicle on consignment, so would be as is. Does need a
   bit of work to the A/C and front end. Looks great in the black Laredo package.
   Come take it for a test drive today! Open to offers on the price.
-price: 4295
+price: 3799
 msrp: 4400
 features:
   - 4.0 Engine
