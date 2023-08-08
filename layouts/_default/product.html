@@ -3,8 +3,8 @@
     
    <p class="status" id="status">{{.Params.status}}</p>
    {{ partial "picture.html" . }}
-    <div class="">
-      <h1>{{.Title}}</h1>
+      <div>
+        <h1>{{.Title}}</h1>
       <p>{{ .Params.description }}</p>
       <div class="flex">
         <p>Price: <br> <span class="price">$ <span id="price">{{ .Params.price}}</span></span></p>
@@ -12,6 +12,8 @@
         <p>You Save: <br> <span class="price">$</span> <span class="price" id="save"></span></p>
       </div>
       <a href="#quote" class="prod-btn">REQUEST MORE INFO</a>
+    
+      
     </div>
   </section>
   <section class="options-features">
@@ -98,4 +100,7 @@
       </form>
     </div>
   </section>
+  <div id="cz-dealdriver-settings" data-type="widget" data-primary-color="#333333" data-secondary-color="#D45A56"></div>
+
+  <script src=https://dealdriver.carzing.com/api/dealerwebsite/integration/3a22263f8c374618f2b91fe9fb5d155e0e7d7e74e6b50b1694ede956a456e9a0></script>
 {{ end }}
