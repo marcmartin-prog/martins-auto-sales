@@ -6,7 +6,7 @@ date: 2023-08-04T18:34:39.210Z
 featuredImg: images/4d581311834942d189f8bdd0f8bf4907.jpg
 imgAlt: 2015 Kia Optima
 categories: cars
-status: Available
+status: Sold
 description: 2﻿015 Kia Optima for sale. Economical car for commuting or
   tripping. Only 117000 miles, so it'll be a vehicle you can rely on. Is a
   rebuilt title, but has been driven for several years with no problems. Black
