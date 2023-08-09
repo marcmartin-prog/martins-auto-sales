@@ -18,7 +18,7 @@ description: >-
 
 
   Searching for a reliable and economical vehicle? Your quest ends here. The 2015 Hyundai Sonata SE offers unbeatable value, delivering a seamless blend of affordability and quality. Don't miss out on this incredible opportunity to own a truly remarkable car. Come take it for a drive and make an offer today!
-price: 10499
+price: 9995
 msrp: 13300
 features:
   - Fog Lights
