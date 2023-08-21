@@ -14,7 +14,7 @@ description: Beautiful maroon 2016 Ram 1500 4WD. Super clean inside and out.
   window, fog lights and more! With only 89814 miles, this truck has plenty of
   life left for work or fun. Stop by and test drive it today, or apply for
   financing.
-price: 25499
+price: 24799
 msrp: 28050
 features:
   - Keyless Entry
