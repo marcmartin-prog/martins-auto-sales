@@ -13,7 +13,7 @@ description: Beautiful 2015 Ford F150 4WD XLT. Clean Title and History. This
   Features heated front seats, fog lights, backup camera, Sirius Radio, and much
   more. Runs and drives great. Has almost new Michelin tires all the way around.
   Stop in for a test drive and apply for a low rate on financing.
-price: 24599
+price: 22799
 msrp: 26300
 features:
   - Bluetooth
