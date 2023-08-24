@@ -12,7 +12,17 @@
         <p>You Save: <br> <span class="price">$</span> <span class="price" id="save"></span></p>
       </div>
       <a href="#quote" class="prod-btn">REQUEST MORE INFO</a>
-    
+      <div class="carzing-widget"
+
+      data-carmojo-theme="modern-medium"
+
+      data-carmojo-price="{{ .Params.price }}"
+
+      data-carmojo-vin="{{.Params.vin}}"
+
+      data-carmojo-primary-image-url="{{.Params.featuredImg}}">
+
+    </div>
       
     </div>
   </section>
@@ -26,11 +36,12 @@
       </div>
     </div>
     <div class="">
-      {{ with .Params.keyPoints }}
+      
       <h2 class="line-before">Vehicle Information</h2>
       <div class="features">
-        <p>{{ .Params.vin }}</p>
-        <p>{{ .Params.mileage }}</p>
+        <p>VIN: {{ .Params.vin }}</p>
+        <p>Mileage: {{ .Params.mileage }}</p>
+        {{ with .Params.keyPoints }}
         {{range . }}
            <p>{{ . }}</p>
         {{end}}

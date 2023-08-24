@@ -1722,7 +1722,7 @@ box-shadow: 0px 2px 4px 6px #EBEBEB;
 }
 
 
- .product-hero div{
+ .product-hero div:not(.carzing-widget div){
    margin-right: 2.5rem;
    margin-top: 1.5rem;
  }
@@ -1966,7 +1966,7 @@ box-shadow: 0px 2px 4px 6px #EBEBEB;
     width: 180%;
   }
 
-  .product-hero div{
+  .product-hero div:not(.carzing-widget div){
     margin-right: 0;
     margin-top: 2.5rem;
     left: -1.5rem;
