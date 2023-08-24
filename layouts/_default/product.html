@@ -8,7 +8,7 @@
       <p>{{ .Params.description }}</p>
       <div class="flex">
         <p>Price: <br> <span class="price">$ <span id="price">{{ .Params.price}}</span></span></p>
-        <p>MSRP: <br> <span class="price">$</span> <span class="price" id="msrp">{{.Params.msrp}}</span></p>
+        <p>Book Value: <br> <span class="price">$</span> <span class="price" id="msrp">{{.Params.msrp}}</span></p>
         <p>You Save: <br> <span class="price">$</span> <span class="price" id="save"></span></p>
       </div>
       <a href="#quote" class="prod-btn">REQUEST MORE INFO</a>
@@ -29,6 +29,8 @@
       {{ with .Params.keyPoints }}
       <h2 class="line-before">Vehicle Information</h2>
       <div class="features">
+        <p>{{ .Params.vin }}</p>
+        <p>{{ .Params.mileage }}</p>
         {{range . }}
            <p>{{ . }}</p>
         {{end}}

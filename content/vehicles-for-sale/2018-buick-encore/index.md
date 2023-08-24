@@ -14,6 +14,8 @@ description: Super clean 2018 Buick Encore for sale. Local Trade. Super well
   time. Come take it for a drive today!
 price: 19994
 msrp: 21200
+vin: KL4CJASB1JB708062
+mileage: 43877
 features:
   - Keyless Entry
   - Leather
@@ -23,9 +25,7 @@ features:
   - Automatic Headlights
 keyPoints:
   - Clean Title
-  - Clean Carfax
-  - "Mileage: 43877"
-  - "VIN: KL4CJASB1JB708062"
+  - Clean Carfax"
   - Local Trade
 galleryImages:
   - images/b-lri.jpg

@@ -15,6 +15,8 @@ description: Beautiful 2015 Ford F150 4WD XLT. Clean Title and History. This
   Stop in for a test drive and apply for a low rate on financing.
 price: 22799
 msrp: 26300
+mileage: 100615
+vin: 1FTEW1EP4FFA76696
 features:
   - Bluetooth
   - Heated Seats
@@ -29,8 +31,6 @@ features:
   - Running Boards
 keyPoints:
   - Clean Title
-  - 1FTEW1EP4FFA76696
-  - 100615 Miles
 galleryImages:
   - images/4c9d39f76beb49d8a2d7e7cf7e6f35e0.jpg
   - images/6613a828d07246819c92e0363a6019f5.jpg

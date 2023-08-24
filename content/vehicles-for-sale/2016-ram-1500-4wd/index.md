@@ -6,6 +6,7 @@ date: 2023-08-15T13:09:49.985Z
 featuredImg: images/6b816dda1816449492674c5ecb299234.jpg
 imgAlt: 2016 ram 1500
 categories: trucks
+mileage: 89814
 status: Available
 description: Beautiful maroon 2016 Ram 1500 4WD. Super clean inside and out.
   Haul family and friends in the full 4-door cab. It's the Big Horn packages, so
@@ -16,6 +17,7 @@ description: Beautiful maroon 2016 Ram 1500 4WD. Super clean inside and out.
   financing.
 price: 24799
 msrp: 28050
+vin: 3C6RR7LT5GG384303
 features:
   - Keyless Entry
   - Uconnect 8.4
@@ -29,8 +31,6 @@ features:
   - Bedliner
   - Park Assist
 keyPoints:
-  - "VIN: 3C6RR7LT5GG384303"
-  - 89814 Miles
   - Clean Title and History
 galleryImages:
   - images/86e04b3747454ff0a0b7179ef2b543ee.jpg

@@ -13,6 +13,8 @@ description: 2﻿015 Kia Optima for sale. Economical car for commuting or
   cloth interior. Has fog lights, Sirius radio, bluetooth, and alloy wheels.
   Stop by and take a test drive or apply for financing today!
 price: 6899
+vin: KNAGM4A78F5613868
+mileage: 117227
 msrp: 9200
 features:
   - Alloy Wheels
@@ -22,8 +24,6 @@ features:
   - 2.4L Engine
   - Power Seats
 keyPoints:
-  - "VIN: KNAGM4A78F5613868"
-  - "Mileage: 117227"
   - Rebuilt Title
 galleryImages:
   - images/21e7d9dc2a654e3aaa3f0de3086449aa.jpg
