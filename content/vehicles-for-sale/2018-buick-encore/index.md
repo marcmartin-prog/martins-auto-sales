@@ -6,7 +6,7 @@ date: 2023-06-26T15:58:58.130Z
 featuredImg: images/b-lf.jpg
 imgAlt: 2018 Buick Encore Preferred
 categories: SUVs
-status: Available
+status: Sold
 description: Super clean 2018 Buick Encore for sale. Local Trade. Super well
   taken care of, with hardly a scratch. Interior is super clean. Has keyless
   entry, two-tone leather, Onstar, Android Auto, Carplay, Auto Headlights, and
