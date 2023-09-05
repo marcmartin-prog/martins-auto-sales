@@ -2,11 +2,12 @@
 layout: product
 title: 2015 Ford F150
 trim-level: XLT
+mileage: 100615
 date: 2023-07-17T18:36:57.026Z
 featuredImg: images/291cff1b22f34c998babc3db70de299e.jpg
 imgAlt: 2015 Ford F150
 categories: trucks
-status: Available
+status: Sold
 description: Beautiful 2015 Ford F150 4WD XLT. Clean Title and History. This
   truck is in immaculate shape inside and out. With the 2.7L Ecoboost engine and
   a 6-speed transmission, it combines plenty of power with great fuel economy.
@@ -14,9 +15,8 @@ description: Beautiful 2015 Ford F150 4WD XLT. Clean Title and History. This
   more. Runs and drives great. Has almost new Michelin tires all the way around.
   Stop in for a test drive and apply for a low rate on financing.
 price: 22799
-msrp: 26300
-mileage: 100615
 vin: 1FTEW1EP4FFA76696
+msrp: 26300
 features:
   - Bluetooth
   - Heated Seats
