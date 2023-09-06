@@ -2,11 +2,11 @@
 layout: product
 title: 2016 Ram 1500 4WD
 trim-level: Big Horn
+mileage: 89814
 date: 2023-08-15T13:09:49.985Z
 featuredImg: images/6b816dda1816449492674c5ecb299234.jpg
 imgAlt: 2016 ram 1500
 categories: trucks
-mileage: 89814
 status: Available
 description: Beautiful maroon 2016 Ram 1500 4WD. Super clean inside and out.
   Haul family and friends in the full 4-door cab. It's the Big Horn packages, so
@@ -15,9 +15,9 @@ description: Beautiful maroon 2016 Ram 1500 4WD. Super clean inside and out.
   window, fog lights and more! With only 89814 miles, this truck has plenty of
   life left for work or fun. Stop by and test drive it today, or apply for
   financing.
-price: 24799
-msrp: 28050
+price: 23999
 vin: 3C6RR7LT5GG384303
+msrp: 28050
 features:
   - Keyless Entry
   - Uconnect 8.4
