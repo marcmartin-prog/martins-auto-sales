@@ -7,7 +7,7 @@ date: 2023-09-05T15:47:39.869Z
 featuredImg: images/48ee24460b5b418c98c40e8e1b49dd71.jpg
 imgAlt: 2020 Nissan Frontier
 categories: trucks
-status: Available
+status: Sold
 description: Looking for a small pickup? Look no further than this super clean
   2020 Nissan Frontier 4WD SV. This truck is in great shape inside and out. With
   only a little more than 30000 miles, this vehicle should last for years with
