@@ -16,7 +16,7 @@ description: Need a superb family vehicle? Look no further than this beautiful
   control, fog lights, Sirius radio, navigation, bluetooth, Android Auto, Apple
   Carplay, and much more. Stop by for a test drive or contact us with any
   questions you may have. Financing Available.
-price: 18999
+price: 17999
 vin: 2FMPK3K91JBB44903
 msrp: 19749
 features:
