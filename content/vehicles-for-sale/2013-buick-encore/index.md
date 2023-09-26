@@ -7,7 +7,7 @@ date: 2023-09-06T14:43:06.495Z
 featuredImg: images/407f5da5ce0d4aa6af8f87d9d8bd55c8.jpg
 imgAlt: 2013 Buick Encore
 categories: SUVs
-status: Available
+status: Sold
 description: Need an economical vehicle to get you around? Look no further than
   this beautiful 2013 Buick Encore. Powered by the 1.4 turbocharged engine, this
   rig just sips the gas to get you where you need to go. It's in good shape for
