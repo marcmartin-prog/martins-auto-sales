@@ -7,7 +7,7 @@ date: 2023-09-22T19:09:52.725Z
 featuredImg: images/img_1695409768895_002.jpg
 imgAlt: 2013 Chevy Captiva
 categories: SUVs
-status: Available
+status: Sold
 description: Get an economical new ride in this 2013 Chevy Captiva. With only
   123k miles, this is a great, reliable little SUV for your family or just you.
   Great on fuel and fun to drive. It's in good shape inside and out, and ready
