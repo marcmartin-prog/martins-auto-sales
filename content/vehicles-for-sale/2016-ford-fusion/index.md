@@ -7,7 +7,7 @@ date: 2023-09-22T18:03:09.203Z
 featuredImg: images/img_1695405745663_000.jpg
 imgAlt: 2016 Ford Fusion
 categories: cars
-status: Available
+status: Sold
 description: Check out this great car for a family ride or a commute. In great
   condition inside and out. Comes with options like backup camera, bluetooth,
   Sirius XM and more. Runs and Drives great and with only 142k on the odometer,
