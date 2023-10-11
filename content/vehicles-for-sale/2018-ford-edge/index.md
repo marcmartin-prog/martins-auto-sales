@@ -7,7 +7,7 @@ date: 2023-09-15T21:41:35.383Z
 featuredImg: images/40888b1580fc4d11b69bab72a07f9c43.jpg
 imgAlt: 2018 Ford Edge
 categories: SUVs
-status: Available
+status: Sold
 description: Need a superb family vehicle? Look no further than this beautiful
   2018 Ford Edge Titanium! Great shape inside and out. Only 75k miles on the
   odometer. We just installed a reman Ford engine in this vehicle, so the engine
