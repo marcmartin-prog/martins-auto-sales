@@ -7,7 +7,7 @@ date: 2023-10-11T19:45:21.774Z
 featuredImg: images/img_1697127723090_000.jpg
 imgAlt: 2019 Ford Escape
 categories: SUVs
-status: Available
+status: Sold
 description: C﻿heck out this great vehicle for work commute or a family ride!
   This vehicle shows an average of over 30 MPG on the dash, so say goodbye to
   all those expensive gas station stops. For an SE, it's loaded up with a lot of
