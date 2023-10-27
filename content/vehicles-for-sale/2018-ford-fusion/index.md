@@ -14,7 +14,7 @@ description: Need a dependable family ride? Check out this beautiful 2018 Ford
   lights, and much more. It's only a 2 owner vehicle and has a clean Autocheck
   with no accidents on record. Stop by for a test drive today. Make it yours
   with only a small down payment.
-price: 12995
+price: 11999
 vin: 3FA6P0HD2JR253714
 msrp: 13450
 features:
