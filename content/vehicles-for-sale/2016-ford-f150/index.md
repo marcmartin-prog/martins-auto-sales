@@ -15,7 +15,7 @@ description: Need a hardworking truck for working or playing? Look no further
   miles on it and a 2 month warranty. It's been freshly maintained so you won't
   need to worry about doing maintenance. Stop by to take it for a drive and
   you'll see that this is one tough truck. Financing available.
-price: 23499
+price: 21994
 vin: 1FTEW1EP0GFB35891
 msrp: 26450
 features:
