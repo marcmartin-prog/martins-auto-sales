@@ -7,7 +7,7 @@ date: 2023-09-21T21:41:22.510Z
 featuredImg: images/20230831210309-9e4e85b9-b370-4aea-87a2-49305a28706b.jpg
 imgAlt: 2015 Ford F150
 categories: trucks
-status: Available
+status: Sold
 description: Need a dependable full size pickup for work or play? We have it
   here for you in this nice 2015 Ford F150 Lariat 4WD. With the 3.5 Ecoboost and
   the included tow package, its ready to haul. It's a Lariat, so it is loaded up
