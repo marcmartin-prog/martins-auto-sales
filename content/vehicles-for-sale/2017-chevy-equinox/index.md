@@ -13,7 +13,7 @@ description: Find your next great ride in this 2017 Chevy Equinox! It's a clean
   inside and out, and loaded up with options like Chevy Mylink, Backup Camera,
   Auto Climate Control, Keyless Entry, Power Seats, and more! Stop by today to
   drive this economical yet reliable vehicle. Financing available.
-price: 10995
+price: 10495
 vin: 2GNALCEK8H1557009
 msrp: 11175
 features:
