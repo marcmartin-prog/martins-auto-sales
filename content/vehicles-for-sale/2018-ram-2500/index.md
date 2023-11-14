@@ -16,7 +16,7 @@ description: Here's a truck that's ready to go to work for you. 2018 Ram 2500
   leaks, and the tires still have a lot of life left on them.  From front to
   rear, it's just a tough truck for whatever you want to throw at it. Priced
   below book value, it won't last long! Financing is available.
-price: 28597
+price: 29995
 vin: 3C6UR5HL5JG416164
 msrp: 30649
 features:
