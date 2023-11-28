@@ -15,7 +15,7 @@ description: Need a work truck but like a bit of luxury? Now you can have both
   and only 127k miles. It's in great shape inside and out and ready to make
   someone a great work or play ride. Priced well below book value of $36400, it
   won't last long.  Financing available.
-price: 29995
+price: 28995
 vin: 1FTEW1E58JFB27284
 msrp: 36400
 features:
