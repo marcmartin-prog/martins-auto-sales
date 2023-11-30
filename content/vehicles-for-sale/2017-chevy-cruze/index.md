@@ -15,7 +15,7 @@ description: Check out this beautiful 2017 Chevy Cruze. This car is in nearly
   Onstar, Android Auto, Apple Carplay, and much more! The windows are already
   tinted, so one less thing for you to do when it's yours. Stop in for a test
   drive today and make it yours with only a low down payment.
-price: 11999
+price: 11599
 vin: 1G1BE5SM0H7143470
 msrp: 14900
 features:
