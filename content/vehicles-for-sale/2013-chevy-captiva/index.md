@@ -12,7 +12,7 @@ description: Need an economical vehicle for a commute or family ride? Look no
   further than this nice little 2013 Chevy Captiva with only 65000 miles. It's
   in good shape inside and out and runs and drives great. Comes with fog lights,
   automatic headlights, and more. Make it yours with only a small down payment.
-price: 8995
+price: 8495
 vin: 3GNAL2EK4DS557825
 msrp: 9138
 features:
