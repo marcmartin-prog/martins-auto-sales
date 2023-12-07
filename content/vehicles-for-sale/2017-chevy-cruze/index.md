@@ -7,7 +7,7 @@ date: 2023-10-27T11:43:40.747Z
 featuredImg: images/img_1698952427166_000.jpg
 imgAlt: 2017 Chevy Cruze
 categories: cars
-status: Available
+status: Sold
 description: Check out this beautiful 2017 Chevy Cruze. This car is in nearly
   mint condition inside and out and has a clean history! With only 84000 miles
   on the odometer, it will be a reliable car for years to come. It's decked out
