@@ -7,7 +7,7 @@ date: 2024-02-21T19:30:40.389Z
 featuredImg: images/img_1708540418070_000.jpg
 imgAlt: 2015 Jeep Grand Cherokee
 categories: SUVs
-status: Available
+status: Sold
 description: Check out this luxurious 2015 Jeep Grand Cherokee Limited! This is
   a super clean, 1-owner rig. Treat yourself to a bit of luxury with the heated
   front and rear leather, heated steering wheel, backup camera, lane departure
