@@ -7,7 +7,7 @@ date: 2024-02-21T21:16:42.658Z
 featuredImg: images/img_1708463169467_000.jpg
 imgAlt: 2016 Ford Escape
 categories: SUVs
-status: Available
+status: Sold
 description: Need an economical ride for family or work? Look no further than
   this nice 2016 Ford Escape SE. With less than 100,000 miles on the odometer,
   this is a vehicle that should last you a long time. It's got options like
