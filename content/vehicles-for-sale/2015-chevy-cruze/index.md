@@ -7,7 +7,7 @@ date: 2024-02-13T20:52:18.717Z
 featuredImg: images/img_1706830108046_000.jpg
 imgAlt: 2015 Chevy Cruze
 categories: cars
-status: Available
+status: Sold
 description: Check out this nice economical Chevy Cruze. It's a 2015 model with
   only 95k miles on the odometer. With that low of miles, it should last you for
   years to come. Comes with options like LED fog lights, Sirius XM Radio and
