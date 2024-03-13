@@ -17,9 +17,9 @@ description: Looking for a reliable work truck? Look no further than this nice
   plenty of passengers. This truck is ready to go to work for you, with new fuel
   filters and oil just changed. Stop by and take it for a spin. Financing
   available and trades welcome.
-price: 49994
+price: 42495
 vin: 3C6UR5DL0JG359006
-msrp: 42495
+msrp: 49995
 features:
   - Heated Seats and Steering Wheel
   - Android Auto / Apple Carplay
