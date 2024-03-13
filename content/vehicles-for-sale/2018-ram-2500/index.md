@@ -19,7 +19,7 @@ description: Looking for a reliable work truck? Look no further than this nice
   available and trades welcome.
 price: 49994
 vin: 3C6UR5DL0JG359006
-msrp: 49995
+msrp: 42495
 features:
   - Heated Seats and Steering Wheel
   - Android Auto / Apple Carplay
