@@ -7,7 +7,7 @@ date: 2024-03-05T18:36:01.803Z
 featuredImg: images/img_1709584135610_000.jpg
 imgAlt: 2018 Ford Expedition
 categories: SUVs
-status: Available
+status: Sold
 description: Just got this super nice family ride in. 2018 Ford Expedition
   Limited. It's loaded up with all the nice options like panoramic sunroof,
   heated and cooled leather, heated steering wheel and rear seats, Android
