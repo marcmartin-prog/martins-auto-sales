@@ -7,7 +7,7 @@ date: 2024-01-12T16:20:57.334Z
 featuredImg: images/img_1705008639091_000.jpg
 imgAlt: 2017 Ford F250
 categories: trucks
-status: Available
+status: Sold
 description: Check out this beautiful 2017 Ford F250. This truck is set up great
   for towing, with the 6.7 Diesel engine, 360 degree camera, gooseneck hitch,
   and auxiliary air bags already installed. It's been deleted and tuned, with a
