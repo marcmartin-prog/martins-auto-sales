@@ -17,7 +17,7 @@ description: Treat yourself to a bit of luxury while getting the job done with
   100,000 miles on the odometer, this truck will be a perfect work or play truck
   for years to come. Clean title and history. Stop by and drive it today. Trades
   welcome and financing available.
-price: 46995
+price: 42995
 vin: 1GC4K0CYXJF253984
 msrp: 49600
 features:
