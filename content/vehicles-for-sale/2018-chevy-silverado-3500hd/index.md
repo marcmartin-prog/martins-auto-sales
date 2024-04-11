@@ -7,7 +7,7 @@ date: 2024-03-26T22:16:55.434Z
 featuredImg: images/img_1711393614236_000.jpg
 imgAlt: 2018 Chevy K3500
 categories: trucks
-status: Available
+status: Sold
 description: Treat yourself to a bit of luxury while getting the job done with
   this beautiful 2018 Chevy Silverado 3500 SRW LTZ. This truck is loaded up with
   all the nice options like heated leather, LED headlights, Android Auto/Apple
