@@ -7,7 +7,7 @@ date: 2024-03-08T19:33:06.453Z
 featuredImg: images/img_1709908539683_000.jpg
 imgAlt: 2016 Chevy Malibu
 categories: cars
-status: Available
+status: Sold
 description: Check out this nice 2016 Chevy Malibu LT we just got in. Good shape
   inside and out and runs and drives great. It's a clean, 1-owner vehicle. It
   has options like Chevy Mylink, backup camera, alloy wheels, LED fog lights and
